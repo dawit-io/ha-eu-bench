@@ -1,0 +1,31 @@
+{"at":1793365111.065151524,"event":"etcd_healthy_members","value":3}
+{"at":1793365111.172058643,"event":"node_ready","value":"True","since":"2026-10-30T12:33:44Z"}
+{"at":1793365111.172058643,"event":"endpoint","value":"ready"}
+{"at":1793365111.172058643,"event":"old_pod","value":"Running"}
+{"at":1793365111.172058643,"event":"replacement","value":"none"}
+{"at":1793365111.172058643,"event":"replicas_ready","value":3}
+{"at":1793365111.172058643,"event":"zones_ready","value":3}
+{"at":1793365111.172058643,"event":"metrics_server","value":true}
+{"at":1793365111.172058643,"event":"traefik","value":"404"}
+{"at":1793365131.308396435,"event":"partition","zone":"eu-south-mil-c"}
+{"at":1793365133.106481595,"event":"etcd_healthy_members","value":0}
+{"at":1793365135.648025090,"event":"metrics_server","value":false}
+{"at":1793365137.113969791,"event":"etcd_healthy_members","value":2}
+{"at":1793365142.655229,"event":"k3s_exited","zone":"eu-south-mil-c"}
+{"at":1793365204.069830265,"event":"node_ready","value":"Unknown","since":"2026-10-30T13:00:03Z"}
+{"at":1793365204.069830265,"event":"endpoint","value":"not-ready"}
+{"at":1793365204.069830265,"event":"replicas_ready","value":2}
+{"at":1793365204.069830265,"event":"zones_ready","value":2}
+{"at":1793365504.641185437,"event":"old_pod","value":"terminating"}
+{"at":1793365504.641185437,"event":"replacement","value":"pending","created":"2026-10-30T13:05:04Z"}
+{"at":1793365536.703603914,"event":"metrics_server","value":true}
+{"at":1793365551.898355164,"event":"etcd_healthy_members","value":3}
+{"at":1793365552.105325274,"event":"heal","zone":"eu-south-mil-c"}
+{"at":1793365621.898499,"event":"k3s_started","zone":"eu-south-mil-c"}
+{"at":1793365622.866090345,"event":"node_ready","value":"True","since":"2026-10-30T13:07:02Z"}
+{"at":1793365622.866090345,"event":"replacement","value":"scheduled in eu-south-mil-c","created":"2026-10-30T13:05:04Z"}
+{"at":1793365624.869767769,"event":"endpoint","value":"removed"}
+{"at":1793365624.869767769,"event":"old_pod","value":"gone"}
+{"at":1793365624.869767769,"event":"replacement","value":"ready in eu-south-mil-c","created":"2026-10-30T13:05:04Z"}
+{"at":1793365624.869767769,"event":"replicas_ready","value":3}
+{"at":1793365624.869767769,"event":"zones_ready","value":3}

@@ -1,0 +1,125 @@
+writes 37452  p50 7.29 ms  p99 22.98 ms  p99.9 38.05 ms  max 229.24 ms
+  A leader it-mil-1: n 6490 p50 6.15 p99 20.73 p99.9 32.67 max 80.53
+  A leader it-mil-2: n 6072 p50 8.10 p99 22.05 p99.9 40.46 max 217.51
+  A leader it-mil-3: n 6240 p50 7.26 p99 22.91 p99.9 37.47 max 56.65
+  B leader it-mil-1: n 6475 p50 6.17 p99 21.00 p99.9 36.37 max 226.77
+  B leader it-mil-2: n 6024 p50 8.12 p99 25.38 p99.9 74.51 max 201.10
+  B leader it-mil-3: n 6151 p50 7.63 p99 25.48 p99.9 37.69 max 229.24
+
+> p99 (22.98 ms): 374 slow writes, by load {'A': 149, 'B': 225}
+  leader_steal                     slow median     0.00 mean     8.76 | other median     0.00 mean     3.32
+  leader_iowait                    slow median     5.00 mean     5.47 | other median     5.00 mean     4.74
+  leader_disk_w_ms                 slow median     0.90 mean     1.32 | other median     0.75 mean     0.81
+  leader_busy                      slow median    13.64 mean    18.52 | other median    10.00 mean    10.74
+  leader_steal_share               slow median    25.00 mean    20.00 | other median     0.00 mean    14.86
+  leader_inflight                  slow median     0.00 mean     0.02 | other median     0.00 mean     0.02
+  leader_flush_ms                  slow median     1.67 mean     2.38 | other median     1.43 mean     1.49
+  leader_whole_w_ms                slow median     0.88 mean     1.44 | other median     0.73 mean     0.81
+  leader_flushes                   slow median     6.00 mean     6.04 | other median     6.00 mean     6.44
+  probe_steal                      slow median    18.18 mean    20.71 | other median     5.00 mean     6.94
+  probe_iowait                     slow median     5.00 mean     8.42 | other median     5.00 mean     5.31
+  probe_disk_w_ms                  slow median     1.54 mean     2.74 | other median     0.89 mean     0.98
+  probe_busy                       slow median    28.57 mean    32.45 | other median    15.00 mean    16.72
+  probe_steal_share                slow median    40.00 mean    37.53 | other median    25.00 mean    26.63
+  probe_inflight                   slow median     0.00 mean     0.05 | other median     0.00 mean     0.03
+  probe_flush_ms                   slow median     2.40 mean     4.35 | other median     1.50 mean     1.66
+  probe_whole_w_ms                 slow median     1.54 mean     2.97 | other median     0.89 mean     0.98
+  probe_flushes                    slow median     6.00 mean     6.07 | other median     6.00 mean     6.43
+  leader_1s_steal                  slow median     1.59 mean     3.64 | other median     1.64 mean     3.35
+  leader_1s_steal_peak             slow median    10.00 mean    14.50 | other median    10.00 mean    12.24
+  leader_1s_disk_w_ms              slow median     0.76 mean     0.81 | other median     0.78 mean     0.81
+  leader_etcd_fsync_over_8ms       slow median     0.00 mean     0.67 | other median     0.00 mean     0.68
+  leader_etcd_fsync_over_16ms      slow median     0.00 mean     0.08 | other median     0.00 mean     0.03
+  leader_etcd_commit_over_16ms     slow median     0.00 mean     0.12 | other median     0.00 mean     0.09
+  leader_etcd_fsync_mean_ms        slow median     1.61 mean     1.83 | other median     1.69 mean     1.77
+  probe_1s_steal                   slow median     8.16 mean    10.19 | other median     6.41 mean     7.04
+  probe_1s_steal_peak              slow median    20.00 mean    24.50 | other median    15.00 mean    16.83
+  probe_1s_disk_w_ms               slow median     1.04 mean     1.16 | other median     0.95 mean     0.99
+  probe_etcd_fsync_over_8ms        slow median     1.00 mean     1.61 | other median     1.00 mean     1.13
+  probe_etcd_fsync_over_16ms       slow median     0.00 mean     0.20 | other median     0.00 mean     0.06
+  probe_etcd_commit_over_16ms      slow median     0.00 mean     0.29 | other median     0.00 mean     0.17
+  probe_etcd_fsync_mean_ms         slow median     2.36 mean     2.69 | other median     2.14 mean     2.20
+  attribution_100ms: slow {'n': 374, 'steal_only': 94, 'disk_only': 85, 'both': 134, 'neither': 61, 'steal_only_pct': 25.1, 'disk_only_pct': 22.7, 'both_pct': 35.8, 'neither_pct': 16.3}
+                     other {'n': 37078, 'steal_only': 2586, 'disk_only': 6350, 'both': 1097, 'neither': 27045, 'steal_only_pct': 7.0, 'disk_only_pct': 17.1, 'both_pct': 3.0, 'neither_pct': 72.9}
+  attribution_1s: slow {'n': 374, 'steal_only': 91, 'disk_only': 100, 'both': 51, 'neither': 132, 'steal_only_pct': 24.3, 'disk_only_pct': 26.7, 'both_pct': 13.6, 'neither_pct': 35.3}
+                  other {'n': 37078, 'steal_only': 2534, 'disk_only': 6706, 'both': 889, 'neither': 26949, 'steal_only_pct': 6.8, 'disk_only_pct': 18.1, 'both_pct': 2.4, 'neither_pct': 72.7}
+
+> p999 (38.05 ms): 37 slow writes, by load {'A': 15, 'B': 22}
+  leader_steal                     slow median     0.00 mean     7.62 | other median     0.00 mean     3.37
+  leader_iowait                    slow median     5.00 mean     8.94 | other median     5.00 mean     4.75
+  leader_disk_w_ms                 slow median     0.94 mean     4.03 | other median     0.75 mean     0.82
+  leader_busy                      slow median     9.52 mean    16.52 | other median    10.00 mean    10.81
+  leader_steal_share               slow median    25.00 mean    20.26 | other median     0.00 mean    14.91
+  leader_inflight                  slow median     0.00 mean     0.00 | other median     0.00 mean     0.02
+  leader_flush_ms                  slow median     2.17 mean     7.19 | other median     1.43 mean     1.49
+  leader_whole_w_ms                slow median     1.00 mean     4.86 | other median     0.73 mean     0.81
+  leader_flushes                   slow median     5.00 mean     5.34 | other median     6.00 mean     6.43
+  probe_steal                      slow median    28.57 mean    24.34 | other median     5.00 mean     7.06
+  probe_iowait                     slow median    10.00 mean    22.03 | other median     5.00 mean     5.32
+  probe_disk_w_ms                  slow median     2.62 mean    12.86 | other median     0.89 mean     0.99
+  probe_busy                       slow median    36.84 mean    34.51 | other median    15.00 mean    16.86
+  probe_steal_share                slow median    40.00 mean    38.91 | other median    25.00 mean    26.73
+  probe_inflight                   slow median     0.00 mean     0.03 | other median     0.00 mean     0.03
+  probe_flush_ms                   slow median     4.75 mean    19.03 | other median     1.50 mean     1.67
+  probe_whole_w_ms                 slow median     3.07 mean    14.28 | other median     0.89 mean     0.99
+  probe_flushes                    slow median     5.00 mean     5.23 | other median     6.00 mean     6.42
+  leader_1s_steal                  slow median     1.59 mean     3.32 | other median     1.62 mean     3.35
+  leader_1s_steal_peak             slow median    10.00 mean    13.43 | other median    10.00 mean    12.26
+  leader_1s_disk_w_ms              slow median     0.71 mean     1.01 | other median     0.78 mean     0.81
+  leader_etcd_fsync_over_8ms       slow median     0.00 mean     0.54 | other median     0.00 mean     0.68
+  leader_etcd_fsync_over_16ms      slow median     0.00 mean     0.08 | other median     0.00 mean     0.03
+  leader_etcd_commit_over_16ms     slow median     0.00 mean     0.16 | other median     0.00 mean     0.09
+  leader_etcd_fsync_mean_ms        slow median     1.71 mean     3.05 | other median     1.68 mean     1.76
+  probe_1s_steal                   slow median     9.98 mean    11.34 | other median     6.41 mean     7.06
+  probe_1s_steal_peak              slow median    28.57 mean    28.11 | other median    15.00 mean    16.90
+  probe_1s_disk_w_ms               slow median     1.27 mean     1.86 | other median     0.95 mean     0.99
+  probe_etcd_fsync_over_8ms        slow median     1.00 mean     1.81 | other median     1.00 mean     1.14
+  probe_etcd_fsync_over_16ms       slow median     0.00 mean     0.46 | other median     0.00 mean     0.06
+  probe_etcd_commit_over_16ms      slow median     0.00 mean     0.51 | other median     0.00 mean     0.17
+  probe_etcd_fsync_mean_ms         slow median     2.71 mean     4.84 | other median     2.14 mean     2.21
+  attribution_100ms: slow {'n': 37, 'steal_only': 3, 'disk_only': 12, 'both': 22, 'neither': 0, 'steal_only_pct': 8.1, 'disk_only_pct': 32.4, 'both_pct': 59.5, 'neither_pct': 0.0}
+                     other {'n': 37415, 'steal_only': 2677, 'disk_only': 6423, 'both': 1209, 'neither': 27106, 'steal_only_pct': 7.2, 'disk_only_pct': 17.2, 'both_pct': 3.2, 'neither_pct': 72.4}
+  attribution_1s: slow {'n': 37, 'steal_only': 12, 'disk_only': 17, 'both': 5, 'neither': 3, 'steal_only_pct': 32.4, 'disk_only_pct': 45.9, 'both_pct': 13.5, 'neither_pct': 8.1}
+                  other {'n': 37415, 'steal_only': 2613, 'disk_only': 6789, 'both': 935, 'neither': 27078, 'steal_only_pct': 7.0, 'disk_only_pct': 18.1, 'both_pct': 2.5, 'neither_pct': 72.4}
+
+share of writes that are slow, by what their 100 ms window holds:
+  p99 probe node         steal_only 101/1131 (8.93%)  disk_only 85/2415 (3.52%)  both 69/259 (26.641%)  neither 119/33647 (0.354%)
+  p99 any node           steal_only 94/2680 (3.507%)  disk_only 85/6435 (1.321%)  both 134/1231 (10.885%)  neither 61/27106 (0.225%)
+  p999 probe node        steal_only 5/1131 (0.442%)  disk_only 16/2415 (0.663%)  both 15/259 (5.792%)  neither 1/33647 (0.003%)
+  p999 any node          steal_only 3/2680 (0.112%)  disk_only 12/6435 (0.186%)  both 22/1231 (1.787%)  neither 0/27106 (0.0%)
+  over_100ms probe node  steal_only 0/1131 (0.0%)  disk_only 8/2415 (0.331%)  both 0/259 (0.0%)  neither 1/33647 (0.003%)
+  over_100ms any node    steal_only 0/2680 (0.0%)  disk_only 6/6435 (0.093%)  both 3/1231 (0.244%)  neither 0/27106 (0.0%)
+
+spearman(latency, x):
+  leader_steal                     -0.06
+  leader_iowait                    0.07
+  leader_disk_w_ms                 0.09
+  leader_busy                      -0.11
+  leader_steal_share               -0.06
+  leader_inflight                  -0.00
+  leader_flush_ms                  0.14
+  leader_whole_w_ms                0.08
+  leader_flushes                   -0.10
+  probe_steal                      0.28
+  probe_iowait                     0.10
+  probe_disk_w_ms                  0.27
+  probe_busy                       0.13
+  probe_steal_share                0.24
+  probe_inflight                   0.02
+  probe_flush_ms                   0.23
+  probe_whole_w_ms                 0.28
+  probe_flushes                    -0.09
+  leader_1s_steal                  -0.21
+  leader_1s_steal_peak             -0.12
+  leader_1s_disk_w_ms              -0.14
+  leader_etcd_fsync_over_8ms       -0.07
+  leader_etcd_fsync_over_16ms      -0.04
+  leader_etcd_commit_over_16ms     -0.05
+  leader_etcd_fsync_mean_ms        -0.16
+  probe_1s_steal                   0.15
+  probe_1s_steal_peak              0.12
+  probe_1s_disk_w_ms               0.11
+  probe_etcd_fsync_over_8ms        0.05
+  probe_etcd_fsync_over_16ms       0.03
+  probe_etcd_commit_over_16ms      0.00
+  probe_etcd_fsync_mean_ms         0.11

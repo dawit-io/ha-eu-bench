@@ -1,0 +1,274 @@
+{
+    "apiVersion": "postgresql.cnpg.io/v1",
+    "kind": "Cluster",
+    "metadata": {
+        "annotations": {
+            "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"postgresql.cnpg.io/v1\",\"kind\":\"Cluster\",\"metadata\":{\"annotations\":{},\"name\":\"sync-2\",\"namespace\":\"ha\"},\"spec\":{\"affinity\":{\"enablePodAntiAffinity\":true,\"nodeAffinity\":{\"requiredDuringSchedulingIgnoredDuringExecution\":{\"nodeSelectorTerms\":[{\"matchExpressions\":[{\"key\":\"topology.kubernetes.io/zone\",\"operator\":\"In\",\"values\":[\"fsn1\",\"nbg1\"]}]}]}},\"podAntiAffinityType\":\"required\",\"topologyKey\":\"topology.kubernetes.io/zone\"},\"instances\":2,\"postgresql\":{\"synchronous\":{\"dataDurability\":\"required\",\"method\":\"any\",\"number\":1}},\"storage\":{\"size\":\"5Gi\"}}}\n"
+        },
+        "creationTimestamp": "2026-10-30T11:03:54Z",
+        "generation": 1,
+        "name": "sync-2",
+        "namespace": "ha",
+        "resourceVersion": "36372",
+        "uid": "d2ca6872-b9c1-4294-8c40-d7ea07413952"
+    },
+    "spec": {
+        "affinity": {
+            "enablePodAntiAffinity": true,
+            "nodeAffinity": {
+                "requiredDuringSchedulingIgnoredDuringExecution": {
+                    "nodeSelectorTerms": [
+                        {
+                            "matchExpressions": [
+                                {
+                                    "key": "topology.kubernetes.io/zone",
+                                    "operator": "In",
+                                    "values": [
+                                        "fsn1",
+                                        "nbg1"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "podAntiAffinityType": "required",
+            "topologyKey": "topology.kubernetes.io/zone"
+        },
+        "bootstrap": {
+            "initdb": {
+                "database": "app",
+                "encoding": "UTF8",
+                "localeCType": "C",
+                "localeCollate": "C",
+                "owner": "app"
+            }
+        },
+        "enablePDB": true,
+        "enableSuperuserAccess": false,
+        "failoverDelay": 0,
+        "imageName": "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie",
+        "instances": 2,
+        "logLevel": "info",
+        "maxSyncReplicas": 0,
+        "minSyncReplicas": 0,
+        "monitoring": {
+            "customQueriesConfigMap": [
+                {
+                    "key": "queries",
+                    "name": "cnpg-default-monitoring"
+                }
+            ],
+            "disableDefaultQueries": false,
+            "enablePodMonitor": false
+        },
+        "postgresGID": 26,
+        "postgresUID": 26,
+        "postgresql": {
+            "parameters": {
+                "archive_mode": "on",
+                "archive_timeout": "5min",
+                "dynamic_shared_memory_type": "posix",
+                "full_page_writes": "on",
+                "log_destination": "csvlog",
+                "log_directory": "/controller/log",
+                "log_filename": "postgres",
+                "log_rotation_age": "0",
+                "log_rotation_size": "0",
+                "log_truncate_on_rotation": "false",
+                "logging_collector": "on",
+                "max_parallel_workers": "32",
+                "max_replication_slots": "32",
+                "max_worker_processes": "32",
+                "shared_memory_type": "mmap",
+                "shared_preload_libraries": "",
+                "ssl_max_protocol_version": "TLSv1.3",
+                "ssl_min_protocol_version": "TLSv1.3",
+                "wal_keep_size": "512MB",
+                "wal_level": "logical",
+                "wal_log_hints": "on",
+                "wal_receiver_timeout": "5s",
+                "wal_sender_timeout": "5s"
+            },
+            "syncReplicaElectionConstraint": {
+                "enabled": false
+            },
+            "synchronous": {
+                "dataDurability": "required",
+                "failoverQuorum": false,
+                "method": "any",
+                "number": 1
+            }
+        },
+        "primaryUpdateMethod": "restart",
+        "primaryUpdateStrategy": "unsupervised",
+        "probes": {
+            "liveness": {
+                "isolationCheck": {
+                    "connectionTimeout": 1000,
+                    "enabled": true,
+                    "requestTimeout": 1000
+                }
+            }
+        },
+        "replicationSlots": {
+            "highAvailability": {
+                "enabled": true,
+                "slotPrefix": "_cnpg_"
+            },
+            "synchronizeReplicas": {
+                "enabled": true
+            },
+            "updateInterval": 30
+        },
+        "resources": {},
+        "smartShutdownTimeout": 180,
+        "startDelay": 3600,
+        "stopDelay": 1800,
+        "storage": {
+            "resizeInUseVolumes": true,
+            "size": "5Gi"
+        },
+        "switchoverDelay": 3600
+    },
+    "status": {
+        "availableArchitectures": [
+            {
+                "goArch": "amd64",
+                "hash": "6d915657dadd72f66b0cdeca4d8f357d00de769bee14d4f6ea8adb501dab80d4"
+            },
+            {
+                "goArch": "arm64",
+                "hash": "37e47ffea358929899c8fd2b54139307934492108f5a0cde76e491248145fd4d"
+            }
+        ],
+        "certificates": {
+            "clientCASecret": "sync-2-ca",
+            "expirations": {
+                "sync-2-ca": "2027-01-28 10:58:54 +0000 UTC",
+                "sync-2-replication": "2027-01-28 10:58:54 +0000 UTC",
+                "sync-2-server": "2027-01-28 10:58:54 +0000 UTC"
+            },
+            "replicationTLSSecret": "sync-2-replication",
+            "serverAltDNSNames": [
+                "sync-2-rw",
+                "sync-2-rw.ha",
+                "sync-2-rw.ha.svc",
+                "sync-2-rw.ha.svc.cluster.local",
+                "sync-2-r",
+                "sync-2-r.ha",
+                "sync-2-r.ha.svc",
+                "sync-2-r.ha.svc.cluster.local",
+                "sync-2-ro",
+                "sync-2-ro.ha",
+                "sync-2-ro.ha.svc",
+                "sync-2-ro.ha.svc.cluster.local"
+            ],
+            "serverCASecret": "sync-2-ca",
+            "serverTLSSecret": "sync-2-server"
+        },
+        "cloudNativePGCommitHash": "2a35abb46",
+        "cloudNativePGOperatorHash": "6d915657dadd72f66b0cdeca4d8f357d00de769bee14d4f6ea8adb501dab80d4",
+        "conditions": [
+            {
+                "lastTransitionTime": "2026-10-30T11:03:55Z",
+                "message": "Cluster has been bootstrapped",
+                "reason": "BootstrapCompleted",
+                "status": "True",
+                "type": "Initialized"
+            },
+            {
+                "lastTransitionTime": "2026-10-30T11:04:07Z",
+                "message": "A single, unique system ID was found across reporting instances.",
+                "reason": "Unique",
+                "status": "True",
+                "type": "ConsistentSystemID"
+            },
+            {
+                "lastTransitionTime": "2026-10-30T11:09:25Z",
+                "message": "Cluster is Ready",
+                "reason": "ClusterIsReady",
+                "status": "True",
+                "type": "Ready"
+            },
+            {
+                "lastTransitionTime": "2026-10-30T11:09:00Z",
+                "message": "switchover in progress, refusing archiving",
+                "reason": "ContinuousArchivingFailing",
+                "status": "False",
+                "type": "ContinuousArchiving"
+            }
+        ],
+        "configMapResourceVersion": {
+            "metrics": {
+                "cnpg-default-monitoring": "34519"
+            }
+        },
+        "currentPrimary": "sync-2-2",
+        "currentPrimaryTimestamp": "2026-10-30T11:06:36.064355Z",
+        "healthyPVC": [
+            "sync-2-1",
+            "sync-2-2"
+        ],
+        "image": "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie",
+        "instanceNames": [
+            "sync-2-1",
+            "sync-2-2"
+        ],
+        "instances": 2,
+        "instancesReportedState": {
+            "sync-2-1": {
+                "ip": "10.42.1.42",
+                "isPrimary": false,
+                "timeLineID": 1
+            },
+            "sync-2-2": {
+                "ip": "10.42.0.44",
+                "isPrimary": true,
+                "timeLineID": 2
+            }
+        },
+        "instancesStatus": {
+            "healthy": [
+                "sync-2-1",
+                "sync-2-2"
+            ]
+        },
+        "managedRolesStatus": {},
+        "operatorCertificateFingerprint": "9973b84163a6c342e2602d9c399333d75d60bce6380a8354ca46a398fd161987",
+        "pgDataImageInfo": {
+            "image": "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie",
+            "majorVersion": 18
+        },
+        "phase": "Cluster in healthy state",
+        "poolerIntegrations": {
+            "pgBouncerIntegration": {}
+        },
+        "pvcCount": 2,
+        "readService": "sync-2-r",
+        "readyInstances": 2,
+        "secretsResourceVersion": {
+            "applicationSecretVersion": "34495",
+            "clientCaSecretVersion": "34492",
+            "replicationSecretVersion": "34494",
+            "serverCaSecretVersion": "34492",
+            "serverSecretVersion": "34493"
+        },
+        "selector": "cnpg.io/cluster=sync-2,cnpg.io/podRole=instance",
+        "switchReplicaClusterStatus": {},
+        "systemID": "7702414993904680979",
+        "targetPrimary": "sync-2-2",
+        "targetPrimaryTimestamp": "2026-10-30T11:06:18.489272Z",
+        "timelineID": 2,
+        "topology": {
+            "instances": {
+                "sync-2-1": {},
+                "sync-2-2": {}
+            },
+            "nodesUsed": 2,
+            "successfullyExtracted": true
+        },
+        "writeService": "sync-2-rw"
+    }
+}

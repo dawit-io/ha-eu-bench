@@ -1,0 +1,9 @@
+{"run":"sync-partition-operator-ha-1","operator_zone":"it-mil-3","primary_zone_before":"it-mil-3","primary_zone_after":"it-mil-2","controller_manager_node":"ha-it-mil-1"}
+{"run":"sync-partition-operator-ha-2","operator_zone":"it-mil-2","primary_zone_before":"it-mil-2","primary_zone_after":"it-mil-3","controller_manager_node":"ha-it-mil-1"}
+{"run":"sync-partition-operator-ha-3","operator_zone":"it-mil-3","primary_zone_before":"it-mil-3","primary_zone_after":"it-mil-2","controller_manager_node":"ha-it-mil-1"}
+{"run":"sync-2-preferred-partition-operator-ha-1","operator_zone":"it-mil-1","primary_zone_before":"it-mil-1","primary_zone_after":"it-mil-2","controller_manager_node":"ha-it-mil-1"}
+{"run":"sync-2-preferred-partition-operator-ha-2","operator_zone":"it-mil-2","primary_zone_before":"it-mil-2","primary_zone_after":"it-mil-1","controller_manager_node":"ha-it-mil-2"}
+{"run":"sync-2-preferred-partition-operator-ha-3","operator_zone":"it-mil-1","primary_zone_before":"it-mil-1","primary_zone_after":"it-mil-2","controller_manager_node":"ha-it-mil-1"}
+{"run":"sync-2-partition-operator-ha-1","operator_zone":"it-mil-1","primary_zone_before":"it-mil-1","primary_zone_after":"it-mil-2","controller_manager_node":"ha-it-mil-2"}
+{"run":"sync-2-partition-operator-ha-2","operator_zone":"it-mil-2","primary_zone_before":"it-mil-2","primary_zone_after":"it-mil-1","controller_manager_node":"ha-it-mil-2"}
+{"run":"sync-2-partition-operator-ha-3","operator_zone":"it-mil-1","primary_zone_before":"it-mil-1","primary_zone_after":"it-mil-2","controller_manager_node":"ha-it-mil-3"}

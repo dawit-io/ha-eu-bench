@@ -1,0 +1,21 @@
+NAMESPACE     NAME                                       READY   STATUS      RESTARTS        AGE     IP           NODE      NOMINATED NODE   READINESS GATES
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-k9vgf   1/1     Running     3 (7m12s ago)   38m     10.42.1.30   ha-nbg1   <none>           <none>
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-mfkb2   1/1     Running     0               8m58s   10.42.2.20   ha-hel1   <none>           <none>
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-p7rnp   1/1     Running     0               2m48s   10.42.0.45   ha-fsn1   <none>           <none>
+ha            sync-2-1                                   1/1     Running     0               3m23s   10.42.1.42   ha-nbg1   <none>           <none>
+ha            sync-2-2                                   1/1     Running     0               3m2s    10.42.0.44   ha-fsn1   <none>           <none>
+kube-system   coredns-7754d8d455-9l9rf                   1/1     Running     5 (15m ago)     76m     10.42.1.4    ha-nbg1   <none>           <none>
+kube-system   coredns-7754d8d455-mmngz                   1/1     Running     6 (21m ago)     76m     10.42.2.4    ha-hel1   <none>           <none>
+kube-system   coredns-7754d8d455-pdnwd                   1/1     Running     0               76m     10.42.0.9    ha-fsn1   <none>           <none>
+kube-system   helm-install-traefik-crd-tbsvc             0/1     Completed   0               77m     <none>       ha-fsn1   <none>           <none>
+kube-system   helm-install-traefik-kq6cp                 0/1     Completed   2               77m     <none>       ha-fsn1   <none>           <none>
+kube-system   local-path-provisioner-5c4dc5d66d-8jknk    1/1     Running     0               77m     10.42.0.6    ha-fsn1   <none>           <none>
+kube-system   metrics-server-786d997795-8w7g8            1/1     Running     0               77m     10.42.0.5    ha-fsn1   <none>           <none>
+kube-system   svclb-traefik-782f26f0-8kf64               2/2     Running     0               77m     10.42.0.7    ha-fsn1   <none>           <none>
+kube-system   svclb-traefik-782f26f0-lpxll               2/2     Running     0               77m     10.42.1.2    ha-nbg1   <none>           <none>
+kube-system   svclb-traefik-782f26f0-wjx25               2/2     Running     2 (66m ago)     76m     10.42.2.6    ha-hel1   <none>           <none>
+kube-system   traefik-9bcdbbd9-jqwd2                     1/1     Running     0               77m     10.42.0.8    ha-fsn1   <none>           <none>
+primary sync-2-2
+sync-2-1 on a lost node
+sync-2-2 dns ok
+f||

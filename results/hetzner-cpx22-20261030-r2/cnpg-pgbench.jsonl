@@ -1,0 +1,15 @@
+{"layout":"single","client_zone":"nbg1","clients":1,"tps":666.951952,"latency_ms":1.499}
+{"layout":"single","client_zone":"nbg1","clients":8,"tps":1874.509243,"latency_ms":4.268}
+{"layout":"single","client_zone":"nbg1","clients":32,"tps":1711.876610,"latency_ms":18.693}
+{"layout":"async","client_zone":"nbg1","clients":1,"tps":681.748869,"latency_ms":1.467}
+{"layout":"async","client_zone":"nbg1","clients":8,"tps":1456.122119,"latency_ms":5.494}
+{"layout":"async","client_zone":"nbg1","clients":32,"tps":1435.075672,"latency_ms":22.298}
+{"layout":"sync","client_zone":"nbg1","clients":1,"tps":180.014226,"latency_ms":5.555}
+{"layout":"sync","client_zone":"nbg1","clients":8,"tps":998.324935,"latency_ms":8.013}
+{"layout":"sync","client_zone":"nbg1","clients":32,"tps":1150.746063,"latency_ms":27.808}
+{"layout":"sync-2","client_zone":"nbg1","clients":1,"tps":183.177626,"latency_ms":5.459}
+{"layout":"sync-2","client_zone":"nbg1","clients":8,"tps":926.332817,"latency_ms":8.636}
+{"layout":"sync-2","client_zone":"nbg1","clients":32,"tps":1122.420499,"latency_ms":28.510}
+{"layout":"sync-2-preferred","client_zone":"nbg1","clients":1,"tps":175.924792,"latency_ms":5.684}
+{"layout":"sync-2-preferred","client_zone":"nbg1","clients":8,"tps":996.883160,"latency_ms":8.025}
+{"layout":"sync-2-preferred","client_zone":"nbg1","clients":32,"tps":1163.101241,"latency_ms":27.513}

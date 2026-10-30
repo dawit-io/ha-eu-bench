@@ -1,0 +1,13 @@
+NAMESPACE     NAME                                      READY   STATUS    RESTARTS      AGE    IP           NODE          NOMINATED NODE   READINESS GATES
+app           whoami-7f8ffd7c6b-p5fm4                   1/1     Running   0             12m    10.42.0.10   a1-it-mil-1   <none>           <none>
+app           whoami-7f8ffd7c6b-v5xbq                   1/1     Running   0             19m    10.42.3.10   a1-it-mil-3   <none>           <none>
+app           whoami-7f8ffd7c6b-v9w2x                   1/1     Running   0             3m1s   10.42.1.8    a1-it-mil-2   <none>           <none>
+kube-system   coredns-7754d8d455-dvjhs                  1/1     Running   0             3m1s   10.42.1.9    a1-it-mil-2   <none>           <none>
+kube-system   coredns-7754d8d455-vmq82                  1/1     Running   6 (20m ago)   39m    10.42.3.8    a1-it-mil-3   <none>           <none>
+kube-system   coredns-7754d8d455-w2rbh                  1/1     Running   0             12m    10.42.0.11   a1-it-mil-1   <none>           <none>
+kube-system   local-path-provisioner-5c4dc5d66d-jf5lr   1/1     Running   0             12m    10.42.3.11   a1-it-mil-3   <none>           <none>
+kube-system   metrics-server-786d997795-xbbkz           1/1     Running   0             3m1s   10.42.0.13   a1-it-mil-1   <none>           <none>
+kube-system   svclb-traefik-99a6ab10-5pwgl              2/2     Running   0             39m    10.42.0.7    a1-it-mil-1   <none>           <none>
+kube-system   svclb-traefik-99a6ab10-c5rzh              2/2     Running   0             39m    10.42.1.2    a1-it-mil-2   <none>           <none>
+kube-system   svclb-traefik-99a6ab10-ptlhp              2/2     Running   6 (20m ago)   39m    10.42.3.9    a1-it-mil-3   <none>           <none>
+kube-system   traefik-9bcdbbd9-lb2q9                    1/1     Running   0             3m1s   10.42.0.12   a1-it-mil-1   <none>           <none>

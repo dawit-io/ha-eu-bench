@@ -1,0 +1,3 @@
+{"run":"pg-drbd-partition-1","zone_before":"it-mil-1","zone_after":"it-mil-2"}
+{"run":"pg-drbd-partition-2","zone_before":"it-mil-2","zone_after":"it-mil-1"}
+{"run":"pg-drbd-partition-3","zone_before":"it-mil-1","zone_after":"it-mil-2"}

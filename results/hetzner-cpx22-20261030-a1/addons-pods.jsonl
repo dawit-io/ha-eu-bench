@@ -1,0 +1,11 @@
+{"pod":"coredns-7754d8d455-99q8g","owner":"ReplicaSet/coredns-7754d8d455","node":"a1-nbg1","zone":"nbg1","phase":"Running"}
+{"pod":"coredns-7754d8d455-lcgfv","owner":"ReplicaSet/coredns-7754d8d455","node":"a1-hel1","zone":"hel1","phase":"Running"}
+{"pod":"coredns-7754d8d455-ltp7b","owner":"ReplicaSet/coredns-7754d8d455","node":"a1-fsn1","zone":"fsn1","phase":"Running"}
+{"pod":"helm-install-traefik-2vcvj","owner":"Job/helm-install-traefik","node":"a1-fsn1","zone":"fsn1","phase":"Succeeded"}
+{"pod":"helm-install-traefik-crd-sdxdv","owner":"Job/helm-install-traefik-crd","node":"a1-fsn1","zone":"fsn1","phase":"Succeeded"}
+{"pod":"local-path-provisioner-5c4dc5d66d-gpzc5","owner":"ReplicaSet/local-path-provisioner-5c4dc5d66d","node":"a1-fsn1","zone":"fsn1","phase":"Running"}
+{"pod":"metrics-server-786d997795-4p87l","owner":"ReplicaSet/metrics-server-786d997795","node":"a1-fsn1","zone":"fsn1","phase":"Running"}
+{"pod":"svclb-traefik-a2bd1d12-5776g","owner":"DaemonSet/svclb-traefik-a2bd1d12","node":"a1-hel1","zone":"hel1","phase":"Pending"}
+{"pod":"svclb-traefik-a2bd1d12-8h2jc","owner":"DaemonSet/svclb-traefik-a2bd1d12","node":"a1-fsn1","zone":"fsn1","phase":"Running"}
+{"pod":"svclb-traefik-a2bd1d12-9hbx7","owner":"DaemonSet/svclb-traefik-a2bd1d12","node":"a1-nbg1","zone":"nbg1","phase":"Running"}
+{"pod":"traefik-9bcdbbd9-4xkk5","owner":"ReplicaSet/traefik-9bcdbbd9","node":"a1-fsn1","zone":"fsn1","phase":"Running"}

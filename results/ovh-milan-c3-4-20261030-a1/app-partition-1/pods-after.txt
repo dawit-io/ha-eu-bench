@@ -1,0 +1,13 @@
+NAMESPACE     NAME                                      READY   STATUS    RESTARTS      AGE     IP           NODE                NOMINATED NODE   READINESS GATES
+app           whoami-7f8ffd7c6b-5q228                   1/1     Running   0             3m      10.42.0.10   a1-eu-south-mil-a   <none>           <none>
+app           whoami-7f8ffd7c6b-cfbjd                   1/1     Running   0             9m36s   10.42.2.10   a1-eu-south-mil-c   <none>           <none>
+app           whoami-7f8ffd7c6b-kd5h7                   1/1     Running   0             9m36s   10.42.1.5    a1-eu-south-mil-b   <none>           <none>
+kube-system   coredns-7754d8d455-5rzx4                  1/1     Running   3 (21m ago)   29m     10.42.1.4    a1-eu-south-mil-b   <none>           <none>
+kube-system   coredns-7754d8d455-kd45m                  1/1     Running   6 (10m ago)   29m     10.42.2.8    a1-eu-south-mil-c   <none>           <none>
+kube-system   coredns-7754d8d455-lghm5                  1/1     Running   0             3m      10.42.0.11   a1-eu-south-mil-a   <none>           <none>
+kube-system   local-path-provisioner-5c4dc5d66d-cfhbh   1/1     Running   0             3m      10.42.2.12   a1-eu-south-mil-c   <none>           <none>
+kube-system   metrics-server-786d997795-b7296           1/1     Running   0             3m      10.42.2.11   a1-eu-south-mil-c   <none>           <none>
+kube-system   svclb-traefik-cd8b3aa6-hqb6f              2/2     Running   0             29m     10.42.0.7    a1-eu-south-mil-a   <none>           <none>
+kube-system   svclb-traefik-cd8b3aa6-lm6zd              2/2     Running   0             29m     10.42.1.2    a1-eu-south-mil-b   <none>           <none>
+kube-system   svclb-traefik-cd8b3aa6-vrgdv              2/2     Running   6 (10m ago)   29m     10.42.2.9    a1-eu-south-mil-c   <none>           <none>
+kube-system   traefik-9bcdbbd9-j65zt                    1/1     Running   3 (21m ago)   29m     10.42.1.3    a1-eu-south-mil-b   <none>           <none>

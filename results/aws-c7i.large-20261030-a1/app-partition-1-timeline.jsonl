@@ -1,0 +1,28 @@
+{"at":1793362323.011289029,"event":"etcd_healthy_members","value":3}
+{"at":1793362323.083185267,"event":"node_ready","value":"True","since":"2026-10-30T11:49:59Z"}
+{"at":1793362323.083185267,"event":"endpoint","value":"ready"}
+{"at":1793362323.083185267,"event":"old_pod","value":"Running"}
+{"at":1793362323.083185267,"event":"replacement","value":"none"}
+{"at":1793362323.083185267,"event":"replicas_ready","value":3}
+{"at":1793362323.083185267,"event":"zones_ready","value":3}
+{"at":1793362323.083185267,"event":"metrics_server","value":true}
+{"at":1793362323.083185267,"event":"traefik","value":"404"}
+{"at":1793362343.132124003,"event":"partition","zone":"eu-south-1a"}
+{"at":1793362345.043230071,"event":"etcd_healthy_members","value":2}
+{"at":1793362393.179777085,"event":"node_ready","value":"Unknown","since":"2026-10-30T12:13:12Z"}
+{"at":1793362393.179777085,"event":"endpoint","value":"not-ready"}
+{"at":1793362393.179777085,"event":"replicas_ready","value":2}
+{"at":1793362393.179777085,"event":"zones_ready","value":2}
+{"at":1793362404.160322,"event":"k3s_exited","zone":"eu-south-1a"}
+{"at":1793362693.598844991,"event":"old_pod","value":"terminating"}
+{"at":1793362693.598844991,"event":"replacement","value":"pending","created":"2026-10-30T12:18:13Z"}
+{"at":1793362763.694209621,"event":"etcd_healthy_members","value":3}
+{"at":1793362763.802835874,"event":"heal","zone":"eu-south-1a"}
+{"at":1793362768.165650,"event":"k3s_started","zone":"eu-south-1a"}
+{"at":1793362769.720068522,"event":"node_ready","value":"True","since":"2026-10-30T12:19:28Z"}
+{"at":1793362769.720068522,"event":"endpoint","value":"removed"}
+{"at":1793362769.720068522,"event":"old_pod","value":"gone"}
+{"at":1793362769.720068522,"event":"replacement","value":"scheduled in eu-south-1a","created":"2026-10-30T12:18:13Z"}
+{"at":1793362771.725186611,"event":"replacement","value":"ready in eu-south-1a","created":"2026-10-30T12:18:13Z"}
+{"at":1793362771.725186611,"event":"replicas_ready","value":3}
+{"at":1793362771.725186611,"event":"zones_ready","value":3}

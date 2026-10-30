@@ -1,0 +1,2405 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "action": "Scheduling",
+            "apiVersion": "v1",
+            "eventTime": "2026-10-30T12:28:03.632502Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-77xvd",
+                "namespace": "app",
+                "resourceVersion": "57796",
+                "uid": "b95c7aec-6cf3-42cf-af6e-fa6502b43db2"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "0/3 nodes are available: 1 node(s) had untolerated taint(s), 2 node(s) didn't match pod topology spread constraints. no new claims to deallocate, preemption: 0/3 nodes are available: 1 Preemption is not helpful for scheduling, 2 No preemption victims found for incoming pod.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:28:03Z",
+                "name": "whoami-7f8ffd7c6b-77xvd.18e34e67a224d0a1",
+                "namespace": "app",
+                "resourceVersion": "57799",
+                "uid": "2ea2e0bc-7294-43da-a311-10daed742b5c"
+            },
+            "reason": "FailedScheduling",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-ip-10-0-3-254",
+            "source": {},
+            "type": "Warning"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2026-10-30T12:30:17.834056Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-77xvd",
+                "namespace": "app",
+                "resourceVersion": "57800",
+                "uid": "b95c7aec-6cf3-42cf-af6e-fa6502b43db2"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned app/whoami-7f8ffd7c6b-77xvd to ip-10-0-2-233",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:30:17Z",
+                "name": "whoami-7f8ffd7c6b-77xvd.18e34e86e12df53d",
+                "namespace": "app",
+                "resourceVersion": "58294",
+                "uid": "6f0c44d0-d695-4c9b-a141-44e598888a71"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-ip-10-0-3-254",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:30:18Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-77xvd",
+                "namespace": "app"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:30:18Z",
+            "message": "Cancelling deletion of Pod app/whoami-7f8ffd7c6b-77xvd",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:30:18Z",
+                "name": "whoami-7f8ffd7c6b-77xvd.18e34e8709f7087f",
+                "namespace": "app",
+                "resourceVersion": "58320",
+                "uid": "c1bac329-b6ed-42dd-a796-9d29ab7055fc"
+            },
+            "reason": "TaintManagerEviction",
+            "reportingComponent": "taint-eviction-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "taint-eviction-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:30:18Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-77xvd",
+                "namespace": "app",
+                "resourceVersion": "58292",
+                "uid": "b95c7aec-6cf3-42cf-af6e-fa6502b43db2"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:30:18Z",
+            "message": "Container image \"traefik/whoami:v1.10.3\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:30:18Z",
+                "name": "whoami-7f8ffd7c6b-77xvd.18e34e8716b9d2e3",
+                "namespace": "app",
+                "resourceVersion": "58340",
+                "uid": "d845ef6f-ff79-45bb-92d8-80ddb960830d"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-2-233",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-2-233"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:30:18Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-77xvd",
+                "namespace": "app",
+                "resourceVersion": "58292",
+                "uid": "b95c7aec-6cf3-42cf-af6e-fa6502b43db2"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:30:18Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:30:18Z",
+                "name": "whoami-7f8ffd7c6b-77xvd.18e34e8718e94bbf",
+                "namespace": "app",
+                "resourceVersion": "58343",
+                "uid": "fdc6a22f-2ee6-4a41-801b-130ae6d21ec9"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-2-233",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-2-233"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:30:18Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-77xvd",
+                "namespace": "app",
+                "resourceVersion": "58292",
+                "uid": "b95c7aec-6cf3-42cf-af6e-fa6502b43db2"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:30:18Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:30:18Z",
+                "name": "whoami-7f8ffd7c6b-77xvd.18e34e871c1ec564",
+                "namespace": "app",
+                "resourceVersion": "58344",
+                "uid": "a4ad9cd4-6574-49af-a048-e36e5abd9307"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-2-233",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-2-233"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Scheduling",
+            "apiVersion": "v1",
+            "eventTime": "2026-10-30T12:18:13.148200Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-brgjf",
+                "namespace": "app",
+                "resourceVersion": "55781",
+                "uid": "a6f76868-9f01-432e-bfae-c5aee57f2085"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "0/3 nodes are available: 1 node(s) had untolerated taint(s), 2 node(s) didn't match pod topology spread constraints. no new claims to deallocate, preemption: 0/3 nodes are available: 1 Preemption is not helpful for scheduling, 2 No preemption victims found for incoming pod.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:18:13Z",
+                "name": "whoami-7f8ffd7c6b-brgjf.18e34dde26895a07",
+                "namespace": "app",
+                "resourceVersion": "55783",
+                "uid": "a9815d5d-705d-4a21-bdfe-6bb5531e02c4"
+            },
+            "reason": "FailedScheduling",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-ip-10-0-2-233",
+            "source": {},
+            "type": "Warning"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2026-10-30T12:19:28.823202Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-brgjf",
+                "namespace": "app",
+                "resourceVersion": "55784",
+                "uid": "a6f76868-9f01-432e-bfae-c5aee57f2085"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned app/whoami-7f8ffd7c6b-brgjf to ip-10-0-1-142",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:19:28Z",
+                "name": "whoami-7f8ffd7c6b-brgjf.18e34defc51e3f72",
+                "namespace": "app",
+                "resourceVersion": "56045",
+                "uid": "3d73e60c-2201-4aa4-9cff-27275b5966a5"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-ip-10-0-2-233",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:19:29Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-brgjf",
+                "namespace": "app",
+                "resourceVersion": "56044",
+                "uid": "a6f76868-9f01-432e-bfae-c5aee57f2085"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:19:29Z",
+            "message": "Container image \"traefik/whoami:v1.10.3\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:19:29Z",
+                "name": "whoami-7f8ffd7c6b-brgjf.18e34deffda0a1c2",
+                "namespace": "app",
+                "resourceVersion": "56081",
+                "uid": "9b700056-55b0-40df-9ee5-b6900a671824"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:19:29Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-brgjf",
+                "namespace": "app",
+                "resourceVersion": "56044",
+                "uid": "a6f76868-9f01-432e-bfae-c5aee57f2085"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:19:29Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:19:29Z",
+                "name": "whoami-7f8ffd7c6b-brgjf.18e34defff197655",
+                "namespace": "app",
+                "resourceVersion": "56082",
+                "uid": "2e8b93e8-61ca-4cf0-866e-9109d4ebf5c9"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:19:29Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-brgjf",
+                "namespace": "app",
+                "resourceVersion": "56044",
+                "uid": "a6f76868-9f01-432e-bfae-c5aee57f2085"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:19:29Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:19:29Z",
+                "name": "whoami-7f8ffd7c6b-brgjf.18e34df00129b891",
+                "namespace": "app",
+                "resourceVersion": "56083",
+                "uid": "47975671-a1e7-4255-9dc9-50a0fd96bcd3"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:19:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-brgjf",
+                "namespace": "app"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:19:33Z",
+            "message": "Cancelling deletion of Pod app/whoami-7f8ffd7c6b-brgjf",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:19:33Z",
+                "name": "whoami-7f8ffd7c6b-brgjf.18e34df0bff1b4b6",
+                "namespace": "app",
+                "resourceVersion": "56140",
+                "uid": "f1aa29a8-8066-4cc2-83b3-152321dc339d"
+            },
+            "reason": "TaintManagerEviction",
+            "reportingComponent": "taint-eviction-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "taint-eviction-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2026-10-30T11:41:06.318142Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-f9gwk",
+                "namespace": "app",
+                "resourceVersion": "9367",
+                "uid": "e66de7e2-7472-4d4e-a9d4-67260bc2f82e"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned app/whoami-7f8ffd7c6b-f9gwk to ip-10-0-2-233",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:06Z",
+                "name": "whoami-7f8ffd7c6b-f9gwk.18e34bd7ad1f3457",
+                "namespace": "app",
+                "resourceVersion": "9375",
+                "uid": "8488f8c9-9462-4c09-95bc-1179626cedb3"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-ip-10-0-1-142",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:06Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-f9gwk",
+                "namespace": "app",
+                "resourceVersion": "9370",
+                "uid": "e66de7e2-7472-4d4e-a9d4-67260bc2f82e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:06Z",
+            "message": "Pulling image \"traefik/whoami:v1.10.3\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:06Z",
+                "name": "whoami-7f8ffd7c6b-f9gwk.18e34bd7c7e3a66a",
+                "namespace": "app",
+                "resourceVersion": "9388",
+                "uid": "b87aa28d-0f30-4679-9b8e-0a75c53dfe6a"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-2-233",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-2-233"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:08Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-f9gwk",
+                "namespace": "app",
+                "resourceVersion": "9370",
+                "uid": "e66de7e2-7472-4d4e-a9d4-67260bc2f82e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:08Z",
+            "message": "Successfully pulled image \"traefik/whoami:v1.10.3\" in 2.148s (2.148s including waiting). Image size: 2853860 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:08Z",
+                "name": "whoami-7f8ffd7c6b-f9gwk.18e34bd847f9fbeb",
+                "namespace": "app",
+                "resourceVersion": "9400",
+                "uid": "880dd685-5b95-451f-a182-775bf878940e"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-2-233",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-2-233"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:08Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-f9gwk",
+                "namespace": "app",
+                "resourceVersion": "9370",
+                "uid": "e66de7e2-7472-4d4e-a9d4-67260bc2f82e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:08Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:08Z",
+                "name": "whoami-7f8ffd7c6b-f9gwk.18e34bd849b06f75",
+                "namespace": "app",
+                "resourceVersion": "9403",
+                "uid": "3b6e7f97-6f45-4043-ab84-fd602e6c07e7"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-2-233",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-2-233"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:08Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-f9gwk",
+                "namespace": "app",
+                "resourceVersion": "9370",
+                "uid": "e66de7e2-7472-4d4e-a9d4-67260bc2f82e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:08Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:08Z",
+                "name": "whoami-7f8ffd7c6b-f9gwk.18e34bd84c32c5b0",
+                "namespace": "app",
+                "resourceVersion": "9407",
+                "uid": "ab7f0837-054f-4af7-beee-435caa9db47e"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-2-233",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-2-233"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:23:03Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-f9gwk",
+                "namespace": "app",
+                "resourceVersion": "9416",
+                "uid": "e66de7e2-7472-4d4e-a9d4-67260bc2f82e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:23:03Z",
+            "message": "Node is not ready",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:23:03Z",
+                "name": "whoami-7f8ffd7c6b-f9gwk.18e34e21b7dc1bae",
+                "namespace": "app",
+                "resourceVersion": "56788",
+                "uid": "30a7701e-ad55-4b97-89a8-6ec81f5eb352"
+            },
+            "reason": "NodeNotReady",
+            "reportingComponent": "node-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "node-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:28:03Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-f9gwk",
+                "namespace": "app"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:28:03Z",
+            "message": "Marking for deletion Pod app/whoami-7f8ffd7c6b-f9gwk",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:28:03Z",
+                "name": "whoami-7f8ffd7c6b-f9gwk.18e34e679746f55b",
+                "namespace": "app",
+                "resourceVersion": "57763",
+                "uid": "9b3af7dc-be9d-4b4a-b8cc-3843d9e59e50"
+            },
+            "reason": "TaintManagerEviction",
+            "reportingComponent": "taint-eviction-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "taint-eviction-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:30:18Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-f9gwk",
+                "namespace": "app",
+                "resourceVersion": "57761",
+                "uid": "e66de7e2-7472-4d4e-a9d4-67260bc2f82e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:30:18Z",
+            "message": "Stopping container whoami",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:30:18Z",
+                "name": "whoami-7f8ffd7c6b-f9gwk.18e34e86f770c07a",
+                "namespace": "app",
+                "resourceVersion": "58303",
+                "uid": "8da8b541-d2bd-4a0d-b447-24fb55372dd1"
+            },
+            "reason": "Killing",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-2-233",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-2-233"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2026-10-30T11:41:06.303123Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "9364",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned app/whoami-7f8ffd7c6b-g5zlq to ip-10-0-3-254",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:06Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34bd7ac3a089b",
+                "namespace": "app",
+                "resourceVersion": "9372",
+                "uid": "382c05ba-ffb6-4c72-837c-35e9aac0aa82"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-ip-10-0-1-142",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:06Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "9365",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:06Z",
+            "message": "Pulling image \"traefik/whoami:v1.10.3\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:06Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34bd7c69c43f7",
+                "namespace": "app",
+                "resourceVersion": "9387",
+                "uid": "8b600893-6292-4ba6-8709-d0ddb3c3abf1"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:08Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "9365",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:08Z",
+            "message": "Successfully pulled image \"traefik/whoami:v1.10.3\" in 2.186s (2.186s including waiting). Image size: 2853860 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:08Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34bd848f3dbe8",
+                "namespace": "app",
+                "resourceVersion": "9402",
+                "uid": "d1cec6b6-641e-412f-aebd-999c52f7f7dc"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:08Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "9365",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:08Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:08Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34bd84add4ecb",
+                "namespace": "app",
+                "resourceVersion": "9405",
+                "uid": "4c888c6a-c65f-4ca4-bfa2-64b05aa71b8d"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:09Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "9365",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:09Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:09Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34bd84d252ec4",
+                "namespace": "app",
+                "resourceVersion": "9410",
+                "uid": "20bff012-77f1-4d7d-a04b-72c44bba03dc"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:04:17Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "9421",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:06:12Z",
+            "message": "Node is not ready",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:04:17Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d1ba3505baf",
+                "namespace": "app",
+                "resourceVersion": "42093",
+                "uid": "2ff23eb6-78f7-44cd-b0fe-7c1d4f7fbad5"
+            },
+            "reason": "NodeNotReady",
+            "reportingComponent": "node-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "node-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:04:42Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:06:22Z",
+            "message": "Cancelling deletion of Pod app/whoami-7f8ffd7c6b-g5zlq",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:04:42Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d2177148c5f",
+                "namespace": "app",
+                "resourceVersion": "42585",
+                "uid": "6676513f-d29b-4db1-a967-7d939d65adfb"
+            },
+            "reason": "TaintManagerEviction",
+            "reportingComponent": "taint-eviction-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "taint-eviction-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:07:31Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "42791",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:07:41Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:07:31Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d48a5484017",
+                "namespace": "app",
+                "resourceVersion": "45350",
+                "uid": "b8371f06-ed46-48af-ae48-a224cf75a0df"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:07:31Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "42791",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:07:31Z",
+            "message": "Failed to create pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \"234a44904f66149d91adcd3b0e00d78685fbb3a2329f3590776967990f43d5b9\": plugin type=\"flannel\" failed (add): failed to load flannel 'subnet.env' file: open /run/flannel/subnet.env: no such file or directory. Check the flannel pod log for this node.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:07:31Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d48a9d6c925",
+                "namespace": "app",
+                "resourceVersion": "44816",
+                "uid": "213be220-efbd-4611-a3ad-13b25461d3a7"
+            },
+            "reason": "FailedCreatePodSandBox",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:07:41Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "42791",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:07:41Z",
+            "message": "Container image \"traefik/whoami:v1.10.3\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:07:41Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d4b3249daeb",
+                "namespace": "app",
+                "resourceVersion": "45356",
+                "uid": "9af25ad0-b83d-43f9-ad3a-1d2ea55b768f"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:07:42Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "42791",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:07:42Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:07:42Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d4b33e89f4e",
+                "namespace": "app",
+                "resourceVersion": "45358",
+                "uid": "c2aa84f3-1934-468f-a4e6-8ee2684deb5b"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:07:42Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "42791",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:07:42Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:07:42Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d4b35d11c54",
+                "namespace": "app",
+                "resourceVersion": "45361",
+                "uid": "7fca4622-4f4c-4f0a-9d3b-40abcf775000"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:09:14Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "45373",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:09:28Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:09:14Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d60a681fbee",
+                "namespace": "app",
+                "resourceVersion": "49209",
+                "uid": "6474c4df-c0f1-464f-9eab-5fe17de2ae61"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:09:14Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "45373",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:09:14Z",
+            "message": "Failed to create pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \"5b5397030e41c229be5a5692abe22c25f7aa283e00bf5cade7ab538821406026\": plugin type=\"flannel\" failed (add): failed to load flannel 'subnet.env' file: open /run/flannel/subnet.env: no such file or directory. Check the flannel pod log for this node.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:09:14Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d60ac1a6373",
+                "namespace": "app",
+                "resourceVersion": "48566",
+                "uid": "6f608ef8-72a1-42bb-8ff6-7c3572e72152"
+            },
+            "reason": "FailedCreatePodSandBox",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:09:28Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "45373",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:09:28Z",
+            "message": "Container image \"traefik/whoami:v1.10.3\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:09:28Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d63ee57dcda",
+                "namespace": "app",
+                "resourceVersion": "49215",
+                "uid": "c336f0a2-2aa1-4512-9b4e-6332f1f8140c"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:09:28Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "45373",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:09:28Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:09:28Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d63efeadd29",
+                "namespace": "app",
+                "resourceVersion": "49217",
+                "uid": "d593b18a-0e0f-45fa-a36c-c511f254edde"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:09:28Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "45373",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:09:28Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:09:28Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d63f1fbcf8e",
+                "namespace": "app",
+                "resourceVersion": "49219",
+                "uid": "661ff256-afdf-4d9f-800a-9009a561a10b"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:11:03Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "49234",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:11:14Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:11:03Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d7a06b409a7",
+                "namespace": "app",
+                "resourceVersion": "52803",
+                "uid": "a874a4b8-4432-4e00-877d-4fe658d71121"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:11:03Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "49234",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:11:03Z",
+            "message": "Failed to create pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \"15470d46b6376124746cc109d5db872ff2f3446ed6adc2b407314bac687703d1\": plugin type=\"flannel\" failed (add): failed to load flannel 'subnet.env' file: open /run/flannel/subnet.env: no such file or directory. Check the flannel pod log for this node.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:11:03Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d7a0a961c54",
+                "namespace": "app",
+                "resourceVersion": "52294",
+                "uid": "fd24df4d-df27-4ea1-957c-b95ffa12a6e1"
+            },
+            "reason": "FailedCreatePodSandBox",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:11:14Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "49234",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:11:14Z",
+            "message": "Container image \"traefik/whoami:v1.10.3\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:11:14Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d7ca0bc974b",
+                "namespace": "app",
+                "resourceVersion": "52817",
+                "uid": "47b5b6fc-f61b-4f06-aba7-14840834b26f"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:11:14Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "49234",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:11:14Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:11:14Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d7ca2dde758",
+                "namespace": "app",
+                "resourceVersion": "52821",
+                "uid": "f37f578e-aaf8-484d-9a8b-5cb4d085558a"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:11:14Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "49234",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:11:14Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:11:14Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34d7ca6b5ee12",
+                "namespace": "app",
+                "resourceVersion": "52826",
+                "uid": "ad0e083c-390e-4f21-9713-1d71e2179551"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:32:18Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "52834",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:32:18Z",
+            "message": "Node is not ready",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:32:18Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34ea2ff6cbdfd",
+                "namespace": "app",
+                "resourceVersion": "58746",
+                "uid": "1af32299-db6f-4100-bf75-3edd5eaac34e"
+            },
+            "reason": "NodeNotReady",
+            "reportingComponent": "node-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "node-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:37:18Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:37:18Z",
+            "message": "Marking for deletion Pod app/whoami-7f8ffd7c6b-g5zlq",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:37:18Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34ee8dae5f721",
+                "namespace": "app",
+                "resourceVersion": "59682",
+                "uid": "42440cbd-7419-44d6-90b6-41a849ed9d00"
+            },
+            "reason": "TaintManagerEviction",
+            "reportingComponent": "taint-eviction-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "taint-eviction-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:38:47Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-g5zlq",
+                "namespace": "app",
+                "resourceVersion": "59689",
+                "uid": "83674e69-b755-423b-b77e-545ec1bfa691"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:38:47Z",
+            "message": "Stopping container whoami",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:38:47Z",
+                "name": "whoami-7f8ffd7c6b-g5zlq.18e34efd7409f32b",
+                "namespace": "app",
+                "resourceVersion": "60035",
+                "uid": "0d784e88-235f-4fd6-ac39-42303d4670c1"
+            },
+            "reason": "Killing",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Scheduling",
+            "apiVersion": "v1",
+            "eventTime": "2026-10-30T11:47:41.735670Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-jpzlw",
+                "namespace": "app",
+                "resourceVersion": "10699",
+                "uid": "ebbf6262-5803-4a65-98f9-fd70b6436f1a"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "0/3 nodes are available: 1 node(s) had untolerated taint(s), 2 node(s) didn't match pod topology spread constraints. no new claims to deallocate, preemption: 0/3 nodes are available: 1 Preemption is not helpful for scheduling, 2 No preemption victims found for incoming pod.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:47:41Z",
+                "name": "whoami-7f8ffd7c6b-jpzlw.18e34c33bdd7da31",
+                "namespace": "app",
+                "resourceVersion": "10703",
+                "uid": "1df87fa4-43e2-430f-845f-cf0f10fc06b8"
+            },
+            "reason": "FailedScheduling",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-ip-10-0-3-254",
+            "source": {},
+            "type": "Warning"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2026-10-30T11:49:59.841901Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-jpzlw",
+                "namespace": "app",
+                "resourceVersion": "10702",
+                "uid": "ebbf6262-5803-4a65-98f9-fd70b6436f1a"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned app/whoami-7f8ffd7c6b-jpzlw to ip-10-0-1-142",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:49:59Z",
+                "name": "whoami-7f8ffd7c6b-jpzlw.18e34c53e59dbb22",
+                "namespace": "app",
+                "resourceVersion": "11203",
+                "uid": "4f44fde6-4ab0-4947-afb7-4776147a2826"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-ip-10-0-3-254",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:50:00Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-jpzlw",
+                "namespace": "app",
+                "resourceVersion": "11201",
+                "uid": "ebbf6262-5803-4a65-98f9-fd70b6436f1a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:50:00Z",
+            "message": "Container image \"traefik/whoami:v1.10.3\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:50:00Z",
+                "name": "whoami-7f8ffd7c6b-jpzlw.18e34c541f46c2f6",
+                "namespace": "app",
+                "resourceVersion": "11248",
+                "uid": "ffe1e295-35f9-468e-8681-299e71e2c05f"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:50:00Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-jpzlw",
+                "namespace": "app",
+                "resourceVersion": "11201",
+                "uid": "ebbf6262-5803-4a65-98f9-fd70b6436f1a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:50:00Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:50:00Z",
+                "name": "whoami-7f8ffd7c6b-jpzlw.18e34c54212cf441",
+                "namespace": "app",
+                "resourceVersion": "11251",
+                "uid": "39381a79-bd2f-41f5-bec9-b7313d8c5a01"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:50:00Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-jpzlw",
+                "namespace": "app",
+                "resourceVersion": "11201",
+                "uid": "ebbf6262-5803-4a65-98f9-fd70b6436f1a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:50:00Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:50:00Z",
+                "name": "whoami-7f8ffd7c6b-jpzlw.18e34c5423d01b36",
+                "namespace": "app",
+                "resourceVersion": "11252",
+                "uid": "571eccea-b96a-4cc9-899b-726c3aa8fcb9"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:50:01Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-jpzlw",
+                "namespace": "app"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:50:01Z",
+            "message": "Cancelling deletion of Pod app/whoami-7f8ffd7c6b-jpzlw",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:50:01Z",
+                "name": "whoami-7f8ffd7c6b-jpzlw.18e34c5454cb8bf8",
+                "namespace": "app",
+                "resourceVersion": "11289",
+                "uid": "bb423858-fcdc-4f65-b5c3-c9661d650cb4"
+            },
+            "reason": "TaintManagerEviction",
+            "reportingComponent": "taint-eviction-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "taint-eviction-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:13:12Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-jpzlw",
+                "namespace": "app",
+                "resourceVersion": "11296",
+                "uid": "ebbf6262-5803-4a65-98f9-fd70b6436f1a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:13:12Z",
+            "message": "Node is not ready",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:13:12Z",
+                "name": "whoami-7f8ffd7c6b-jpzlw.18e34d984035c297",
+                "namespace": "app",
+                "resourceVersion": "54816",
+                "uid": "01ff111c-00a9-4e2b-9fd0-67035578cb2b"
+            },
+            "reason": "NodeNotReady",
+            "reportingComponent": "node-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "node-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:18:13Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-jpzlw",
+                "namespace": "app"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:18:13Z",
+            "message": "Marking for deletion Pod app/whoami-7f8ffd7c6b-jpzlw",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:18:13Z",
+                "name": "whoami-7f8ffd7c6b-jpzlw.18e34dde1ddc9bb9",
+                "namespace": "app",
+                "resourceVersion": "55762",
+                "uid": "db7851e5-1680-48ed-97ba-939b71da9450"
+            },
+            "reason": "TaintManagerEviction",
+            "reportingComponent": "taint-eviction-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "taint-eviction-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:19:29Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-jpzlw",
+                "namespace": "app",
+                "resourceVersion": "55764",
+                "uid": "ebbf6262-5803-4a65-98f9-fd70b6436f1a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:19:29Z",
+            "message": "Stopping container whoami",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:19:29Z",
+                "name": "whoami-7f8ffd7c6b-jpzlw.18e34defe36a0df5",
+                "namespace": "app",
+                "resourceVersion": "56058",
+                "uid": "0cabd0ec-0c94-466f-8692-aa9083d15a7a"
+            },
+            "reason": "Killing",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Scheduling",
+            "apiVersion": "v1",
+            "eventTime": "2026-10-30T12:37:18.710553Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-ndtf7",
+                "namespace": "app",
+                "resourceVersion": "59697",
+                "uid": "ca1d8bf2-ee60-4db6-9818-6a342caad485"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "0/3 nodes are available: 1 node(s) had untolerated taint(s), 2 node(s) didn't match pod topology spread constraints. no new claims to deallocate, preemption: 0/3 nodes are available: 1 Preemption is not helpful for scheduling, 2 No preemption victims found for incoming pod.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:37:18Z",
+                "name": "whoami-7f8ffd7c6b-ndtf7.18e34ee8df5fa4af",
+                "namespace": "app",
+                "resourceVersion": "59705",
+                "uid": "44b0228a-554f-445d-ac18-79112e8da1a6"
+            },
+            "reason": "FailedScheduling",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-ip-10-0-1-142",
+            "source": {},
+            "type": "Warning"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2026-10-30T12:38:46.638938Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-ndtf7",
+                "namespace": "app",
+                "resourceVersion": "59706",
+                "uid": "ca1d8bf2-ee60-4db6-9818-6a342caad485"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned app/whoami-7f8ffd7c6b-ndtf7 to ip-10-0-3-254",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:38:46Z",
+                "name": "whoami-7f8ffd7c6b-ndtf7.18e34efd585051e5",
+                "namespace": "app",
+                "resourceVersion": "60024",
+                "uid": "f6e685c7-0b4d-4d11-97d1-c5672375e190"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-ip-10-0-1-142",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:38:47Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-ndtf7",
+                "namespace": "app",
+                "resourceVersion": "60023",
+                "uid": "ca1d8bf2-ee60-4db6-9818-6a342caad485"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:38:47Z",
+            "message": "Container image \"traefik/whoami:v1.10.3\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:38:47Z",
+                "name": "whoami-7f8ffd7c6b-ndtf7.18e34efd9357a091",
+                "namespace": "app",
+                "resourceVersion": "60065",
+                "uid": "f7762462-b108-4816-b01c-dc11f0ff00e2"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:38:47Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-ndtf7",
+                "namespace": "app",
+                "resourceVersion": "60023",
+                "uid": "ca1d8bf2-ee60-4db6-9818-6a342caad485"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:38:47Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:38:47Z",
+                "name": "whoami-7f8ffd7c6b-ndtf7.18e34efd9507c704",
+                "namespace": "app",
+                "resourceVersion": "60068",
+                "uid": "d7862842-3ed2-4316-ad84-003a7d432126"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:38:47Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-ndtf7",
+                "namespace": "app",
+                "resourceVersion": "60023",
+                "uid": "ca1d8bf2-ee60-4db6-9818-6a342caad485"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:38:47Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:38:47Z",
+                "name": "whoami-7f8ffd7c6b-ndtf7.18e34efd97f70c94",
+                "namespace": "app",
+                "resourceVersion": "60069",
+                "uid": "86343bf0-cf4f-4df4-a623-d692b294f2ae"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-3-254",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-3-254"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:38:48Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-ndtf7",
+                "namespace": "app"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:38:48Z",
+            "message": "Cancelling deletion of Pod app/whoami-7f8ffd7c6b-ndtf7",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:38:48Z",
+                "name": "whoami-7f8ffd7c6b-ndtf7.18e34efdd4a3c6d1",
+                "namespace": "app",
+                "resourceVersion": "60120",
+                "uid": "9df254c8-54e9-4e8f-b88f-f4cef76aea82"
+            },
+            "reason": "TaintManagerEviction",
+            "reportingComponent": "taint-eviction-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "taint-eviction-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2026-10-30T11:41:06.333065Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-tjqr2",
+                "namespace": "app",
+                "resourceVersion": "9368",
+                "uid": "49c08b24-8dee-4380-8d68-56bfa7315e72"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned app/whoami-7f8ffd7c6b-tjqr2 to ip-10-0-1-142",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:06Z",
+                "name": "whoami-7f8ffd7c6b-tjqr2.18e34bd7ae02e6b8",
+                "namespace": "app",
+                "resourceVersion": "9377",
+                "uid": "86366053-3624-44c8-9b94-b81685277178"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-ip-10-0-1-142",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:06Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-tjqr2",
+                "namespace": "app",
+                "resourceVersion": "9373",
+                "uid": "49c08b24-8dee-4380-8d68-56bfa7315e72"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:06Z",
+            "message": "Pulling image \"traefik/whoami:v1.10.3\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:06Z",
+                "name": "whoami-7f8ffd7c6b-tjqr2.18e34bd7c819f444",
+                "namespace": "app",
+                "resourceVersion": "9389",
+                "uid": "808016ce-5caf-4c29-8dcf-12bf5039878c"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:08Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-tjqr2",
+                "namespace": "app",
+                "resourceVersion": "9373",
+                "uid": "49c08b24-8dee-4380-8d68-56bfa7315e72"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:08Z",
+            "message": "Successfully pulled image \"traefik/whoami:v1.10.3\" in 2.142s (2.142s including waiting). Image size: 2853860 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:08Z",
+                "name": "whoami-7f8ffd7c6b-tjqr2.18e34bd847d29c2e",
+                "namespace": "app",
+                "resourceVersion": "9399",
+                "uid": "5a4d9694-c444-4296-9a63-17c744b7b2db"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:08Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-tjqr2",
+                "namespace": "app",
+                "resourceVersion": "9373",
+                "uid": "49c08b24-8dee-4380-8d68-56bfa7315e72"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:08Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:08Z",
+                "name": "whoami-7f8ffd7c6b-tjqr2.18e34bd849ba42fe",
+                "namespace": "app",
+                "resourceVersion": "9404",
+                "uid": "7e8ff16b-bb6f-4693-86c6-fd8940bd1042"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:08Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-tjqr2",
+                "namespace": "app",
+                "resourceVersion": "9373",
+                "uid": "49c08b24-8dee-4380-8d68-56bfa7315e72"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:08Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:08Z",
+                "name": "whoami-7f8ffd7c6b-tjqr2.18e34bd84bd4ca87",
+                "namespace": "app",
+                "resourceVersion": "9406",
+                "uid": "5aad7881-9f20-4297-b24c-8d298d5a0ce0"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:42:41Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-tjqr2",
+                "namespace": "app",
+                "resourceVersion": "9411",
+                "uid": "49c08b24-8dee-4380-8d68-56bfa7315e72"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:42:41Z",
+            "message": "Node is not ready",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:42:41Z",
+                "name": "whoami-7f8ffd7c6b-tjqr2.18e34bedd9aa3eee",
+                "namespace": "app",
+                "resourceVersion": "9695",
+                "uid": "d31bd353-9d52-423f-8e33-3e9a2b23ec5b"
+            },
+            "reason": "NodeNotReady",
+            "reportingComponent": "node-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "node-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:47:41Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-tjqr2",
+                "namespace": "app"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:47:41Z",
+            "message": "Marking for deletion Pod app/whoami-7f8ffd7c6b-tjqr2",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:47:41Z",
+                "name": "whoami-7f8ffd7c6b-tjqr2.18e34c33b2790f9b",
+                "namespace": "app",
+                "resourceVersion": "10663",
+                "uid": "0e558368-eebf-487b-9b25-46c6da23d673"
+            },
+            "reason": "TaintManagerEviction",
+            "reportingComponent": "taint-eviction-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "taint-eviction-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:50:00Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{whoami}",
+                "kind": "Pod",
+                "name": "whoami-7f8ffd7c6b-tjqr2",
+                "namespace": "app",
+                "resourceVersion": "10664",
+                "uid": "49c08b24-8dee-4380-8d68-56bfa7315e72"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:50:00Z",
+            "message": "Stopping container whoami",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:50:00Z",
+                "name": "whoami-7f8ffd7c6b-tjqr2.18e34c5400c70b30",
+                "namespace": "app",
+                "resourceVersion": "11211",
+                "uid": "ea77ef40-8a8a-461d-ab8d-1d31b1d11725"
+            },
+            "reason": "Killing",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "ip-10-0-1-142",
+            "source": {
+                "component": "kubelet",
+                "host": "ip-10-0-1-142"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:06Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "whoami-7f8ffd7c6b",
+                "namespace": "app",
+                "resourceVersion": "9361",
+                "uid": "334b60b5-df9f-417c-8119-6dfb03bbf4fc"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:06Z",
+            "message": "Created pod: whoami-7f8ffd7c6b-g5zlq",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:06Z",
+                "name": "whoami-7f8ffd7c6b.18e34bd7abbd6725",
+                "namespace": "app",
+                "resourceVersion": "9369",
+                "uid": "234f2528-4a68-4cc5-8195-ee9e622f3031"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:06Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "whoami-7f8ffd7c6b",
+                "namespace": "app",
+                "resourceVersion": "9361",
+                "uid": "334b60b5-df9f-417c-8119-6dfb03bbf4fc"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:06Z",
+            "message": "Created pod: whoami-7f8ffd7c6b-f9gwk",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:06Z",
+                "name": "whoami-7f8ffd7c6b.18e34bd7ac7df03f",
+                "namespace": "app",
+                "resourceVersion": "9374",
+                "uid": "7a006033-bc02-4475-8909-c6fdc87b1532"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:06Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "whoami-7f8ffd7c6b",
+                "namespace": "app",
+                "resourceVersion": "9361",
+                "uid": "334b60b5-df9f-417c-8119-6dfb03bbf4fc"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:06Z",
+            "message": "Created pod: whoami-7f8ffd7c6b-tjqr2",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:06Z",
+                "name": "whoami-7f8ffd7c6b.18e34bd7ad10b63a",
+                "namespace": "app",
+                "resourceVersion": "9378",
+                "uid": "984b84fb-b4c1-4502-990f-a044170bc385"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:47:41Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "whoami-7f8ffd7c6b",
+                "namespace": "app",
+                "resourceVersion": "9696",
+                "uid": "334b60b5-df9f-417c-8119-6dfb03bbf4fc"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:47:41Z",
+            "message": "Created pod: whoami-7f8ffd7c6b-jpzlw",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:47:41Z",
+                "name": "whoami-7f8ffd7c6b.18e34c33be287bf2",
+                "namespace": "app",
+                "resourceVersion": "10704",
+                "uid": "549816cc-2ca4-47c9-a874-0b442d235520"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:18:13Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "whoami-7f8ffd7c6b",
+                "namespace": "app",
+                "resourceVersion": "54815",
+                "uid": "334b60b5-df9f-417c-8119-6dfb03bbf4fc"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:18:13Z",
+            "message": "Created pod: whoami-7f8ffd7c6b-brgjf",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:18:13Z",
+                "name": "whoami-7f8ffd7c6b.18e34dde26807378",
+                "namespace": "app",
+                "resourceVersion": "55782",
+                "uid": "93fc6672-a3c0-4039-a3e7-e14fd2101eae"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:28:03Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "whoami-7f8ffd7c6b",
+                "namespace": "app",
+                "resourceVersion": "56799",
+                "uid": "334b60b5-df9f-417c-8119-6dfb03bbf4fc"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:28:03Z",
+            "message": "Created pod: whoami-7f8ffd7c6b-77xvd",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:28:03Z",
+                "name": "whoami-7f8ffd7c6b.18e34e67a2f6217a",
+                "namespace": "app",
+                "resourceVersion": "57801",
+                "uid": "7394b4e3-4aba-4432-b81c-64f7b5fa30a3"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T12:37:18Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "whoami-7f8ffd7c6b",
+                "namespace": "app",
+                "resourceVersion": "58744",
+                "uid": "334b60b5-df9f-417c-8119-6dfb03bbf4fc"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T12:37:18Z",
+            "message": "Created pod: whoami-7f8ffd7c6b-ndtf7",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T12:37:18Z",
+                "name": "whoami-7f8ffd7c6b.18e34ee8def56fd1",
+                "namespace": "app",
+                "resourceVersion": "59715",
+                "uid": "3fcfafb6-fdfd-4cda-b184-8e953dc44a19"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-30T11:41:06Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "whoami",
+                "namespace": "app",
+                "resourceVersion": "9360",
+                "uid": "4dd6b994-d706-4483-9085-93539c4def44"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-30T11:41:06Z",
+            "message": "Scaled up replica set whoami-7f8ffd7c6b from 0 to 3",
+            "metadata": {
+                "creationTimestamp": "2026-10-30T11:41:06Z",
+                "name": "whoami.18e34bd7aadb16c2",
+                "namespace": "app",
+                "resourceVersion": "9362",
+                "uid": "207bde0e-6cf8-4b64-98f2-238127fe7968"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}

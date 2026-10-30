@@ -1,0 +1,15 @@
+1793382012.369718110
+1793383609.074277594
+       Server: 151.115.169.58 (151.115.169.58)
+Poll interval: 34min 8s (min: 32s; max 34min 8s)
+         Leap: normal
+      Version: 4
+      Stratum: 2
+    Reference: B0892425
+    Precision: 1us (-24)
+Root distance: 26.312ms (max: 5s)
+       Offset: +42us
+        Delay: 434us
+       Jitter: 15us
+ Packet count: 2
+    Frequency: +0.000ppm

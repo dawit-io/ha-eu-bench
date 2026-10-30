@@ -1,0 +1,11 @@
+{"pod":"coredns-7754d8d455-5rzx4","owner":"ReplicaSet/coredns-7754d8d455","node":"a1-eu-south-mil-b","zone":"eu-south-mil-b","phase":"Running"}
+{"pod":"coredns-7754d8d455-kd45m","owner":"ReplicaSet/coredns-7754d8d455","node":"a1-eu-south-mil-c","zone":"eu-south-mil-c","phase":"Running"}
+{"pod":"coredns-7754d8d455-mq6b8","owner":"ReplicaSet/coredns-7754d8d455","node":"a1-eu-south-mil-a","zone":"eu-south-mil-a","phase":"Running"}
+{"pod":"helm-install-traefik-crd-bd4ms","owner":"Job/helm-install-traefik-crd","node":"a1-eu-south-mil-a","zone":"eu-south-mil-a","phase":"Succeeded"}
+{"pod":"helm-install-traefik-rxtjv","owner":"Job/helm-install-traefik","node":"a1-eu-south-mil-a","zone":"eu-south-mil-a","phase":"Succeeded"}
+{"pod":"local-path-provisioner-5c4dc5d66d-5rhfn","owner":"ReplicaSet/local-path-provisioner-5c4dc5d66d","node":"a1-eu-south-mil-a","zone":"eu-south-mil-a","phase":"Running"}
+{"pod":"metrics-server-786d997795-dv8j7","owner":"ReplicaSet/metrics-server-786d997795","node":"a1-eu-south-mil-a","zone":"eu-south-mil-a","phase":"Running"}
+{"pod":"svclb-traefik-cd8b3aa6-hqb6f","owner":"DaemonSet/svclb-traefik-cd8b3aa6","node":"a1-eu-south-mil-a","zone":"eu-south-mil-a","phase":"Running"}
+{"pod":"svclb-traefik-cd8b3aa6-lm6zd","owner":"DaemonSet/svclb-traefik-cd8b3aa6","node":"a1-eu-south-mil-b","zone":"eu-south-mil-b","phase":"Running"}
+{"pod":"svclb-traefik-cd8b3aa6-vrgdv","owner":"DaemonSet/svclb-traefik-cd8b3aa6","node":"a1-eu-south-mil-c","zone":"eu-south-mil-c","phase":"Pending"}
+{"pod":"traefik-9bcdbbd9-j65zt","owner":"ReplicaSet/traefik-9bcdbbd9","node":"a1-eu-south-mil-b","zone":"eu-south-mil-b","phase":"Running"}

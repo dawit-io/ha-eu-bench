@@ -1,0 +1,66 @@
+Name:             pg-0
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             ha-eu-south-mil-a/10.0.1.10
+Start Time:       Fri, 30 Oct 2026 12:47:33 +0100
+Labels:           app=pg
+                  apps.kubernetes.io/pod-index=0
+                  controller-revision-hash=pg-89d7b98b6
+                  statefulset.kubernetes.io/pod-name=pg-0
+                  topology.kubernetes.io/zone=eu-south-mil-a
+Annotations:      <none>
+Status:           Running
+IP:               10.42.0.52
+IPs:
+  IP:           10.42.0.52
+Controlled By:  StatefulSet/pg
+Containers:
+  postgres:
+    Container ID:   containerd://18b137bf977864e7bdd9cc12827d9232cbb448fc4bfb04544aad36ca97ff2ea8
+    Image:          postgres:17
+    Image ID:       docker.io/library/postgres@sha256:31ba9c94a03ada9988f2bb493a22a75eef3a185884533e5cdbcd498ea835b08f
+    Port:           <none>
+    Host Port:      <none>
+    State:          Running
+      Started:      Fri, 30 Oct 2026 12:48:07 +0100
+    Ready:          True
+    Restart Count:  0
+    Readiness:      exec [pg_isready -U postgres] delay=0s timeout=1s period=2s #success=1 #failure=3
+    Environment:
+      POSTGRES_PASSWORD:  bench
+      PGDATA:             /var/lib/postgresql/data/pgdata
+    Mounts:
+      /var/lib/postgresql/data from data (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-qj6kd (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  data:
+    Type:       PersistentVolumeClaim (a reference to a PersistentVolumeClaim in the same namespace)
+    ClaimName:  data-pg-0
+    ReadOnly:   false
+  kube-api-access-qj6kd:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    Optional:                false
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason                  Age   From                     Message
+  ----     ------                  ----  ----                     -------
+  Normal   Scheduled               70s   default-scheduler        Successfully assigned default/pg-0 to ha-eu-south-mil-a
+  Warning  FailedAttachVolume      70s   attachdetach-controller  Multi-Attach error for volume "pvc-53b0669f-75f8-43f3-899a-e78b33da3f84" Volume is already exclusively attached to one node and can't be attached to another
+  Normal   SuccessfulAttachVolume  37s   attachdetach-controller  AttachVolume.Attach succeeded for volume "pvc-53b0669f-75f8-43f3-899a-e78b33da3f84"
+  Normal   Pulled                  37s   kubelet                  Container image "postgres:17" already present on machine and can be accessed by the pod
+  Normal   Created                 37s   kubelet                  Container created
+  Normal   Started                 37s   kubelet                  Container started

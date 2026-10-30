@@ -1,0 +1,32 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+nodes.json
+kubeconfig
+.k3s-token
+.probe*
+.DS_Store
+.known_hosts
+.env
+.state/
+
+# Go
+probe/probe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.*
+*.coverprofile
+go.work
+go.work.sum
+vendor/
+results-archive/
+
+# generated charts; the article charts live outside the repo
+charts/out/
+charts/article1/out/

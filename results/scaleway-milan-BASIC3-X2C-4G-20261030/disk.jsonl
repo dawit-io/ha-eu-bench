@@ -1,0 +1,3 @@
+{"zone":"it-mil-1","cpu":"AMD EPYC 9555P 64-Core Processor","device":"/dev/sda1","fsync_p50_ms":1.220608,"fsync_p99_ms":9.109504,"write_iops":497.433419}
+{"zone":"it-mil-3","cpu":"AMD EPYC 9555P 64-Core Processor","device":"/dev/sda1","fsync_p50_ms":1.089536,"fsync_p99_ms":6.127616,"write_iops":656.239063}
+{"zone":"it-mil-2","cpu":"AMD EPYC 9555P 64-Core Processor","device":"/dev/sda1","fsync_p50_ms":1.089536,"fsync_p99_ms":7.04512,"write_iops":613.039783}

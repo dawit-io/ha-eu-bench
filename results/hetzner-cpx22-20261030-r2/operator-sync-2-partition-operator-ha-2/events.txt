@@ -1,0 +1,554 @@
+LAST SEEN   TYPE      REASON                        OBJECT                                         MESSAGE
+50m         Normal    Scheduled                     pod/sync-2-preferred-1                         Successfully assigned ha/sync-2-preferred-1 to ha-nbg1
+25m         Normal    Scheduled                     pod/sync-2-preferred-1                         Successfully assigned ha/sync-2-preferred-1 to ha-nbg1
+67m         Normal    Scheduled                     pod/async-1-initdb-94ntf                       Successfully assigned ha/async-1-initdb-94ntf to ha-nbg1
+65m         Normal    Scheduled                     pod/async-3                                    Successfully assigned ha/async-3 to ha-fsn1
+61m         Normal    Scheduled                     pod/sync-1-initdb-7mp86                        Successfully assigned ha/sync-1-initdb-7mp86 to ha-nbg1
+44m         Normal    Scheduled                     pod/sync-1-initdb-gr77b                        Successfully assigned ha/sync-1-initdb-gr77b to ha-hel1
+25m         Normal    Scheduled                     pod/sync-2-preferred-2                         Successfully assigned ha/sync-2-preferred-2 to ha-fsn1
+9m31s       Normal    Scheduled                     pod/sync-2-2                                   Successfully assigned ha/sync-2-2 to ha-fsn1
+71m         Normal    Scheduled                     pod/single-1                                   Successfully assigned ha/single-1 to ha-nbg1
+55m         Normal    Scheduled                     pod/sync-2-2                                   Successfully assigned ha/sync-2-2 to ha-fsn1
+60m         Normal    Scheduled                     pod/sync-2                                     Successfully assigned ha/sync-2 to ha-hel1
+55m         Normal    Scheduled                     pod/sync-2-2-join-xl2xj                        Successfully assigned ha/sync-2-2-join-xl2xj to ha-fsn1
+50m         Warning   FailedScheduling              pod/sync-2-preferred-2-join-4lskk              0/3 nodes are available: persistentvolumeclaim "sync-2-preferred-2" not found. not found
+67m         Normal    Scheduled                     pod/async-1                                    Successfully assigned ha/async-1 to ha-nbg1
+55m         Warning   FailedScheduling              pod/sync-2-2-join-xl2xj                        0/3 nodes are available: persistentvolumeclaim "sync-2-2" not found. not found
+9m38s       Normal    Scheduled                     pod/sync-2-2-join-hh422                        Successfully assigned ha/sync-2-2-join-hh422 to ha-fsn1
+61m         Normal    Scheduled                     pod/sync-1                                     Successfully assigned ha/sync-1 to ha-nbg1
+9m41s       Warning   FailedScheduling              pod/sync-2-2-join-hh422                        0/3 nodes are available: persistentvolumeclaim "sync-2-2" not found. not found
+44m         Normal    Scheduled                     pod/sync-2                                     Successfully assigned ha/sync-2 to ha-nbg1
+43m         Warning   FailedScheduling              pod/sync-3-join-9zqqn                          0/3 nodes are available: persistentvolumeclaim "sync-3" not found. not found
+55m         Normal    Scheduled                     pod/sync-2-1-initdb-6rsrv                      Successfully assigned ha/sync-2-1-initdb-6rsrv to ha-nbg1
+67m         Warning   FailedScheduling              pod/async-2-join-7p6d8                         0/3 nodes are available: persistentvolumeclaim "async-2" not found. not found
+66m         Normal    Scheduled                     pod/async-2-join-7p6d8                         Successfully assigned ha/async-2-join-7p6d8 to ha-hel1
+43m         Normal    Scheduled                     pod/sync-3-join-9zqqn                          Successfully assigned ha/sync-3-join-9zqqn to ha-fsn1
+60m         Warning   FailedScheduling              pod/sync-3-join-xlxmw                          0/3 nodes are available: persistentvolumeclaim "sync-3" not found. not found
+60m         Normal    Scheduled                     pod/sync-3-join-xlxmw                          Successfully assigned ha/sync-3-join-xlxmw to ha-fsn1
+44m         Normal    Scheduled                     pod/sync-1                                     Successfully assigned ha/sync-1 to ha-hel1
+72m         Normal    Scheduled                     pod/single-1-initdb-sb57w                      Successfully assigned ha/single-1-initdb-sb57w to ha-nbg1
+44m         Warning   FailedScheduling              pod/sync-2-join-24mjx                          0/3 nodes are available: persistentvolumeclaim "sync-2" not found. not found
+44m         Normal    Scheduled                     pod/sync-2-join-24mjx                          Successfully assigned ha/sync-2-join-24mjx to ha-nbg1
+49m         Normal    Scheduled                     pod/sync-2-preferred-2                         Successfully assigned ha/sync-2-preferred-2 to ha-fsn1
+60m         Warning   FailedScheduling              pod/sync-2-join-x5m5f                          0/3 nodes are available: persistentvolumeclaim "sync-2" not found. not found
+60m         Normal    Scheduled                     pod/sync-2-join-x5m5f                          Successfully assigned ha/sync-2-join-x5m5f to ha-hel1
+25m         Normal    Scheduled                     pod/sync-2-preferred-1-initdb-82xt4            Successfully assigned ha/sync-2-preferred-1-initdb-82xt4 to ha-nbg1
+25m         Normal    Scheduled                     pod/sync-2-preferred-2-join-rkvr8              Successfully assigned ha/sync-2-preferred-2-join-rkvr8 to ha-fsn1
+25m         Warning   FailedScheduling              pod/sync-2-preferred-2-join-rkvr8              0/3 nodes are available: persistentvolumeclaim "sync-2-preferred-2" not found. not found
+66m         Normal    Scheduled                     pod/async-2                                    Successfully assigned ha/async-2 to ha-hel1
+50m         Normal    Scheduled                     pod/sync-2-preferred-1-initdb-lx5cc            Successfully assigned ha/sync-2-preferred-1-initdb-lx5cc to ha-nbg1
+9m52s       Normal    Scheduled                     pod/sync-2-1                                   Successfully assigned ha/sync-2-1 to ha-nbg1
+50m         Normal    Scheduled                     pod/sync-2-preferred-2-join-4lskk              Successfully assigned ha/sync-2-preferred-2-join-4lskk to ha-fsn1
+55m         Normal    Scheduled                     pod/sync-2-1                                   Successfully assigned ha/sync-2-1 to ha-nbg1
+9m58s       Normal    Scheduled                     pod/sync-2-1-initdb-7vdzf                      Successfully assigned ha/sync-2-1-initdb-7vdzf to ha-nbg1
+43m         Normal    Scheduled                     pod/sync-3                                     Successfully assigned ha/sync-3 to ha-fsn1
+60m         Normal    Scheduled                     pod/sync-3                                     Successfully assigned ha/sync-3 to ha-fsn1
+66m         Warning   FailedScheduling              pod/async-3-join-6wms4                         0/3 nodes are available: persistentvolumeclaim "async-3" not found. not found
+66m         Normal    Scheduled                     pod/async-3-join-6wms4                         Successfully assigned ha/async-3-join-6wms4 to ha-fsn1
+72m         Normal    CreatingRole                  cluster/single                                 Creating Cluster Role
+72m         Normal    CreatingServiceAccount        cluster/single                                 Creating ServiceAccount
+72m         Normal    CreatingPodDisruptionBudget   cluster/single                                 Creating PodDisruptionBudget single-primary
+72m         Normal    NoPods                        poddisruptionbudget/single-primary             No matching pods found
+72m         Normal    CreatingInstance              cluster/single                                 Primary instance (initdb)
+72m         Normal    Provisioning                  persistentvolumeclaim/single-1                 External provisioner is provisioning volume for claim "ha/single-1"
+72m         Normal    ExternalProvisioning          persistentvolumeclaim/single-1                 Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+72m         Normal    WaitForFirstConsumer          persistentvolumeclaim/single-1                 waiting for first consumer to be created before binding
+72m         Normal    SuccessfulCreate              job/single-1-initdb                            Created pod: single-1-initdb-sb57w
+72m         Normal    ProvisioningSucceeded         persistentvolumeclaim/single-1                 Successfully provisioned volume pvc-8e6f3a4e-5843-4b0c-8e57-5bd01298768a
+72m         Normal    Pulling                       pod/single-1-initdb-sb57w                      Pulling image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1"
+72m         Normal    Pulled                        pod/single-1-initdb-sb57w                      Successfully pulled image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" in 3.614s (3.614s including waiting). Image size: 38509985 bytes.
+72m         Normal    Started                       pod/single-1-initdb-sb57w                      Container started
+72m         Normal    Created                       pod/single-1-initdb-sb57w                      Container created
+72m         Normal    Pulling                       pod/single-1-initdb-sb57w                      Pulling image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie"
+72m         Normal    Created                       pod/single-1-initdb-sb57w                      Container created
+72m         Normal    Started                       pod/single-1-initdb-sb57w                      Container started
+72m         Normal    Pulled                        pod/single-1-initdb-sb57w                      Successfully pulled image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" in 9.495s (9.495s including waiting). Image size: 271983233 bytes.
+71m         Normal    Completed                     job/single-1-initdb                            Job completed
+71m         Normal    Pulled                        pod/single-1                                   Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+71m         Normal    Created                       pod/single-1                                   Container created
+71m         Normal    Started                       pod/single-1                                   Container started
+71m         Normal    Pulled                        pod/single-1                                   Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+71m         Normal    Created                       pod/single-1                                   Container created
+71m         Normal    Started                       pod/single-1                                   Container started
+69m         Normal    Started                       pod/pgbench                                    Container started
+69m         Normal    Created                       pod/pgbench                                    Container created
+69m         Normal    Pulled                        pod/pgbench                                    Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+67m         Normal    Killing                       pod/pgbench                                    Stopping container pgbench
+67m         Normal    Killing                       pod/single-1                                   Stopping container postgres
+67m         Normal    CreatingPodDisruptionBudget   cluster/async                                  Creating PodDisruptionBudget async-primary
+67m         Normal    CreatingPodDisruptionBudget   cluster/async                                  Creating PodDisruptionBudget async
+67m         Normal    NoPods                        poddisruptionbudget/async-primary              No matching pods found
+67m         Normal    NoPods                        poddisruptionbudget/async                      No matching pods found
+67m         Normal    SuccessfulCreate              job/async-1-initdb                             Created pod: async-1-initdb-94ntf
+67m         Normal    CreatingInstance              cluster/async                                  Primary instance (initdb)
+67m         Normal    CreatingRole                  cluster/async                                  Creating Cluster Role
+67m         Normal    CreatingServiceAccount        cluster/async                                  Creating ServiceAccount
+67m         Normal    Provisioning                  persistentvolumeclaim/async-1                  External provisioner is provisioning volume for claim "ha/async-1"
+67m         Normal    ExternalProvisioning          persistentvolumeclaim/async-1                  Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+67m         Normal    WaitForFirstConsumer          persistentvolumeclaim/async-1                  waiting for first consumer to be created before binding
+67m         Warning   Unhealthy                     pod/single-1                                   Readiness probe failed: HTTP probe failed with statuscode: 500
+67m         Normal    ProvisioningSucceeded         persistentvolumeclaim/async-1                  Successfully provisioned volume pvc-94f10327-9061-4906-bf27-2797495d4cbd
+67m         Normal    Created                       pod/async-1-initdb-94ntf                       Container created
+67m         Normal    Started                       pod/async-1-initdb-94ntf                       Container started
+67m         Normal    Created                       pod/async-1-initdb-94ntf                       Container created
+67m         Normal    Pulled                        pod/async-1-initdb-94ntf                       Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+67m         Normal    Started                       pod/async-1-initdb-94ntf                       Container started
+67m         Normal    Pulled                        pod/async-1-initdb-94ntf                       Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+67m         Normal    Completed                     job/async-1-initdb                             Job completed
+67m         Normal    Created                       pod/async-1                                    Container created
+67m         Normal    Started                       pod/async-1                                    Container started
+67m         Normal    Pulled                        pod/async-1                                    Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+67m         Normal    Started                       pod/async-1                                    Container started
+67m         Normal    Created                       pod/async-1                                    Container created
+67m         Normal    Pulled                        pod/async-1                                    Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+67m         Normal    CreatingInstance              cluster/async                                  Creating instance async-2
+67m         Normal    SuccessfulCreate              job/async-2-join                               Created pod: async-2-join-7p6d8
+67m         Normal    Provisioning                  persistentvolumeclaim/async-2                  External provisioner is provisioning volume for claim "ha/async-2"
+67m         Normal    WaitForPodScheduled           persistentvolumeclaim/async-2                  waiting for pod async-2-join-7p6d8 to be scheduled
+67m         Normal    ExternalProvisioning          persistentvolumeclaim/async-2                  Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+66m         Normal    ProvisioningSucceeded         persistentvolumeclaim/async-2                  Successfully provisioned volume pvc-7793077d-1e1b-4b9b-ad91-11c7fdf625c0
+66m         Normal    Pulled                        pod/async-2-join-7p6d8                         Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+66m         Normal    Created                       pod/async-2-join-7p6d8                         Container created
+66m         Normal    Started                       pod/async-2-join-7p6d8                         Container started
+66m         Normal    Pulling                       pod/async-2-join-7p6d8                         Pulling image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie"
+66m         Normal    Pulled                        pod/async-2-join-7p6d8                         Successfully pulled image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" in 10.426s (10.426s including waiting). Image size: 271983233 bytes.
+66m         Normal    Created                       pod/async-2-join-7p6d8                         Container created
+66m         Normal    Started                       pod/async-2-join-7p6d8                         Container started
+66m         Normal    Completed                     job/async-2-join                               Job completed
+66m         Normal    Pulled                        pod/async-2                                    Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+66m         Normal    Created                       pod/async-2                                    Container created
+66m         Normal    Started                       pod/async-2                                    Container started
+66m         Normal    Started                       pod/async-2                                    Container started
+66m         Normal    Pulled                        pod/async-2                                    Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+66m         Normal    Created                       pod/async-2                                    Container created
+66m         Normal    Provisioning                  persistentvolumeclaim/async-3                  External provisioner is provisioning volume for claim "ha/async-3"
+66m         Normal    WaitForPodScheduled           persistentvolumeclaim/async-3                  waiting for pod async-3-join-6wms4 to be scheduled
+66m         Normal    CreatingInstance              cluster/async                                  Creating instance async-3
+66m         Normal    SuccessfulCreate              job/async-3-join                               Created pod: async-3-join-6wms4
+66m         Normal    ExternalProvisioning          persistentvolumeclaim/async-3                  Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+66m         Normal    ProvisioningSucceeded         persistentvolumeclaim/async-3                  Successfully provisioned volume pvc-749b0e16-690f-406f-8f3b-708cc0789ca9
+66m         Normal    Pulling                       pod/async-3-join-6wms4                         Pulling image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1"
+66m         Normal    Pulling                       pod/async-3-join-6wms4                         Pulling image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie"
+66m         Normal    Started                       pod/async-3-join-6wms4                         Container started
+66m         Normal    Created                       pod/async-3-join-6wms4                         Container created
+66m         Normal    Pulled                        pod/async-3-join-6wms4                         Successfully pulled image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" in 2.596s (2.596s including waiting). Image size: 38509985 bytes.
+66m         Normal    Created                       pod/async-3-join-6wms4                         Container created
+66m         Normal    Started                       pod/async-3-join-6wms4                         Container started
+66m         Normal    Pulled                        pod/async-3-join-6wms4                         Successfully pulled image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" in 9.381s (9.381s including waiting). Image size: 271983233 bytes.
+65m         Normal    Completed                     job/async-3-join                               Job completed
+65m         Normal    Created                       pod/async-3                                    Container created
+65m         Normal    Pulled                        pod/async-3                                    Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+65m         Normal    Started                       pod/async-3                                    Container started
+65m         Normal    Pulled                        pod/async-3                                    Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+65m         Normal    Created                       pod/async-3                                    Container created
+65m         Normal    Started                       pod/async-3                                    Container started
+63m         Normal    Created                       pod/pgbench                                    Container created
+63m         Normal    Pulled                        pod/pgbench                                    Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+63m         Normal    Started                       pod/pgbench                                    Container started
+61m         Normal    Killing                       pod/pgbench                                    Stopping container pgbench
+61m         Normal    Killing                       pod/async-2                                    Stopping container postgres
+61m         Normal    Killing                       pod/async-3                                    Stopping container postgres
+61m         Normal    Killing                       pod/async-1                                    Stopping container postgres
+61m         Normal    NoPods                        poddisruptionbudget/sync-primary               No matching pods found
+61m         Normal    CreatingPodDisruptionBudget   cluster/sync                                   Creating PodDisruptionBudget sync-primary
+61m         Normal    CreatingPodDisruptionBudget   cluster/sync                                   Creating PodDisruptionBudget sync
+61m         Normal    NoPods                        poddisruptionbudget/sync                       No matching pods found
+61m         Normal    CreatingServiceAccount        cluster/sync                                   Creating ServiceAccount
+61m         Normal    CreatingRole                  cluster/sync                                   Creating Cluster Role
+61m         Normal    Provisioning                  persistentvolumeclaim/sync-1                   External provisioner is provisioning volume for claim "ha/sync-1"
+61m         Normal    CreatingInstance              cluster/sync                                   Primary instance (initdb)
+61m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-1                   Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+61m         Normal    WaitForFirstConsumer          persistentvolumeclaim/sync-1                   waiting for first consumer to be created before binding
+61m         Normal    SuccessfulCreate              job/sync-1-initdb                              Created pod: sync-1-initdb-7mp86
+61m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-1                   Successfully provisioned volume pvc-789c71d1-c8dd-4bd3-b754-2083b8891bc3
+61m         Normal    Pulled                        pod/sync-1-initdb-7mp86                        Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+61m         Normal    Pulled                        pod/sync-1-initdb-7mp86                        Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+61m         Normal    Created                       pod/sync-1-initdb-7mp86                        Container created
+61m         Normal    Started                       pod/sync-1-initdb-7mp86                        Container started
+61m         Normal    Created                       pod/sync-1-initdb-7mp86                        Container created
+61m         Normal    Started                       pod/sync-1-initdb-7mp86                        Container started
+61m         Normal    Completed                     job/sync-1-initdb                              Job completed
+61m         Normal    Started                       pod/sync-1                                     Container started
+61m         Normal    Created                       pod/sync-1                                     Container created
+61m         Normal    Pulled                        pod/sync-1                                     Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+61m         Normal    Started                       pod/sync-1                                     Container started
+61m         Normal    Created                       pod/sync-1                                     Container created
+61m         Normal    Pulled                        pod/sync-1                                     Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+60m         Normal    CreatingInstance              cluster/sync                                   Creating instance sync-2
+60m         Normal    WaitForPodScheduled           persistentvolumeclaim/sync-2                   waiting for pod sync-2-join-x5m5f to be scheduled
+60m         Normal    SuccessfulCreate              job/sync-2-join                                Created pod: sync-2-join-x5m5f
+60m         Normal    Provisioning                  persistentvolumeclaim/sync-2                   External provisioner is provisioning volume for claim "ha/sync-2"
+60m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-2                   Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+60m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-2                   Successfully provisioned volume pvc-252a3d85-8f23-4729-9d65-a295a0feadc8
+60m         Normal    Started                       pod/sync-2-join-x5m5f                          Container started
+60m         Normal    Started                       pod/sync-2-join-x5m5f                          Container started
+60m         Normal    Created                       pod/sync-2-join-x5m5f                          Container created
+60m         Normal    Pulled                        pod/sync-2-join-x5m5f                          Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+60m         Normal    Pulled                        pod/sync-2-join-x5m5f                          Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+60m         Normal    Created                       pod/sync-2-join-x5m5f                          Container created
+60m         Normal    Completed                     job/sync-2-join                                Job completed
+60m         Normal    Pulled                        pod/sync-2                                     Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+60m         Normal    Pulled                        pod/sync-2                                     Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+60m         Normal    Created                       pod/sync-2                                     Container created
+60m         Normal    Started                       pod/sync-2                                     Container started
+60m         Normal    Created                       pod/sync-2                                     Container created
+60m         Normal    Started                       pod/sync-2                                     Container started
+60m         Normal    CreatingInstance              cluster/sync                                   Creating instance sync-3
+60m         Normal    WaitForPodScheduled           persistentvolumeclaim/sync-3                   waiting for pod sync-3-join-xlxmw to be scheduled
+60m         Normal    Provisioning                  persistentvolumeclaim/sync-3                   External provisioner is provisioning volume for claim "ha/sync-3"
+60m         Normal    SuccessfulCreate              job/sync-3-join                                Created pod: sync-3-join-xlxmw
+60m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-3                   Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+60m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-3                   Successfully provisioned volume pvc-9733412d-e494-4aa3-a740-60bd17311576
+60m         Normal    Pulled                        pod/sync-3-join-xlxmw                          Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+60m         Normal    Pulled                        pod/sync-3-join-xlxmw                          Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+60m         Normal    Started                       pod/sync-3-join-xlxmw                          Container started
+60m         Normal    Created                       pod/sync-3-join-xlxmw                          Container created
+60m         Normal    Started                       pod/sync-3-join-xlxmw                          Container started
+60m         Normal    Created                       pod/sync-3-join-xlxmw                          Container created
+60m         Normal    Completed                     job/sync-3-join                                Job completed
+60m         Normal    Created                       pod/sync-3                                     Container created
+60m         Normal    Started                       pod/sync-3                                     Container started
+60m         Normal    Pulled                        pod/sync-3                                     Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+60m         Normal    Pulled                        pod/sync-3                                     Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+60m         Normal    Created                       pod/sync-3                                     Container created
+60m         Normal    Started                       pod/sync-3                                     Container started
+57m         Normal    Created                       pod/pgbench                                    Container created
+57m         Normal    Pulled                        pod/pgbench                                    Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+57m         Normal    Started                       pod/pgbench                                    Container started
+56m         Normal    Killing                       pod/pgbench                                    Stopping container pgbench
+55m         Normal    Killing                       pod/sync-3                                     Stopping container postgres
+55m         Normal    Killing                       pod/sync-2                                     Stopping container postgres
+55m         Normal    Killing                       pod/sync-1                                     Stopping container postgres
+55m         Normal    CreatingPodDisruptionBudget   cluster/sync-2                                 Creating PodDisruptionBudget sync-2-primary
+55m         Normal    NoPods                        poddisruptionbudget/sync-2-primary             No matching pods found
+55m         Normal    CreatingServiceAccount        cluster/sync-2                                 Creating ServiceAccount
+55m         Normal    CreatingRole                  cluster/sync-2                                 Creating Cluster Role
+55m         Warning   Unhealthy                     pod/sync-1                                     Readiness probe failed: HTTP probe failed with statuscode: 500
+55m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-2-1                 Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+55m         Normal    CreatingInstance              cluster/sync-2                                 Primary instance (initdb)
+55m         Normal    WaitForFirstConsumer          persistentvolumeclaim/sync-2-1                 waiting for first consumer to be created before binding
+55m         Normal    SuccessfulCreate              job/sync-2-1-initdb                            Created pod: sync-2-1-initdb-6rsrv
+55m         Normal    Provisioning                  persistentvolumeclaim/sync-2-1                 External provisioner is provisioning volume for claim "ha/sync-2-1"
+55m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-2-1                 Successfully provisioned volume pvc-9db85393-7a6e-4f2e-8455-5aa1a9b868d7
+55m         Normal    Created                       pod/sync-2-1-initdb-6rsrv                      Container created
+55m         Normal    Started                       pod/sync-2-1-initdb-6rsrv                      Container started
+55m         Normal    Created                       pod/sync-2-1-initdb-6rsrv                      Container created
+55m         Normal    Pulled                        pod/sync-2-1-initdb-6rsrv                      Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+55m         Normal    Started                       pod/sync-2-1-initdb-6rsrv                      Container started
+55m         Normal    Pulled                        pod/sync-2-1-initdb-6rsrv                      Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+55m         Normal    Completed                     job/sync-2-1-initdb                            Job completed
+55m         Normal    Pulled                        pod/sync-2-1                                   Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+55m         Normal    Created                       pod/sync-2-1                                   Container created
+55m         Normal    Started                       pod/sync-2-1                                   Container started
+55m         Normal    Started                       pod/sync-2-1                                   Container started
+55m         Normal    Created                       pod/sync-2-1                                   Container created
+55m         Normal    Pulled                        pod/sync-2-1                                   Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+55m         Normal    CreatingInstance              cluster/sync-2                                 Creating instance sync-2-2
+55m         Normal    SuccessfulCreate              job/sync-2-2-join                              Created pod: sync-2-2-join-xl2xj
+55m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-2-2                 Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+55m         Normal    WaitForPodScheduled           persistentvolumeclaim/sync-2-2                 waiting for pod sync-2-2-join-xl2xj to be scheduled
+55m         Normal    Provisioning                  persistentvolumeclaim/sync-2-2                 External provisioner is provisioning volume for claim "ha/sync-2-2"
+55m         Normal    Started                       pod/sync-2-2-join-xl2xj                        Container started
+55m         Normal    Created                       pod/sync-2-2-join-xl2xj                        Container created
+55m         Normal    Pulled                        pod/sync-2-2-join-xl2xj                        Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+55m         Normal    Started                       pod/sync-2-2-join-xl2xj                        Container started
+55m         Normal    Pulled                        pod/sync-2-2-join-xl2xj                        Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+55m         Normal    Created                       pod/sync-2-2-join-xl2xj                        Container created
+55m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-2-2                 Successfully provisioned volume pvc-009f4028-c4f5-46fd-8097-30c4871362fd
+55m         Normal    Completed                     job/sync-2-2-join                              Job completed
+55m         Normal    Pulled                        pod/sync-2-2                                   Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+55m         Normal    Created                       pod/sync-2-2                                   Container created
+55m         Normal    Started                       pod/sync-2-2                                   Container started
+55m         Normal    Pulled                        pod/sync-2-2                                   Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+55m         Normal    Created                       pod/sync-2-2                                   Container created
+55m         Normal    Started                       pod/sync-2-2                                   Container started
+52m         Normal    Pulled                        pod/pgbench                                    Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+52m         Normal    Started                       pod/pgbench                                    Container started
+52m         Normal    Created                       pod/pgbench                                    Container created
+51m         Normal    Killing                       pod/pgbench                                    Stopping container pgbench
+50m         Normal    Killing                       pod/sync-2-2                                   Stopping container postgres
+50m         Normal    Killing                       pod/sync-2-1                                   Stopping container postgres
+50m         Normal    CreatingServiceAccount        cluster/sync-2-preferred                       Creating ServiceAccount
+50m         Normal    NoPods                        poddisruptionbudget/sync-2-preferred-primary   No matching pods found
+50m         Normal    CreatingRole                  cluster/sync-2-preferred                       Creating Cluster Role
+50m         Normal    CreatingPodDisruptionBudget   cluster/sync-2-preferred                       Creating PodDisruptionBudget sync-2-preferred-primary
+50m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-2-preferred-1       Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+50m         Normal    SuccessfulCreate              job/sync-2-preferred-1-initdb                  Created pod: sync-2-preferred-1-initdb-lx5cc
+50m         Normal    Provisioning                  persistentvolumeclaim/sync-2-preferred-1       External provisioner is provisioning volume for claim "ha/sync-2-preferred-1"
+50m         Warning   Unhealthy                     pod/sync-2-1                                   Readiness probe failed: HTTP probe failed with statuscode: 500
+50m         Normal    CreatingInstance              cluster/sync-2-preferred                       Primary instance (initdb)
+50m         Normal    WaitForFirstConsumer          persistentvolumeclaim/sync-2-preferred-1       waiting for first consumer to be created before binding
+50m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-2-preferred-1       Successfully provisioned volume pvc-a479d67f-52cf-4217-95bc-81ce5c60baeb
+50m         Normal    Created                       pod/sync-2-preferred-1-initdb-lx5cc            Container created
+50m         Normal    Pulled                        pod/sync-2-preferred-1-initdb-lx5cc            Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+50m         Normal    Created                       pod/sync-2-preferred-1-initdb-lx5cc            Container created
+50m         Normal    Started                       pod/sync-2-preferred-1-initdb-lx5cc            Container started
+50m         Normal    Pulled                        pod/sync-2-preferred-1-initdb-lx5cc            Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+50m         Normal    Started                       pod/sync-2-preferred-1-initdb-lx5cc            Container started
+50m         Normal    Completed                     job/sync-2-preferred-1-initdb                  Job completed
+50m         Normal    Created                       pod/sync-2-preferred-1                         Container created
+50m         Normal    Pulled                        pod/sync-2-preferred-1                         Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+50m         Normal    Started                       pod/sync-2-preferred-1                         Container started
+50m         Normal    Created                       pod/sync-2-preferred-1                         Container created
+50m         Normal    Started                       pod/sync-2-preferred-1                         Container started
+50m         Normal    Pulled                        pod/sync-2-preferred-1                         Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+50m         Normal    CreatingInstance              cluster/sync-2-preferred                       Creating instance sync-2-preferred-2
+50m         Normal    WaitForPodScheduled           persistentvolumeclaim/sync-2-preferred-2       waiting for pod sync-2-preferred-2-join-4lskk to be scheduled
+50m         Normal    SuccessfulCreate              job/sync-2-preferred-2-join                    Created pod: sync-2-preferred-2-join-4lskk
+50m         Normal    Provisioning                  persistentvolumeclaim/sync-2-preferred-2       External provisioner is provisioning volume for claim "ha/sync-2-preferred-2"
+50m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-2-preferred-2       Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+50m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-2-preferred-2       Successfully provisioned volume pvc-38d22cb1-3bf2-4537-b16f-c175be6e17c8
+50m         Normal    Pulled                        pod/sync-2-preferred-2-join-4lskk              Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+50m         Normal    Created                       pod/sync-2-preferred-2-join-4lskk              Container created
+50m         Normal    Started                       pod/sync-2-preferred-2-join-4lskk              Container started
+50m         Normal    Pulled                        pod/sync-2-preferred-2-join-4lskk              Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+50m         Normal    Started                       pod/sync-2-preferred-2-join-4lskk              Container started
+50m         Normal    Created                       pod/sync-2-preferred-2-join-4lskk              Container created
+49m         Normal    Completed                     job/sync-2-preferred-2-join                    Job completed
+49m         Normal    Created                       pod/sync-2-preferred-2                         Container created
+49m         Normal    Started                       pod/sync-2-preferred-2                         Container started
+49m         Normal    Pulled                        pod/sync-2-preferred-2                         Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+49m         Normal    Started                       pod/sync-2-preferred-2                         Container started
+49m         Normal    Pulled                        pod/sync-2-preferred-2                         Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+49m         Normal    Created                       pod/sync-2-preferred-2                         Container created
+47m         Normal    Created                       pod/pgbench                                    Container created
+47m         Normal    Started                       pod/pgbench                                    Container started
+47m         Normal    Pulled                        pod/pgbench                                    Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+45m         Normal    Killing                       pod/pgbench                                    Stopping container pgbench
+45m         Normal    Killing                       pod/sync-2-preferred-2                         Stopping container postgres
+45m         Normal    Killing                       pod/sync-2-preferred-1                         Stopping container postgres
+45m         Warning   Unhealthy                     pod/sync-2-preferred-1                         Readiness probe failed: HTTP probe failed with statuscode: 500
+44m         Normal    CreatingPodDisruptionBudget   cluster/sync                                   Creating PodDisruptionBudget sync-primary
+44m         Normal    CreatingServiceAccount        cluster/sync                                   Creating ServiceAccount
+44m         Normal    CreatingPodDisruptionBudget   cluster/sync                                   Creating PodDisruptionBudget sync
+44m         Normal    NoPods                        poddisruptionbudget/sync                       No matching pods found
+44m         Normal    CreatingRole                  cluster/sync                                   Creating Cluster Role
+44m         Normal    NoPods                        poddisruptionbudget/sync-primary               No matching pods found
+44m         Normal    WaitForFirstConsumer          persistentvolumeclaim/sync-1                   waiting for first consumer to be created before binding
+44m         Normal    Provisioning                  persistentvolumeclaim/sync-1                   External provisioner is provisioning volume for claim "ha/sync-1"
+44m         Normal    CreatingInstance              cluster/sync                                   Primary instance (initdb)
+44m         Normal    SuccessfulCreate              job/sync-1-initdb                              Created pod: sync-1-initdb-gr77b
+44m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-1                   Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+44m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-1                   Successfully provisioned volume pvc-a318822c-9078-4c51-93d4-c6bc6015b0be
+44m         Normal    Started                       pod/sync-1-initdb-gr77b                        Container started
+44m         Normal    Created                       pod/sync-1-initdb-gr77b                        Container created
+44m         Normal    Pulled                        pod/sync-1-initdb-gr77b                        Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+44m         Normal    Created                       pod/sync-1-initdb-gr77b                        Container created
+44m         Normal    Started                       pod/sync-1-initdb-gr77b                        Container started
+44m         Normal    Pulled                        pod/sync-1-initdb-gr77b                        Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+44m         Normal    Completed                     job/sync-1-initdb                              Job completed
+44m         Normal    Pulled                        pod/sync-1                                     Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+44m         Normal    Created                       pod/sync-1                                     Container created
+44m         Normal    Started                       pod/sync-1                                     Container started
+44m         Normal    WaitForPodScheduled           persistentvolumeclaim/sync-2                   waiting for pod sync-2-join-24mjx to be scheduled
+44m         Normal    SuccessfulCreate              job/sync-2-join                                Created pod: sync-2-join-24mjx
+44m         Normal    Provisioning                  persistentvolumeclaim/sync-2                   External provisioner is provisioning volume for claim "ha/sync-2"
+44m         Normal    CreatingInstance              cluster/sync                                   Creating instance sync-2
+44m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-2                   Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+44m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-2                   Successfully provisioned volume pvc-32f90ff0-5b54-4952-bbe5-0dbb51aba8dd
+44m         Normal    Pulled                        pod/sync-2-join-24mjx                          Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+44m         Normal    Started                       pod/sync-2-join-24mjx                          Container started
+44m         Normal    Created                       pod/sync-2-join-24mjx                          Container created
+44m         Normal    Pulled                        pod/sync-2-join-24mjx                          Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+44m         Normal    Created                       pod/sync-2-join-24mjx                          Container created
+44m         Normal    Started                       pod/sync-2-join-24mjx                          Container started
+44m         Normal    Completed                     job/sync-2-join                                Job completed
+44m         Normal    Started                       pod/sync-2                                     Container started
+44m         Normal    Created                       pod/sync-2                                     Container created
+44m         Normal    Pulled                        pod/sync-2                                     Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+43m         Normal    WaitForPodScheduled           persistentvolumeclaim/sync-3                   waiting for pod sync-3-join-9zqqn to be scheduled
+43m         Normal    SuccessfulCreate              job/sync-3-join                                Created pod: sync-3-join-9zqqn
+43m         Normal    CreatingInstance              cluster/sync                                   Creating instance sync-3
+43m         Normal    Provisioning                  persistentvolumeclaim/sync-3                   External provisioner is provisioning volume for claim "ha/sync-3"
+43m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-3                   Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+43m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-3                   Successfully provisioned volume pvc-09f8dd28-4a73-4059-bbe9-1bf7f940a64a
+43m         Normal    Pulled                        pod/sync-3-join-9zqqn                          Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+43m         Normal    Created                       pod/sync-3-join-9zqqn                          Container created
+43m         Normal    Started                       pod/sync-3-join-9zqqn                          Container started
+43m         Normal    Created                       pod/sync-3-join-9zqqn                          Container created
+43m         Normal    Pulled                        pod/sync-3-join-9zqqn                          Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+43m         Normal    Started                       pod/sync-3-join-9zqqn                          Container started
+43m         Normal    Completed                     job/sync-3-join                                Job completed
+43m         Normal    Created                       pod/sync-3                                     Container created
+43m         Normal    Pulled                        pod/sync-3                                     Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+43m         Normal    Started                       pod/sync-3                                     Container started
+43m         Normal    Created                       pod/sync-3                                     Container created
+43m         Normal    Pulled                        pod/sync-3                                     Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+43m         Normal    Started                       pod/sync-3                                     Container started
+42m         Warning   Unhealthy                     pod/sync-1                                     Liveness probe failed: Get "https://10.42.2.18:8000/healthz": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+41m         Warning   PrimaryStatusCheckFailed      cluster/sync                                   Primary pod sync-1 is Ready but the operator's /pg/status check failed; failover deferred until Kubernetes marks the primary as not Ready. See operator logs for the underlying error.
+41m         Normal    FailingOver                   cluster/sync                                   Current primary isn't healthy, initiating a failover from sync-1
+41m         Normal    FailoverTarget                cluster/sync                                   Failing over from sync-1 to sync-2
+40m         Warning   Unhealthy                     pod/sync-1                                     Readiness probe failed: Get "https://10.42.2.18:8000/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+39m         Warning   Unhealthy                     pod/sync-1                                     Readiness probe failed: Get "https://10.42.2.18:8000/readyz": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+39m         Warning   Unhealthy                     pod/sync-1                                     Readiness probe failed: Get "https://10.42.2.18:8000/readyz": context deadline exceeded
+39m         Warning   Unhealthy                     pod/sync-1                                     Readiness probe failed: HTTP probe failed with statuscode: 500
+39m         Warning   Unhealthy                     pod/sync-1                                     Readiness probe failed: Get "https://10.42.2.18:8000/readyz": dial tcp 10.42.2.18:8000: connect: connection refused
+36m         Warning   Unhealthy                     pod/sync-2                                     Liveness probe failed: Get "https://10.42.1.34:8000/healthz": context deadline exceeded
+35m         Warning   Unhealthy                     pod/sync-2                                     Liveness probe failed: Get "https://10.42.1.34:8000/healthz": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+35m         Normal    Killing                       pod/sync-2                                     Container postgres failed liveness probe, will be restarted
+35m         Warning   PrimaryStatusCheckFailed      cluster/sync                                   Primary pod sync-2 is Ready but the operator's /pg/status check failed; failover deferred until Kubernetes marks the primary as not Ready. See operator logs for the underlying error.
+35m         Warning   NodeNotReady                  pod/sync-2                                     Node is not ready
+35m         Normal    FailoverTarget                cluster/sync                                   Failing over from sync-2 to sync-1
+35m         Normal    FailingOver                   cluster/sync                                   Current primary isn't healthy, initiating a failover from sync-2
+34m         Warning   Unhealthy                     pod/sync-2                                     Readiness probe failed: Get "https://10.42.1.34:8000/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+33m         Warning   Unhealthy                     pod/sync-2                                     Readiness probe failed: Get "https://10.42.1.34:8000/readyz": context deadline exceeded
+33m         Warning   Unhealthy                     pod/sync-2                                     Readiness probe failed: Get "https://10.42.1.34:8000/readyz": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+32m         Warning   Unhealthy                     pod/sync-2                                     Readiness probe failed: Get "https://10.42.1.34:8000/readyz": dial tcp 10.42.1.34:8000: connect: connection refused
+32m         Normal    Pulled                        pod/sync-2                                     Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+32m         Normal    Created                       pod/sync-2                                     Container created
+32m         Normal    Started                       pod/sync-2                                     Container started
+32m         Normal    TaintManagerEviction          pod/sync-2                                     Cancelling deletion of Pod ha/sync-2
+29m         Warning   Unhealthy                     pod/sync-1                                     Liveness probe failed: Get "https://10.42.2.18:8000/healthz": context deadline exceeded
+29m         Normal    Killing                       pod/sync-1                                     Container postgres failed liveness probe, will be restarted
+29m         Warning   PrimaryStatusCheckFailed      cluster/sync                                   Primary pod sync-1 is Ready but the operator's /pg/status check failed; failover deferred until Kubernetes marks the primary as not Ready. See operator logs for the underlying error.
+29m         Warning   NodeNotReady                  pod/sync-1                                     Node is not ready
+29m         Normal    FailingOver                   cluster/sync                                   Current primary isn't healthy, initiating a failover from sync-1
+29m         Normal    FailoverTarget                cluster/sync                                   Failing over from sync-1 to sync-2
+26m         Normal    TaintManagerEviction          pod/sync-1                                     Cancelling deletion of Pod ha/sync-1
+26m         Normal    Started                       pod/sync-1                                     Container started
+26m         Normal    Pulled                        pod/sync-1                                     Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+26m         Normal    Created                       pod/sync-1                                     Container created
+25m         Normal    Killing                       pod/sync-3                                     Stopping container postgres
+25m         Normal    Killing                       pod/sync-2                                     Stopping container postgres
+25m         Normal    Killing                       pod/sync-1                                     Stopping container postgres
+25m         Normal    CreatingServiceAccount        cluster/sync-2-preferred                       Creating ServiceAccount
+25m         Normal    CreatingPodDisruptionBudget   cluster/sync-2-preferred                       Creating PodDisruptionBudget sync-2-preferred-primary
+25m         Normal    CreatingRole                  cluster/sync-2-preferred                       Creating Cluster Role
+25m         Normal    CreatingInstance              cluster/sync-2-preferred                       Primary instance (initdb)
+25m         Normal    WaitForFirstConsumer          persistentvolumeclaim/sync-2-preferred-1       waiting for first consumer to be created before binding
+25m         Normal    NoPods                        poddisruptionbudget/sync-2-preferred-primary   No matching pods found
+25m         Normal    SuccessfulCreate              job/sync-2-preferred-1-initdb                  Created pod: sync-2-preferred-1-initdb-82xt4
+25m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-2-preferred-1       Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+25m         Normal    Provisioning                  persistentvolumeclaim/sync-2-preferred-1       External provisioner is provisioning volume for claim "ha/sync-2-preferred-1"
+25m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-2-preferred-1       Successfully provisioned volume pvc-d030735b-adbe-4f2d-a0fc-d436e9313daa
+25m         Normal    Pulled                        pod/sync-2-preferred-1-initdb-82xt4            Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+25m         Normal    Created                       pod/sync-2-preferred-1-initdb-82xt4            Container created
+25m         Normal    Started                       pod/sync-2-preferred-1-initdb-82xt4            Container started
+25m         Normal    Started                       pod/sync-2-preferred-1-initdb-82xt4            Container started
+25m         Normal    Created                       pod/sync-2-preferred-1-initdb-82xt4            Container created
+25m         Normal    Pulled                        pod/sync-2-preferred-1-initdb-82xt4            Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+25m         Warning   Unhealthy                     pod/sync-2                                     Readiness probe failed: HTTP probe failed with statuscode: 500
+25m         Normal    Completed                     job/sync-2-preferred-1-initdb                  Job completed
+25m         Normal    Started                       pod/sync-2-preferred-1                         Container started
+25m         Normal    Pulled                        pod/sync-2-preferred-1                         Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+25m         Normal    Created                       pod/sync-2-preferred-1                         Container created
+25m         Normal    WaitForPodScheduled           persistentvolumeclaim/sync-2-preferred-2       waiting for pod sync-2-preferred-2-join-rkvr8 to be scheduled
+25m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-2-preferred-2       Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+25m         Normal    SuccessfulCreate              job/sync-2-preferred-2-join                    Created pod: sync-2-preferred-2-join-rkvr8
+25m         Normal    Provisioning                  persistentvolumeclaim/sync-2-preferred-2       External provisioner is provisioning volume for claim "ha/sync-2-preferred-2"
+25m         Normal    CreatingInstance              cluster/sync-2-preferred                       Creating instance sync-2-preferred-2
+25m         Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-2-preferred-2       Successfully provisioned volume pvc-c371448b-2f19-4c55-b057-72c28e74f8f3
+25m         Normal    Started                       pod/sync-2-preferred-2-join-rkvr8              Container started
+25m         Normal    Created                       pod/sync-2-preferred-2-join-rkvr8              Container created
+25m         Normal    Created                       pod/sync-2-preferred-2-join-rkvr8              Container created
+25m         Normal    Pulled                        pod/sync-2-preferred-2-join-rkvr8              Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+25m         Normal    Pulled                        pod/sync-2-preferred-2-join-rkvr8              Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+25m         Normal    Started                       pod/sync-2-preferred-2-join-rkvr8              Container started
+25m         Normal    Completed                     job/sync-2-preferred-2-join                    Job completed
+25m         Normal    Created                       pod/sync-2-preferred-2                         Container created
+25m         Normal    Started                       pod/sync-2-preferred-2                         Container started
+25m         Normal    Pulled                        pod/sync-2-preferred-2                         Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+25m         Normal    Pulled                        pod/sync-2-preferred-2                         Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+25m         Normal    Created                       pod/sync-2-preferred-2                         Container created
+25m         Normal    Started                       pod/sync-2-preferred-2                         Container started
+23m         Warning   Unhealthy                     pod/sync-2-preferred-1                         Liveness probe failed: Get "https://10.42.1.38:8000/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+23m         Warning   Unhealthy                     pod/sync-2-preferred-1                         Readiness probe failed: Get "https://10.42.1.38:8000/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+23m         Warning   Unhealthy                     pod/sync-2-preferred-1                         Liveness probe failed: Get "https://10.42.1.38:8000/healthz": context deadline exceeded
+23m         Normal    Killing                       pod/sync-2-preferred-1                         Container postgres failed liveness probe, will be restarted
+23m         Warning   PrimaryStatusCheckFailed      cluster/sync-2-preferred                       Primary pod sync-2-preferred-1 is Ready but the operator's /pg/status check failed; failover deferred until Kubernetes marks the primary as not Ready. See operator logs for the underlying error.
+23m         Warning   NodeNotReady                  pod/sync-2-preferred-1                         Node is not ready
+23m         Normal    FailingOver                   cluster/sync-2-preferred                       Current primary isn't healthy, initiating a failover from sync-2-preferred-1
+23m         Normal    FailoverTarget                cluster/sync-2-preferred                       Failing over from sync-2-preferred-1 to sync-2-preferred-2
+21m         Warning   Unhealthy                     pod/sync-2-preferred-1                         Readiness probe failed: Get "https://10.42.1.38:8000/readyz": context deadline exceeded
+20m         Warning   Unhealthy                     pod/sync-2-preferred-1                         Readiness probe failed: Get "https://10.42.1.38:8000/readyz": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+20m         Warning   Unhealthy                     pod/sync-2-preferred-1                         Readiness probe failed: HTTP probe failed with statuscode: 500
+20m         Normal    TaintManagerEviction          pod/sync-2-preferred-1                         Cancelling deletion of Pod ha/sync-2-preferred-1
+20m         Normal    Created                       pod/sync-2-preferred-1                         Container created
+20m         Normal    Started                       pod/sync-2-preferred-1                         Container started
+20m         Normal    Pulled                        pod/sync-2-preferred-1                         Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+20m         Warning   Unhealthy                     pod/sync-2-preferred-1                         Readiness probe failed: Get "https://10.42.1.38:8000/readyz": dial tcp 10.42.1.38:8000: connect: connection refused
+18m         Warning   PrimaryStatusCheckFailed      cluster/sync-2-preferred                       Primary pod sync-2-preferred-2 is Ready but the operator's /pg/status check failed; failover deferred until Kubernetes marks the primary as not Ready. See operator logs for the underlying error.
+18m         Warning   NodeNotReady                  pod/sync-2-preferred-2                         Node is not ready
+18m         Normal    FailingOver                   cluster/sync-2-preferred                       Current primary isn't healthy, initiating a failover from sync-2-preferred-2
+18m         Normal    FailoverTarget                cluster/sync-2-preferred                       Failing over from sync-2-preferred-2 to sync-2-preferred-1
+16m         Normal    Pulled                        pod/sync-2-preferred-2                         Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+16m         Normal    Created                       pod/sync-2-preferred-2                         Container created
+16m         Normal    TaintManagerEviction          pod/sync-2-preferred-2                         Cancelling deletion of Pod ha/sync-2-preferred-2
+16m         Normal    Started                       pod/sync-2-preferred-2                         Container started
+13m         Warning   NodeNotReady                  pod/sync-2-preferred-1                         Node is not ready
+13m         Warning   PrimaryStatusCheckFailed      cluster/sync-2-preferred                       Primary pod sync-2-preferred-1 is Ready but the operator's /pg/status check failed; failover deferred until Kubernetes marks the primary as not Ready. See operator logs for the underlying error.
+13m         Normal    FailoverTarget                cluster/sync-2-preferred                       Failing over from sync-2-preferred-1 to sync-2-preferred-2
+13m         Normal    FailingOver                   cluster/sync-2-preferred                       Current primary isn't healthy, initiating a failover from sync-2-preferred-1
+10m         Normal    Started                       pod/sync-2-preferred-1                         Container started
+10m         Normal    Created                       pod/sync-2-preferred-1                         Container created
+10m         Normal    Pulled                        pod/sync-2-preferred-1                         Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+10m         Normal    TaintManagerEviction          pod/sync-2-preferred-1                         Cancelling deletion of Pod ha/sync-2-preferred-1
+10m         Warning   Unhealthy                     pod/sync-2-preferred-1                         Startup probe failed: Get "https://10.42.1.38:8000/startupz": dial tcp 10.42.1.38:8000: connect: connection refused
+10m         Warning   Unhealthy                     pod/sync-2-preferred-1                         Readiness probe failed: HTTP probe failed with statuscode: 500
+10m         Normal    NoPods                        poddisruptionbudget/sync-2-primary             No matching pods found
+10m         Normal    Killing                       pod/sync-2-preferred-1                         Stopping container postgres
+10m         Normal    WaitForFirstConsumer          persistentvolumeclaim/sync-2-1                 waiting for first consumer to be created before binding
+10m         Normal    Killing                       pod/sync-2-preferred-2                         Stopping container postgres
+10m         Normal    CreatingInstance              cluster/sync-2                                 Primary instance (initdb)
+10m         Normal    CreatingRole                  cluster/sync-2                                 Creating Cluster Role
+10m         Normal    CreatingServiceAccount        cluster/sync-2                                 Creating ServiceAccount
+10m         Normal    CreatingPodDisruptionBudget   cluster/sync-2                                 Creating PodDisruptionBudget sync-2-primary
+10m         Normal    Provisioning                  persistentvolumeclaim/sync-2-1                 External provisioner is provisioning volume for claim "ha/sync-2-1"
+10m         Normal    ExternalProvisioning          persistentvolumeclaim/sync-2-1                 Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+10m         Normal    SuccessfulCreate              job/sync-2-1-initdb                            Created pod: sync-2-1-initdb-7vdzf
+10m         Warning   Unhealthy                     pod/sync-2-preferred-2                         Readiness probe failed: HTTP probe failed with statuscode: 500
+9m59s       Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-2-1                 Successfully provisioned volume pvc-ad9bbd0a-85c1-4feb-b0c2-b09aae712037
+9m58s       Normal    Created                       pod/sync-2-1-initdb-7vdzf                      Container created
+9m58s       Normal    Pulled                        pod/sync-2-1-initdb-7vdzf                      Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+9m58s       Normal    Started                       pod/sync-2-1-initdb-7vdzf                      Container started
+9m57s       Normal    Pulled                        pod/sync-2-1-initdb-7vdzf                      Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+9m57s       Normal    Started                       pod/sync-2-1-initdb-7vdzf                      Container started
+9m57s       Normal    Created                       pod/sync-2-1-initdb-7vdzf                      Container created
+9m53s       Normal    Completed                     job/sync-2-1-initdb                            Job completed
+9m52s       Normal    Created                       pod/sync-2-1                                   Container created
+9m52s       Normal    Pulled                        pod/sync-2-1                                   Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+9m52s       Normal    Started                       pod/sync-2-1                                   Container started
+9m42s       Normal    CreatingInstance              cluster/sync-2                                 Creating instance sync-2-2
+9m42s       Normal    SuccessfulCreate              job/sync-2-2-join                              Created pod: sync-2-2-join-hh422
+9m42s       Normal    Provisioning                  persistentvolumeclaim/sync-2-2                 External provisioner is provisioning volume for claim "ha/sync-2-2"
+9m42s       Normal    ExternalProvisioning          persistentvolumeclaim/sync-2-2                 Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+9m42s       Normal    WaitForPodScheduled           persistentvolumeclaim/sync-2-2                 waiting for pod sync-2-2-join-hh422 to be scheduled
+9m39s       Normal    ProvisioningSucceeded         persistentvolumeclaim/sync-2-2                 Successfully provisioned volume pvc-2371b91b-da32-475c-a319-a8590bb2e74e
+9m38s       Normal    Pulled                        pod/sync-2-2-join-hh422                        Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+9m38s       Normal    Created                       pod/sync-2-2-join-hh422                        Container created
+9m38s       Normal    Started                       pod/sync-2-2-join-hh422                        Container started
+9m38s       Normal    Pulled                        pod/sync-2-2-join-hh422                        Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+9m38s       Normal    Started                       pod/sync-2-2-join-hh422                        Container started
+9m38s       Normal    Created                       pod/sync-2-2-join-hh422                        Container created
+9m32s       Normal    Created                       pod/sync-2-2                                   Container created
+9m32s       Normal    Created                       pod/sync-2-2                                   Container created
+9m32s       Normal    Pulled                        pod/sync-2-2                                   Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+9m32s       Normal    Started                       pod/sync-2-2                                   Container started
+9m32s       Normal    Completed                     job/sync-2-2-join                              Job completed
+9m32s       Normal    Pulled                        pod/sync-2-2                                   Container image "ghcr.io/cloudnative-pg/cloudnative-pg:1.30.1" already present on machine and can be accessed by the pod
+9m31s       Normal    Started                       pod/sync-2-2                                   Container started
+8m17s       Warning   Unhealthy                     pod/sync-2-1                                   Liveness probe failed: Get "https://10.42.1.42:8000/healthz": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+7m57s       Warning   Unhealthy                     pod/sync-2-1                                   Liveness probe failed: Get "https://10.42.1.42:8000/healthz": context deadline exceeded
+7m57s       Normal    Killing                       pod/sync-2-1                                   Container postgres failed liveness probe, will be restarted
+7m52s       Warning   PrimaryStatusCheckFailed      cluster/sync-2                                 Primary pod sync-2-1 is Ready but the operator's /pg/status check failed; failover deferred until Kubernetes marks the primary as not Ready. See operator logs for the underlying error.
+7m43s       Warning   NodeNotReady                  pod/sync-2-1                                   Node is not ready
+7m40s       Normal    FailingOver                   cluster/sync-2                                 Current primary isn't healthy, initiating a failover from sync-2-1
+7m39s       Normal    FailoverTarget                cluster/sync-2                                 Failing over from sync-2-1 to sync-2-2
+6m27s       Warning   Unhealthy                     pod/sync-2-1                                   Readiness probe failed: Get "https://10.42.1.42:8000/readyz": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+6m17s       Warning   Unhealthy                     pod/sync-2-1                                   Readiness probe failed: Get "https://10.42.1.42:8000/readyz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+5m37s       Warning   Unhealthy                     pod/sync-2-1                                   Readiness probe failed: Get "https://10.42.1.42:8000/readyz": context deadline exceeded
+5m28s       Normal    TaintManagerEviction          pod/sync-2-1                                   Cancelling deletion of Pod ha/sync-2-1
+5m2s        Warning   Unhealthy                     pod/sync-2-1                                   Readiness probe failed: HTTP probe failed with statuscode: 500
+4m52s       Warning   Unhealthy                     pod/sync-2-1                                   Readiness probe failed: Get "https://10.42.1.42:8000/readyz": dial tcp 10.42.1.42:8000: connect: connection refused
+4m52s       Normal    Created                       pod/sync-2-1                                   Container created
+4m52s       Normal    Started                       pod/sync-2-1                                   Container started
+4m52s       Normal    Pulled                        pod/sync-2-1                                   Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+2m52s       Warning   PrimaryStatusCheckFailed      cluster/sync-2                                 Primary pod sync-2-2 is Ready but the operator's /pg/status check failed; failover deferred until Kubernetes marks the primary as not Ready. See operator logs for the underlying error.
+2m47s       Warning   NodeNotReady                  pod/sync-2-2                                   Node is not ready
+2m44s       Normal    FailoverTarget                cluster/sync-2                                 Failing over from sync-2-2 to sync-2-1
+2m44s       Normal    FailingOver                   cluster/sync-2                                 Current primary isn't healthy, initiating a failover from sync-2-2
+33s         Normal    Pulled                        pod/sync-2-2                                   Container image "ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie" already present on machine and can be accessed by the pod
+33s         Normal    Created                       pod/sync-2-2                                   Container created
+33s         Normal    Started                       pod/sync-2-2                                   Container started
+32s         Normal    TaintManagerEviction          pod/sync-2-2                                   Cancelling deletion of Pod ha/sync-2-2

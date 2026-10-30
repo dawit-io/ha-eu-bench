@@ -1,0 +1,13 @@
+NAMESPACE     NAME                                      READY   STATUS    RESTARTS      AGE    IP           NODE      NOMINATED NODE   READINESS GATES
+app           whoami-7f8ffd7c6b-4trdj                   1/1     Running   0             3m2s   10.42.2.12   a1-hel1   <none>           <none>
+app           whoami-7f8ffd7c6b-57g4l                   1/1     Running   0             22m    10.42.0.11   a1-fsn1   <none>           <none>
+app           whoami-7f8ffd7c6b-p7wlm                   1/1     Running   0             13m    10.42.1.8    a1-nbg1   <none>           <none>
+kube-system   coredns-7754d8d455-6d7pv                  1/1     Running   0             3m2s   10.42.2.13   a1-hel1   <none>           <none>
+kube-system   coredns-7754d8d455-pz4dh                  1/1     Running   0             13m    10.42.1.9    a1-nbg1   <none>           <none>
+kube-system   coredns-7754d8d455-wttvr                  1/1     Running   0             22m    10.42.0.12   a1-fsn1   <none>           <none>
+kube-system   local-path-provisioner-5c4dc5d66d-9t6vd   1/1     Running   0             3m2s   10.42.1.10   a1-nbg1   <none>           <none>
+kube-system   metrics-server-786d997795-thgxx           1/1     Running   0             13m    10.42.0.14   a1-fsn1   <none>           <none>
+kube-system   svclb-traefik-a2bd1d12-5776g              2/2     Running   6 (29m ago)   52m    10.42.2.10   a1-hel1   <none>           <none>
+kube-system   svclb-traefik-a2bd1d12-8h2jc              2/2     Running   0             53m    10.42.0.7    a1-fsn1   <none>           <none>
+kube-system   svclb-traefik-a2bd1d12-9hbx7              2/2     Running   0             53m    10.42.1.2    a1-nbg1   <none>           <none>
+kube-system   traefik-9bcdbbd9-kzjq6                    1/1     Running   0             13m    10.42.0.13   a1-fsn1   <none>           <none>

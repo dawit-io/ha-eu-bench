@@ -1,0 +1,9 @@
+{"run":"sync-partition-operator-ha-1","operator_zone":"eu-south-mil-c","primary_zone_before":"eu-south-mil-c","primary_zone_after":"eu-south-mil-b","controller_manager_node":"ha-eu-south-mil-a"}
+{"run":"sync-partition-operator-ha-2","operator_zone":"eu-south-mil-b","primary_zone_before":"eu-south-mil-b","primary_zone_after":"eu-south-mil-c","controller_manager_node":"ha-eu-south-mil-a"}
+{"run":"sync-partition-operator-ha-3","operator_zone":"eu-south-mil-c","primary_zone_before":"eu-south-mil-c","primary_zone_after":"eu-south-mil-b","controller_manager_node":"ha-eu-south-mil-a"}
+{"run":"sync-2-preferred-partition-operator-ha-1","operator_zone":"eu-south-mil-b","primary_zone_before":"eu-south-mil-b","primary_zone_after":"eu-south-mil-a","controller_manager_node":"ha-eu-south-mil-a"}
+{"run":"sync-2-preferred-partition-operator-ha-2","operator_zone":"eu-south-mil-a","primary_zone_before":"eu-south-mil-a","primary_zone_after":"eu-south-mil-b","controller_manager_node":"ha-eu-south-mil-a"}
+{"run":"sync-2-preferred-partition-operator-ha-3","operator_zone":"eu-south-mil-b","primary_zone_before":"eu-south-mil-b","primary_zone_after":"eu-south-mil-a","controller_manager_node":"ha-eu-south-mil-c"}
+{"run":"sync-2-partition-operator-ha-1","operator_zone":"eu-south-mil-b","primary_zone_before":"eu-south-mil-b","primary_zone_after":"eu-south-mil-a","controller_manager_node":"ha-eu-south-mil-c"}
+{"run":"sync-2-partition-operator-ha-2","operator_zone":"eu-south-mil-a","primary_zone_before":"eu-south-mil-a","primary_zone_after":"eu-south-mil-b","controller_manager_node":"ha-eu-south-mil-c"}
+{"run":"sync-2-partition-operator-ha-3","operator_zone":"eu-south-mil-b","primary_zone_before":"eu-south-mil-b","primary_zone_after":"eu-south-mil-a","controller_manager_node":"ha-eu-south-mil-c"}

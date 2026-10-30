@@ -1,0 +1,10 @@
+{
+  "zone": "eu-south-1a",
+  "node": "ip-10-0-1-142",
+  "watcher": "eu-south-1b",
+  "pod": "whoami-7f8ffd7c6b-jpzlw",
+  "etcd_leader_zone": "eu-south-1b",
+  "partition_at": 1793362343.132124003,
+  "heal_at": 1793362763.802835874,
+  "partition_seconds": 420
+}

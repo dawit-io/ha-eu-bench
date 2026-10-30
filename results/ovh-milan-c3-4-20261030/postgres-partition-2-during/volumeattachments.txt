@@ -1,0 +1,2 @@
+NAME                                                                   ATTACHER                 PV                                         NODE                ATTACHED   AGE
+csi-f275872243ad9d9df87887a74150a0fc2b06969e896c6088a40c547123d4be8c   linstor.csi.linbit.com   pvc-53b0669f-75f8-43f3-899a-e78b33da3f84   ha-eu-south-mil-a   true       38s

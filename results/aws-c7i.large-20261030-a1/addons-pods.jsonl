@@ -1,0 +1,9 @@
+{"pod":"coredns-7754d8d455-qn7qw","owner":"ReplicaSet/coredns-7754d8d455","node":"ip-10-0-2-233","zone":"eu-south-1b","phase":"Running"}
+{"pod":"coredns-7754d8d455-tfsqc","owner":"ReplicaSet/coredns-7754d8d455","node":"ip-10-0-1-142","zone":"eu-south-1a","phase":"Running"}
+{"pod":"coredns-7754d8d455-xc6h2","owner":"ReplicaSet/coredns-7754d8d455","node":"ip-10-0-3-254","zone":"eu-south-1c","phase":"Running"}
+{"pod":"local-path-provisioner-5c4dc5d66d-jn4bp","owner":"ReplicaSet/local-path-provisioner-5c4dc5d66d","node":"ip-10-0-3-254","zone":"eu-south-1c","phase":"Running"}
+{"pod":"metrics-server-786d997795-v6p2t","owner":"ReplicaSet/metrics-server-786d997795","node":"ip-10-0-2-233","zone":"eu-south-1b","phase":"Running"}
+{"pod":"svclb-traefik-00ebfb59-9l9p6","owner":"DaemonSet/svclb-traefik-00ebfb59","node":"ip-10-0-3-254","zone":"eu-south-1c","phase":"Running"}
+{"pod":"svclb-traefik-00ebfb59-gsxh6","owner":"DaemonSet/svclb-traefik-00ebfb59","node":"ip-10-0-1-142","zone":"eu-south-1a","phase":"Running"}
+{"pod":"svclb-traefik-00ebfb59-v2ppw","owner":"DaemonSet/svclb-traefik-00ebfb59","node":"ip-10-0-2-233","zone":"eu-south-1b","phase":"Running"}
+{"pod":"traefik-9bcdbbd9-hgpcq","owner":"ReplicaSet/traefik-9bcdbbd9","node":"ip-10-0-2-233","zone":"eu-south-1b","phase":"Running"}

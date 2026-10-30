@@ -1,0 +1,32 @@
+{"at":1793363726.034446902,"event":"etcd_healthy_members","value":3}
+{"at":1793363726.189740361,"event":"node_ready","value":"True","since":"2026-10-30T12:11:05Z"}
+{"at":1793363726.189740361,"event":"endpoint","value":"ready"}
+{"at":1793363726.189740361,"event":"old_pod","value":"Running"}
+{"at":1793363726.189740361,"event":"replacement","value":"none"}
+{"at":1793363726.189740361,"event":"replicas_ready","value":3}
+{"at":1793363726.189740361,"event":"zones_ready","value":3}
+{"at":1793363726.189740361,"event":"metrics_server","value":true}
+{"at":1793363726.189740361,"event":"traefik","value":"404"}
+{"at":1793363746.221824154,"event":"partition","zone":"it-mil-2"}
+{"at":1793363746.237118868,"event":"metrics_server","value":false}
+{"at":1793363746.237118868,"event":"traefik","value":"000"}
+{"at":1793363748.116073975,"event":"etcd_healthy_members","value":2}
+{"at":1793363756.744075,"event":"k3s_exited","zone":"it-mil-2"}
+{"at":1793363812.995338694,"event":"node_ready","value":"Unknown","since":"2026-10-30T12:36:53Z"}
+{"at":1793363815.053091872,"event":"endpoint","value":"not-ready"}
+{"at":1793363815.053091872,"event":"replicas_ready","value":2}
+{"at":1793363815.053091872,"event":"zones_ready","value":2}
+{"at":1793364113.709563978,"event":"old_pod","value":"terminating"}
+{"at":1793364113.709563978,"event":"replacement","value":"pending","created":"2026-10-30T12:41:53Z"}
+{"at":1793364121.727907432,"event":"traefik","value":"404"}
+{"at":1793364141.772864139,"event":"metrics_server","value":true}
+{"at":1793364166.998742211,"event":"heal","zone":"it-mil-2"}
+{"at":1793364167.320887596,"event":"etcd_healthy_members","value":3}
+{"at":1793364171.955430,"event":"k3s_started","zone":"it-mil-2"}
+{"at":1793364173.838473197,"event":"node_ready","value":"True","since":"2026-10-30T12:42:52Z"}
+{"at":1793364173.838473197,"event":"endpoint","value":"removed"}
+{"at":1793364173.838473197,"event":"replacement","value":"scheduled in it-mil-2","created":"2026-10-30T12:41:53Z"}
+{"at":1793364175.843618785,"event":"old_pod","value":"gone"}
+{"at":1793364175.843618785,"event":"replacement","value":"ready in it-mil-2","created":"2026-10-30T12:41:53Z"}
+{"at":1793364175.843618785,"event":"replicas_ready","value":3}
+{"at":1793364175.843618785,"event":"zones_ready","value":3}

@@ -1,0 +1,21 @@
+NAMESPACE     NAME                                       READY   STATUS      RESTARTS        AGE     IP           NODE            NOMINATED NODE   READINESS GATES
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-jcj8k   1/1     Running     0               2m47s   10.42.2.21   ip-10-0-3-165   <none>           <none>
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-q4cb2   1/1     Running     4 (6m39s ago)   39m     10.42.1.30   ip-10-0-2-145   <none>           <none>
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-stxx5   1/1     Running     1 (16m ago)     28m     10.42.0.33   ip-10-0-1-232   <none>           <none>
+ha            sync-2-1                                   1/1     Running     1 (3m16s ago)   8m16s   10.42.1.38   ip-10-0-2-145   <none>           <none>
+ha            sync-2-2                                   1/1     Running     0               7m54s   10.42.0.42   ip-10-0-1-232   <none>           <none>
+kube-system   coredns-7754d8d455-67ngt                   1/1     Running     6 (25m ago)     60m     10.42.2.4    ip-10-0-3-165   <none>           <none>
+kube-system   coredns-7754d8d455-nfh7k                   1/1     Running     8 (5m2s ago)    60m     10.42.1.4    ip-10-0-2-145   <none>           <none>
+kube-system   coredns-7754d8d455-rwvdw                   1/1     Running     0               60m     10.42.0.9    ip-10-0-1-232   <none>           <none>
+kube-system   helm-install-traefik-crd-72f5r             0/1     Completed   0               61m     <none>       ip-10-0-1-232   <none>           <none>
+kube-system   helm-install-traefik-qr28m                 0/1     Completed   2               61m     <none>       ip-10-0-1-232   <none>           <none>
+kube-system   local-path-provisioner-5c4dc5d66d-npxzt    1/1     Running     0               61m     10.42.0.4    ip-10-0-1-232   <none>           <none>
+kube-system   metrics-server-786d997795-rf5x4            1/1     Running     0               61m     10.42.0.5    ip-10-0-1-232   <none>           <none>
+kube-system   svclb-traefik-aa0ddb1b-6tkn5               2/2     Running     2 (52m ago)     60m     10.42.2.5    ip-10-0-3-165   <none>           <none>
+kube-system   svclb-traefik-aa0ddb1b-btn22               2/2     Running     0               61m     10.42.0.7    ip-10-0-1-232   <none>           <none>
+kube-system   svclb-traefik-aa0ddb1b-ghmxq               2/2     Running     0               61m     10.42.1.2    ip-10-0-2-145   <none>           <none>
+kube-system   traefik-9bcdbbd9-vxthd                     1/1     Running     0               61m     10.42.0.8    ip-10-0-1-232   <none>           <none>
+primary sync-2-1
+sync-2-1 dns ok
+f||
+sync-2-2 on a lost node

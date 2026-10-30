@@ -1,0 +1,2 @@
+1793362681.442660 a1-nbg1 systemd[1]: k3s.service: Main process exited, code=exited, status=1/FAILURE
+1793363107.020458 a1-nbg1 systemd[1]: Started k3s.service - Lightweight Kubernetes.

@@ -1,0 +1,28 @@
+{"at":1793363235.403166871,"event":"etcd_healthy_members","value":3}
+{"at":1793363235.573390738,"event":"node_ready","value":"True","since":"2026-10-30T12:07:34Z"}
+{"at":1793363235.573390738,"event":"endpoint","value":"ready"}
+{"at":1793363235.573390738,"event":"old_pod","value":"Running"}
+{"at":1793363235.573390738,"event":"replacement","value":"none"}
+{"at":1793363235.573390738,"event":"replicas_ready","value":3}
+{"at":1793363235.573390738,"event":"zones_ready","value":3}
+{"at":1793363235.573390738,"event":"metrics_server","value":true}
+{"at":1793363235.573390738,"event":"traefik","value":"404"}
+{"at":1793363255.864029167,"event":"partition","zone":"hel1"}
+{"at":1793363257.473943461,"event":"etcd_healthy_members","value":2}
+{"at":1793363266.229288,"event":"k3s_exited","zone":"hel1"}
+{"at":1793363323.793125991,"event":"node_ready","value":"Unknown","since":"2026-10-30T12:28:42Z"}
+{"at":1793363323.793125991,"event":"endpoint","value":"not-ready"}
+{"at":1793363323.793125991,"event":"replicas_ready","value":2}
+{"at":1793363323.793125991,"event":"zones_ready","value":2}
+{"at":1793363622.581492565,"event":"old_pod","value":"terminating"}
+{"at":1793363622.581492565,"event":"replacement","value":"pending","created":"2026-10-30T12:33:42Z"}
+{"at":1793363676.836627293,"event":"etcd_healthy_members","value":3}
+{"at":1793363677.263585979,"event":"heal","zone":"hel1"}
+{"at":1793363691.680460,"event":"k3s_started","zone":"hel1"}
+{"at":1793363692.748037784,"event":"node_ready","value":"True","since":"2026-10-30T12:34:52Z"}
+{"at":1793363692.748037784,"event":"replacement","value":"scheduled in hel1","created":"2026-10-30T12:33:42Z"}
+{"at":1793363694.753255947,"event":"endpoint","value":"removed"}
+{"at":1793363694.753255947,"event":"old_pod","value":"gone"}
+{"at":1793363694.753255947,"event":"replacement","value":"ready in hel1","created":"2026-10-30T12:33:42Z"}
+{"at":1793363694.753255947,"event":"replicas_ready","value":3}
+{"at":1793363694.753255947,"event":"zones_ready","value":3}

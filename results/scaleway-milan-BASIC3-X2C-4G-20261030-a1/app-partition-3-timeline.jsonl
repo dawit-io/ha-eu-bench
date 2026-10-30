@@ -1,0 +1,29 @@
+{"at":1793364301.762895792,"event":"etcd_healthy_members","value":3}
+{"at":1793364301.884396891,"event":"node_ready","value":"True","since":"2026-10-30T12:19:56Z"}
+{"at":1793364301.884396891,"event":"endpoint","value":"ready"}
+{"at":1793364301.884396891,"event":"old_pod","value":"Running"}
+{"at":1793364301.884396891,"event":"replacement","value":"none"}
+{"at":1793364301.884396891,"event":"replicas_ready","value":3}
+{"at":1793364301.884396891,"event":"zones_ready","value":3}
+{"at":1793364301.884396891,"event":"metrics_server","value":true}
+{"at":1793364301.884396891,"event":"traefik","value":"404"}
+{"at":1793364321.957078299,"event":"partition","zone":"it-mil-3"}
+{"at":1793364323.825310205,"event":"etcd_healthy_members","value":0}
+{"at":1793364327.844356093,"event":"etcd_healthy_members","value":2}
+{"at":1793364332.602888,"event":"k3s_exited","zone":"it-mil-3"}
+{"at":1793364389.442827964,"event":"node_ready","value":"Unknown","since":"2026-10-30T12:46:28Z"}
+{"at":1793364389.442827964,"event":"endpoint","value":"not-ready"}
+{"at":1793364389.442827964,"event":"replicas_ready","value":2}
+{"at":1793364389.442827964,"event":"zones_ready","value":2}
+{"at":1793364688.113187317,"event":"old_pod","value":"terminating"}
+{"at":1793364690.116404585,"event":"replacement","value":"pending","created":"2026-10-30T12:51:28Z"}
+{"at":1793364743.097082070,"event":"heal","zone":"it-mil-3"}
+{"at":1793364743.430106819,"event":"etcd_healthy_members","value":3}
+{"at":1793364811.939156,"event":"k3s_started","zone":"it-mil-3"}
+{"at":1793364812.404473079,"event":"node_ready","value":"True","since":"2026-10-30T12:53:32Z"}
+{"at":1793364812.404473079,"event":"replacement","value":"scheduled in it-mil-3","created":"2026-10-30T12:51:28Z"}
+{"at":1793364814.408295199,"event":"endpoint","value":"removed"}
+{"at":1793364814.408295199,"event":"old_pod","value":"gone"}
+{"at":1793364814.408295199,"event":"replacement","value":"ready in it-mil-3","created":"2026-10-30T12:51:28Z"}
+{"at":1793364814.408295199,"event":"replicas_ready","value":3}
+{"at":1793364814.408295199,"event":"zones_ready","value":3}

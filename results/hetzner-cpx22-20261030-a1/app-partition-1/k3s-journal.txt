@@ -1,0 +1,2 @@
+1793362101.349110 a1-fsn1 systemd[1]: k3s.service: Main process exited, code=exited, status=1/FAILURE
+1793362547.774688 a1-fsn1 systemd[1]: Started k3s.service - Lightweight Kubernetes.

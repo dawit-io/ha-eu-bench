@@ -1,0 +1,4 @@
+NAME                STATUS     ROLES                AGE    VERSION
+ha-eu-south-mil-a   Ready      control-plane,etcd   117m   v1.35.4+k3s1
+ha-eu-south-mil-b   NotReady   control-plane,etcd   116m   v1.35.4+k3s1
+ha-eu-south-mil-c   Ready      control-plane,etcd   116m   v1.35.4+k3s1

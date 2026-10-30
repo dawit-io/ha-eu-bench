@@ -1,0 +1,17 @@
+{"action":"partition","zone":"eu-south-1b","node":"ip-10-0-2-145","at":1793352346.757601411}
+{"action":"partition","zone":"eu-south-1c","node":"ip-10-0-3-165","at":1793352446.754176650}
+{"action":"crash","zone":"eu-south-1c","node":"ip-10-0-3-165","at":1793352549.428496577}
+{"action":"partition","zone":"eu-south-1c","node":"ip-10-0-3-165","at":1793353422.136611588}
+{"action":"partition","zone":"eu-south-1b","node":"ip-10-0-2-145","at":1793353689.210116898}
+{"action":"partition","zone":"eu-south-1c","node":"ip-10-0-3-165","at":1793354063.785682186}
+{"action":"partition","zone":"eu-south-1b","node":"ip-10-0-2-145","at":1793354382.654746059}
+{"action":"partition","zone":"eu-south-1a","node":"ip-10-0-1-232","at":1793354687.284769574}
+{"action":"partition","zone":"eu-south-1b","node":"ip-10-0-2-145","at":1793354957.254336055}
+{"action":"partition","zone":"eu-south-1b","node":"ip-10-0-2-145","at":1793355295.204472925}
+{"action":"partition","zone":"eu-south-1a","node":"ip-10-0-1-232","at":1793355589.512288334}
+{"action":"partition","zone":"eu-south-1b","node":"ip-10-0-2-145","at":1793355861.506948687}
+{"action":"partition","zone":"eu-south-1b","node":"ip-10-0-2-145","at":1793356738.366993419}
+{"action":"partition","zone":"eu-south-1a","node":"ip-10-0-1-232","at":1793356989.471632412}
+{"action":"partition","zone":"eu-south-1b","node":"ip-10-0-2-145","at":1793357374.952506840}
+{"action":"partition","zone":"eu-south-1a","node":"ip-10-0-1-232","at":1793357693.755769044}
+{"action":"partition","zone":"eu-south-1b","node":"ip-10-0-2-145","at":1793358013.280082511}

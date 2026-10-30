@@ -1,0 +1,2 @@
+{"class":"two-zones","zone_before":"it-mil-2","zone_after":"it-mil-1","acknowledged":2342,"pause_s":103.254,"acknowledged_and_lost":0,"written_twice":0}
+{"class":"local-path","zone_before":"it-mil-2","zone_after":"it-mil-2","acknowledged":4265,"pause_s":0.171,"acknowledged_and_lost":0,"written_twice":0}

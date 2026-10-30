@@ -1,0 +1,3 @@
+{"class":"local-path","fsync_p50_ms":1.318912,"fsync_p99_ms":10.027008,"write_iops":441.575974,"sequential_write_mb_s":125.1865234375}
+{"class":"one-copy","fsync_p50_ms":1.335296,"fsync_p99_ms":10.15808,"write_iops":421.669278,"sequential_write_mb_s":125.1240234375}
+{"class":"two-zones","fsync_p50_ms":3.52256,"fsync_p99_ms":13.565952,"write_iops":205.846569,"sequential_write_mb_s":101.8876953125}

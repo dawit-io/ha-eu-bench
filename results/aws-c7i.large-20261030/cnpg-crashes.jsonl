@@ -1,0 +1,9 @@
+{"run":"sync-partition-operator-ha-1","operator_zone":"eu-south-1c","primary_zone_before":"eu-south-1c","primary_zone_after":"eu-south-1b","controller_manager_node":"ip-10-0-1-232"}
+{"run":"sync-partition-operator-ha-2","operator_zone":"eu-south-1b","primary_zone_before":"eu-south-1b","primary_zone_after":"eu-south-1c","controller_manager_node":"ip-10-0-1-232"}
+{"run":"sync-partition-operator-ha-3","operator_zone":"eu-south-1c","primary_zone_before":"eu-south-1c","primary_zone_after":"eu-south-1b","controller_manager_node":"ip-10-0-1-232"}
+{"run":"sync-2-preferred-partition-operator-ha-1","operator_zone":"eu-south-1b","primary_zone_before":"eu-south-1b","primary_zone_after":"eu-south-1a","controller_manager_node":"ip-10-0-1-232"}
+{"run":"sync-2-preferred-partition-operator-ha-2","operator_zone":"eu-south-1a","primary_zone_before":"eu-south-1a","primary_zone_after":"eu-south-1b","controller_manager_node":"ip-10-0-1-232"}
+{"run":"sync-2-preferred-partition-operator-ha-3","operator_zone":"eu-south-1b","primary_zone_before":"eu-south-1b","primary_zone_after":"eu-south-1a","controller_manager_node":"ip-10-0-3-165"}
+{"run":"sync-2-partition-operator-ha-1","operator_zone":"eu-south-1b","primary_zone_before":"eu-south-1b","primary_zone_after":"eu-south-1a","controller_manager_node":"ip-10-0-3-165"}
+{"run":"sync-2-partition-operator-ha-2","operator_zone":"eu-south-1a","primary_zone_before":"eu-south-1a","primary_zone_after":"eu-south-1b","controller_manager_node":"ip-10-0-3-165"}
+{"run":"sync-2-partition-operator-ha-3","operator_zone":"eu-south-1b","primary_zone_before":"eu-south-1b","primary_zone_after":"eu-south-1a","controller_manager_node":"ip-10-0-3-165"}

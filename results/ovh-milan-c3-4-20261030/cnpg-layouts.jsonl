@@ -1,0 +1,8 @@
+{"layout":"single","image":"ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie","primary_zone":"eu-south-mil-b"}
+{"layout":"async","image":"ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie","primary_zone":"eu-south-mil-b"}
+{"layout":"sync","image":"ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie","primary_zone":"eu-south-mil-c"}
+{"layout":"sync-2","image":"ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie","primary_zone":"eu-south-mil-b"}
+{"layout":"sync-2-preferred","image":"ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie","primary_zone":"eu-south-mil-b"}
+{"layout":"sync","image":"ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie","primary_zone":"eu-south-mil-c"}
+{"layout":"sync-2-preferred","image":"ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie","primary_zone":"eu-south-mil-b"}
+{"layout":"sync-2","image":"ghcr.io/cloudnative-pg/postgresql:18.6-system-trixie","primary_zone":"eu-south-mil-b"}

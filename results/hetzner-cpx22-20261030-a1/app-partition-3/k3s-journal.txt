@@ -1,0 +1,2 @@
+1793363266.229288 a1-hel1 systemd[1]: k3s.service: Main process exited, code=exited, status=1/FAILURE
+1793363691.680460 a1-hel1 systemd[1]: Started k3s.service - Lightweight Kubernetes.

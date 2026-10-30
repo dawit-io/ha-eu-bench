@@ -1,0 +1,34 @@
+#cloud-config
+# OVHcloud gives new projects a security group quota of 0: the only group, "default", lets everything in.
+# The firewall lives on the host instead.
+package_update: true
+packages:
+  - fio
+  - iperf3
+  - jq
+  - nftables
+write_files:
+  # The private network's DHCP hands out DNS servers that may not answer; pods would fail two lookups in three.
+  - path: /etc/netplan/60-private-dns.yaml
+    permissions: "0600"
+    content: |
+      network:
+        version: 2
+        ethernets:
+          ens4:
+            dhcp4-overrides: {use-dns: false}
+  - path: /etc/nftables.d/host-firewall.nft
+    content: |
+      table inet host_firewall {
+        chain input {
+          type filter hook input priority 0; policy drop;
+          iif lo accept
+          ct state established,related accept
+          ip protocol icmp accept
+          ip saddr { ${subnet}, 10.42.0.0/16, 10.43.0.0/16 } accept
+          ip saddr ${operator_cidr} tcp dport { 22, 6443 } accept
+        }
+      }
+runcmd:
+  - netplan apply
+  - nft -f /etc/nftables.d/host-firewall.nft

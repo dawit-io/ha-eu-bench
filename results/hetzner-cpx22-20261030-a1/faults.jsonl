@@ -1,0 +1,16 @@
+{"action":"partition","zone":"nbg1","node":"a1-nbg1","at":1793360924.747424275}
+{"action":"partition","zone":"nbg1","node":"a1-nbg1","at":1793361035.554586247}
+{"action":"partition","zone":"nbg1","node":"a1-nbg1","at":1793361146.815872867}
+{"action":"partition","zone":"hel1","node":"a1-hel1","at":1793361259.043266971}
+{"action":"partition","zone":"hel1","node":"a1-hel1","at":1793361372.153387434}
+{"action":"partition","zone":"hel1","node":"a1-hel1","at":1793361489.870733332}
+{"action":"crash","zone":"hel1","node":"a1-hel1","at":1793361593.386770306}
+{"action":"crash","zone":"hel1","node":"a1-hel1","at":1793361707.171979307}
+{"action":"crash","zone":"hel1","node":"a1-hel1","at":1793361896.569968300}
+{"action":"partition","zone":"fsn1","node":"a1-fsn1","at":1793362091.134330009}
+{"action":"heal","zone":"fsn1","node":"a1-fsn1","at":1793362512.130005888}
+{"action":"partition","zone":"nbg1","node":"a1-nbg1","at":1793362670.950223586}
+{"action":"heal","zone":"nbg1","node":"a1-nbg1","at":1793363091.917229737}
+{"action":"partition","zone":"hel1","node":"a1-hel1","at":1793363255.864029167}
+{"action":"heal","zone":"hel1","node":"a1-hel1","at":1793363677.263585979}
+{"action":"partition","zone":"hel1","node":"a1-hel1","at":1793363845.080804476}

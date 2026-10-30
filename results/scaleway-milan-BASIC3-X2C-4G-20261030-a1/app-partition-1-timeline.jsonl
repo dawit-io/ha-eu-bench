@@ -1,0 +1,31 @@
+{"at":1793363150.152236830,"event":"etcd_healthy_members","value":3}
+{"at":1793363150.263352640,"event":"node_ready","value":"True","since":"2026-10-30T12:04:49Z"}
+{"at":1793363150.263352640,"event":"endpoint","value":"ready"}
+{"at":1793363150.263352640,"event":"old_pod","value":"Running"}
+{"at":1793363150.263352640,"event":"replacement","value":"none"}
+{"at":1793363150.263352640,"event":"replicas_ready","value":3}
+{"at":1793363150.263352640,"event":"zones_ready","value":3}
+{"at":1793363150.263352640,"event":"metrics_server","value":true}
+{"at":1793363150.263352640,"event":"traefik","value":"404"}
+{"at":1793363170.190643743,"event":"partition","zone":"it-mil-1"}
+{"at":1793363170.208065968,"event":"etcd_healthy_members","value":0}
+{"at":1793363175.543775646,"event":"metrics_server","value":false}
+{"at":1793363176.225189559,"event":"etcd_healthy_members","value":2}
+{"at":1793363182.067836,"event":"k3s_exited","zone":"it-mil-1"}
+{"at":1793363248.258112309,"event":"node_ready","value":"Unknown","since":"2026-10-30T12:27:27Z"}
+{"at":1793363248.258112309,"event":"endpoint","value":"not-ready"}
+{"at":1793363248.258112309,"event":"replicas_ready","value":2}
+{"at":1793363248.258112309,"event":"zones_ready","value":2}
+{"at":1793363548.882426378,"event":"old_pod","value":"terminating"}
+{"at":1793363548.882426378,"event":"replacement","value":"pending","created":"2026-10-30T12:32:27Z"}
+{"at":1793363578.951857232,"event":"metrics_server","value":true}
+{"at":1793363590.091220716,"event":"etcd_healthy_members","value":3}
+{"at":1793363591.025861815,"event":"heal","zone":"it-mil-1"}
+{"at":1793363646.344162,"event":"k3s_started","zone":"it-mil-1"}
+{"at":1793363647.095363309,"event":"node_ready","value":"True","since":"2026-10-30T12:34:07Z"}
+{"at":1793363647.095363309,"event":"replacement","value":"scheduled in it-mil-1","created":"2026-10-30T12:32:27Z"}
+{"at":1793363649.099662840,"event":"endpoint","value":"removed"}
+{"at":1793363649.099662840,"event":"old_pod","value":"gone"}
+{"at":1793363649.099662840,"event":"replacement","value":"ready in it-mil-1","created":"2026-10-30T12:32:27Z"}
+{"at":1793363649.099662840,"event":"replicas_ready","value":3}
+{"at":1793363649.099662840,"event":"zones_ready","value":3}

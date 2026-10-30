@@ -1,0 +1,10 @@
+{
+  "zone": "hel1",
+  "node": "a1ccx-hel1",
+  "watcher": "fsn1",
+  "pod": "whoami-7f8ffd7c6b-s4tm2",
+  "etcd_leader_zone": "hel1",
+  "partition_at": 1793367167.424379749,
+  "heal_at": 1793367588.805453665,
+  "partition_seconds": 420
+}

@@ -1,0 +1,10 @@
+{
+  "zone": "nbg1",
+  "node": "a1ccx-nbg1",
+  "watcher": "fsn1",
+  "pod": "whoami-7f8ffd7c6b-nd8d5",
+  "etcd_leader_zone": "nbg1",
+  "partition_at": 1793366586.053811773,
+  "heal_at": 1793367007.030341697,
+  "partition_seconds": 420
+}

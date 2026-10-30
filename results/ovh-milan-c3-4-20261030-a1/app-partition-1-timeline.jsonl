@@ -1,0 +1,31 @@
+{"at":1793363960.703836671,"event":"etcd_healthy_members","value":3}
+{"at":1793363960.805864310,"event":"node_ready","value":"True","since":"2026-10-30T12:18:31Z"}
+{"at":1793363960.805864310,"event":"endpoint","value":"ready"}
+{"at":1793363960.805864310,"event":"old_pod","value":"Running"}
+{"at":1793363960.805864310,"event":"replacement","value":"none"}
+{"at":1793363960.805864310,"event":"replicas_ready","value":3}
+{"at":1793363960.805864310,"event":"zones_ready","value":3}
+{"at":1793363960.805864310,"event":"metrics_server","value":true}
+{"at":1793363960.805864310,"event":"traefik","value":"404"}
+{"at":1793363980.744324970,"event":"etcd_healthy_members","value":0}
+{"at":1793363980.770577589,"event":"partition","zone":"eu-south-mil-a"}
+{"at":1793363984.751888941,"event":"etcd_healthy_members","value":2}
+{"at":1793363985.285874854,"event":"metrics_server","value":false}
+{"at":1793363992.016542,"event":"k3s_exited","zone":"eu-south-mil-a"}
+{"at":1793364049.357515763,"event":"node_ready","value":"Unknown","since":"2026-10-30T12:40:49Z"}
+{"at":1793364049.357515763,"event":"endpoint","value":"not-ready"}
+{"at":1793364049.357515763,"event":"replicas_ready","value":2}
+{"at":1793364049.357515763,"event":"zones_ready","value":2}
+{"at":1793364349.949747697,"event":"old_pod","value":"terminating"}
+{"at":1793364349.949747697,"event":"replacement","value":"pending","created":"2026-10-30T12:45:49Z"}
+{"at":1793364382.009966958,"event":"metrics_server","value":true}
+{"at":1793364401.392599769,"event":"heal","zone":"eu-south-mil-a"}
+{"at":1793364411.565463286,"event":"etcd_healthy_members","value":3}
+{"at":1793364438.298577,"event":"k3s_started","zone":"eu-south-mil-a"}
+{"at":1793364440.120317497,"event":"node_ready","value":"True","since":"2026-10-30T12:47:19Z"}
+{"at":1793364440.120317497,"event":"endpoint","value":"removed"}
+{"at":1793364440.120317497,"event":"old_pod","value":"gone"}
+{"at":1793364440.120317497,"event":"replacement","value":"scheduled in eu-south-mil-a","created":"2026-10-30T12:45:49Z"}
+{"at":1793364442.123758804,"event":"replacement","value":"ready in eu-south-mil-a","created":"2026-10-30T12:45:49Z"}
+{"at":1793364442.123758804,"event":"replicas_ready","value":3}
+{"at":1793364442.123758804,"event":"zones_ready","value":3}

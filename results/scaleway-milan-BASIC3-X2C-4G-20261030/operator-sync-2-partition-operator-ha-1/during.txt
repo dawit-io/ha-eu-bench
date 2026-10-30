@@ -1,0 +1,21 @@
+NAMESPACE     NAME                                       READY   STATUS      RESTARTS       AGE     IP           NODE          NOMINATED NODE   READINESS GATES
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-d85m6   1/1     Running     0              2m48s   10.42.1.44   ha-it-mil-2   <none>           <none>
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-lwvqm   1/1     Running     0              3m13s   10.42.2.31   ha-it-mil-3   <none>           <none>
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-mv8l4   1/1     Running     2 (8m2s ago)   26m     10.42.0.33   ha-it-mil-1   <none>           <none>
+ha            sync-2-1                                   1/1     Running     0              3m50s   10.42.0.41   ha-it-mil-1   <none>           <none>
+ha            sync-2-2                                   1/1     Running     0              3m27s   10.42.1.43   ha-it-mil-2   <none>           <none>
+kube-system   coredns-7754d8d455-6bvdc                   1/1     Running     0              75m     10.42.0.8    ha-it-mil-1   <none>           <none>
+kube-system   coredns-7754d8d455-8hkmb                   1/1     Running     6 (23m ago)    76m     10.42.2.4    ha-it-mil-3   <none>           <none>
+kube-system   coredns-7754d8d455-r6zmr                   1/1     Running     3 (29m ago)    75m     10.42.1.5    ha-it-mil-2   <none>           <none>
+kube-system   helm-install-traefik-crd-w7chj             0/1     Completed   0              76m     <none>       ha-it-mil-1   <none>           <none>
+kube-system   helm-install-traefik-hd9c4                 0/1     Completed   2              76m     <none>       ha-it-mil-1   <none>           <none>
+kube-system   local-path-provisioner-5c4dc5d66d-scb7k    1/1     Running     0              76m     10.42.0.5    ha-it-mil-1   <none>           <none>
+kube-system   metrics-server-786d997795-knbrg            1/1     Running     0              76m     10.42.0.4    ha-it-mil-1   <none>           <none>
+kube-system   svclb-traefik-f83c8c64-6t47f               2/2     Running     0              76m     10.42.0.7    ha-it-mil-1   <none>           <none>
+kube-system   svclb-traefik-f83c8c64-kzbkp               2/2     Running     0              76m     10.42.1.2    ha-it-mil-2   <none>           <none>
+kube-system   svclb-traefik-f83c8c64-wgnd6               2/2     Running     2 (68m ago)    76m     10.42.2.5    ha-it-mil-3   <none>           <none>
+kube-system   traefik-9bcdbbd9-8bfgz                     1/1     Running     5 (29m ago)    76m     10.42.1.3    ha-it-mil-2   <none>           <none>
+primary sync-2-2
+sync-2-1 on a lost node
+sync-2-2 dns ok
+f||

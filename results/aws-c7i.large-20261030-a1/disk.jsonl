@@ -1,0 +1,3 @@
+{"zone":"eu-south-1a","cpu":"Intel(R) Xeon(R) Platinum 8488C","device":"/dev/nvme0n1p1","fsync_p50_ms":2.965504,"fsync_p99_ms":3.424256,"write_iops":334.572181}
+{"zone":"eu-south-1c","cpu":"Intel(R) Xeon(R) Platinum 8488C","device":"/dev/nvme0n1p1","fsync_p50_ms":2.965504,"fsync_p99_ms":3.391488,"write_iops":335.238825}
+{"zone":"eu-south-1b","cpu":"Intel(R) Xeon(R) Platinum 8488C","device":"/dev/nvme0n1p1","fsync_p50_ms":2.8672,"fsync_p99_ms":3.35872,"write_iops":341.860969}

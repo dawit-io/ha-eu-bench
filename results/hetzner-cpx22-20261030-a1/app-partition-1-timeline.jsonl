@@ -1,0 +1,34 @@
+{"at":1793362070.979824426,"event":"etcd_healthy_members","value":3}
+{"at":1793362071.098315929,"event":"node_ready","value":"True","since":"2026-10-30T11:43:10Z"}
+{"at":1793362071.098315929,"event":"endpoint","value":"ready"}
+{"at":1793362071.098315929,"event":"old_pod","value":"Running"}
+{"at":1793362071.098315929,"event":"replacement","value":"none"}
+{"at":1793362071.098315929,"event":"replicas_ready","value":3}
+{"at":1793362071.098315929,"event":"zones_ready","value":3}
+{"at":1793362071.098315929,"event":"metrics_server","value":true}
+{"at":1793362071.098315929,"event":"traefik","value":"404"}
+{"at":1793362091.040073917,"event":"etcd_healthy_members","value":2}
+{"at":1793362091.134330009,"event":"partition","zone":"fsn1"}
+{"at":1793362093.047706256,"event":"etcd_healthy_members","value":0}
+{"at":1793362095.713662421,"event":"metrics_server","value":false}
+{"at":1793362095.713662421,"event":"traefik","value":"000"}
+{"at":1793362097.058739326,"event":"etcd_healthy_members","value":2}
+{"at":1793362101.349110,"event":"k3s_exited","zone":"fsn1"}
+{"at":1793362160.861660625,"event":"node_ready","value":"Unknown","since":"2026-10-30T12:09:19Z"}
+{"at":1793362160.861660625,"event":"endpoint","value":"not-ready"}
+{"at":1793362160.861660625,"event":"replicas_ready","value":2}
+{"at":1793362160.861660625,"event":"zones_ready","value":2}
+{"at":1793362461.672058859,"event":"old_pod","value":"terminating"}
+{"at":1793362461.672058859,"event":"replacement","value":"pending","created":"2026-10-30T12:14:20Z"}
+{"at":1793362467.690098382,"event":"traefik","value":"404"}
+{"at":1793362491.749218797,"event":"metrics_server","value":true}
+{"at":1793362512.130005888,"event":"heal","zone":"fsn1"}
+{"at":1793362522.185274995,"event":"etcd_healthy_members","value":3}
+{"at":1793362547.774688,"event":"k3s_started","zone":"fsn1"}
+{"at":1793362549.880299653,"event":"node_ready","value":"True","since":"2026-10-30T12:15:48Z"}
+{"at":1793362549.880299653,"event":"endpoint","value":"removed"}
+{"at":1793362549.880299653,"event":"replacement","value":"scheduled in fsn1","created":"2026-10-30T12:14:20Z"}
+{"at":1793362551.887039188,"event":"old_pod","value":"gone"}
+{"at":1793362551.887039188,"event":"replacement","value":"ready in fsn1","created":"2026-10-30T12:14:20Z"}
+{"at":1793362551.887039188,"event":"replicas_ready","value":3}
+{"at":1793362551.887039188,"event":"zones_ready","value":3}

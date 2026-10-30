@@ -1,0 +1,15 @@
+1793382011.615056113
+1793383602.172743397
+       Server: 151.115.161.32 (151.115.161.32)
+Poll interval: 34min 8s (min: 32s; max 34min 8s)
+         Leap: normal
+      Version: 4
+      Stratum: 4
+    Reference: A9FEA9FE
+    Precision: 1us (-24)
+Root distance: 72.448ms (max: 5s)
+       Offset: +389us
+        Delay: 268us
+       Jitter: 1.312ms
+ Packet count: 3
+    Frequency: +0.005ppm

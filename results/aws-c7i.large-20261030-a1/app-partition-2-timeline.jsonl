@@ -1,0 +1,33 @@
+{"at":1793362896.846584215,"event":"etcd_healthy_members","value":3}
+{"at":1793362896.954865287,"event":"node_ready","value":"True","since":"2026-10-30T11:38:58Z"}
+{"at":1793362896.954865287,"event":"endpoint","value":"ready"}
+{"at":1793362896.954865287,"event":"old_pod","value":"Running"}
+{"at":1793362896.954865287,"event":"replacement","value":"none"}
+{"at":1793362896.954865287,"event":"replicas_ready","value":3}
+{"at":1793362896.954865287,"event":"zones_ready","value":3}
+{"at":1793362896.954865287,"event":"metrics_server","value":true}
+{"at":1793362896.954865287,"event":"traefik","value":"404"}
+{"at":1793362917.025227993,"event":"partition","zone":"eu-south-1b"}
+{"at":1793362918.880568651,"event":"etcd_healthy_members","value":0}
+{"at":1793362923.704967661,"event":"metrics_server","value":false}
+{"at":1793362923.704967661,"event":"traefik","value":"000"}
+{"at":1793362924.889458425,"event":"etcd_healthy_members","value":2}
+{"at":1793362927.796636,"event":"k3s_exited","zone":"eu-south-1b"}
+{"at":1793362983.111164509,"event":"node_ready","value":"Unknown","since":"2026-10-30T12:23:03Z"}
+{"at":1793362985.140326537,"event":"endpoint","value":"not-ready"}
+{"at":1793362985.140326537,"event":"replicas_ready","value":2}
+{"at":1793362985.140326537,"event":"zones_ready","value":2}
+{"at":1793363283.519809674,"event":"old_pod","value":"terminating"}
+{"at":1793363283.519809674,"event":"replacement","value":"pending","created":"2026-10-30T12:28:03Z"}
+{"at":1793363289.527724656,"event":"traefik","value":"404"}
+{"at":1793363311.556165612,"event":"metrics_server","value":true}
+{"at":1793363337.736497183,"event":"heal","zone":"eu-south-1b"}
+{"at":1793363347.485907689,"event":"etcd_healthy_members","value":3}
+{"at":1793363417.045046,"event":"k3s_started","zone":"eu-south-1b"}
+{"at":1793363417.690557072,"event":"node_ready","value":"True","since":"2026-10-30T12:30:17Z"}
+{"at":1793363417.690557072,"event":"replacement","value":"scheduled in eu-south-1b","created":"2026-10-30T12:28:03Z"}
+{"at":1793363419.694133629,"event":"endpoint","value":"removed"}
+{"at":1793363419.694133629,"event":"old_pod","value":"gone"}
+{"at":1793363419.694133629,"event":"replacement","value":"ready in eu-south-1b","created":"2026-10-30T12:28:03Z"}
+{"at":1793363419.694133629,"event":"replicas_ready","value":3}
+{"at":1793363419.694133629,"event":"zones_ready","value":3}

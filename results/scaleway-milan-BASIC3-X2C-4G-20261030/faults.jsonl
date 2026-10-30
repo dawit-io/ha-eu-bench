@@ -1,0 +1,17 @@
+{"action":"partition","zone":"it-mil-2","node":"ha-it-mil-2","at":1793354070.685266923}
+{"action":"partition","zone":"it-mil-3","node":"ha-it-mil-3","at":1793354174.194533802}
+{"action":"crash","zone":"it-mil-3","node":"ha-it-mil-3","at":1793354277.540640515}
+{"action":"partition","zone":"it-mil-3","node":"ha-it-mil-3","at":1793356163.032752882}
+{"action":"partition","zone":"it-mil-2","node":"ha-it-mil-2","at":1793356482.365689532}
+{"action":"partition","zone":"it-mil-3","node":"ha-it-mil-3","at":1793356851.512140214}
+{"action":"partition","zone":"it-mil-1","node":"ha-it-mil-1","at":1793357167.449846566}
+{"action":"partition","zone":"it-mil-2","node":"ha-it-mil-2","at":1793357439.726361068}
+{"action":"partition","zone":"it-mil-1","node":"ha-it-mil-1","at":1793357889.532942887}
+{"action":"partition","zone":"it-mil-1","node":"ha-it-mil-1","at":1793358267.531296409}
+{"action":"partition","zone":"it-mil-2","node":"ha-it-mil-2","at":1793358545.020962808}
+{"action":"partition","zone":"it-mil-1","node":"ha-it-mil-1","at":1793358812.882247067}
+{"action":"partition","zone":"it-mil-2","node":"ha-it-mil-2","at":1793359727.709000216}
+{"action":"partition","zone":"it-mil-2","node":"ha-it-mil-2","at":1793359981.020966630}
+{"action":"partition","zone":"it-mil-1","node":"ha-it-mil-1","at":1793360445.054077920}
+{"action":"partition","zone":"it-mil-2","node":"ha-it-mil-2","at":1793360766.124354496}
+{"action":"partition","zone":"it-mil-1","node":"ha-it-mil-1","at":1793361085.527898565}

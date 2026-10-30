@@ -1,0 +1,33 @@
+{"at":1793362651.089703083,"event":"etcd_healthy_members","value":3}
+{"at":1793362651.234192118,"event":"node_ready","value":"True","since":"2026-10-30T11:51:50Z"}
+{"at":1793362651.234192118,"event":"endpoint","value":"ready"}
+{"at":1793362651.234192118,"event":"old_pod","value":"Running"}
+{"at":1793362651.234192118,"event":"replacement","value":"none"}
+{"at":1793362651.234192118,"event":"replicas_ready","value":3}
+{"at":1793362651.234192118,"event":"zones_ready","value":3}
+{"at":1793362651.234192118,"event":"metrics_server","value":true}
+{"at":1793362651.234192118,"event":"traefik","value":"404"}
+{"at":1793362670.950223586,"event":"partition","zone":"nbg1"}
+{"at":1793362671.147327303,"event":"etcd_healthy_members","value":0}
+{"at":1793362673.644360313,"event":"metrics_server","value":false}
+{"at":1793362673.644360313,"event":"traefik","value":"000"}
+{"at":1793362675.159073178,"event":"etcd_healthy_members","value":2}
+{"at":1793362681.442660,"event":"k3s_exited","zone":"nbg1"}
+{"at":1793362722.034692918,"event":"node_ready","value":"Unknown","since":"2026-10-30T12:18:40Z"}
+{"at":1793362722.034692918,"event":"endpoint","value":"not-ready"}
+{"at":1793362722.034692918,"event":"replicas_ready","value":2}
+{"at":1793362722.034692918,"event":"zones_ready","value":2}
+{"at":1793363020.762532774,"event":"old_pod","value":"terminating"}
+{"at":1793363022.765993113,"event":"replacement","value":"pending","created":"2026-10-30T12:23:41Z"}
+{"at":1793363034.798937214,"event":"traefik","value":"404"}
+{"at":1793363050.843008554,"event":"metrics_server","value":true}
+{"at":1793363091.917229737,"event":"heal","zone":"nbg1"}
+{"at":1793363100.454545689,"event":"etcd_healthy_members","value":3}
+{"at":1793363107.020458,"event":"k3s_started","zone":"nbg1"}
+{"at":1793363108.991739007,"event":"node_ready","value":"True","since":"2026-10-30T12:25:07Z"}
+{"at":1793363108.991739007,"event":"endpoint","value":"removed"}
+{"at":1793363108.991739007,"event":"replacement","value":"scheduled in nbg1","created":"2026-10-30T12:23:41Z"}
+{"at":1793363110.999653928,"event":"old_pod","value":"gone"}
+{"at":1793363110.999653928,"event":"replacement","value":"ready in nbg1","created":"2026-10-30T12:23:41Z"}
+{"at":1793363110.999653928,"event":"replicas_ready","value":3}
+{"at":1793363110.999653928,"event":"zones_ready","value":3}

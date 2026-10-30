@@ -1,0 +1,7 @@
+#cloud-config
+package_update: true
+packages:
+  - fio
+  - iperf3
+  - jq
+  - nftables

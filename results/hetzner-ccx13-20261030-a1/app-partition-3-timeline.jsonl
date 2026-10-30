@@ -1,0 +1,31 @@
+{"at":1793367146.763602766,"event":"etcd_healthy_members","value":3}
+{"at":1793367147.064536783,"event":"node_ready","value":"True","since":"2026-10-30T13:12:50Z"}
+{"at":1793367147.064536783,"event":"endpoint","value":"ready"}
+{"at":1793367147.064536783,"event":"old_pod","value":"Running"}
+{"at":1793367147.064536783,"event":"replacement","value":"none"}
+{"at":1793367147.064536783,"event":"replicas_ready","value":3}
+{"at":1793367147.064536783,"event":"zones_ready","value":3}
+{"at":1793367147.064536783,"event":"metrics_server","value":true}
+{"at":1793367147.064536783,"event":"traefik","value":"404"}
+{"at":1793367167.424379749,"event":"partition","zone":"hel1"}
+{"at":1793367168.804823985,"event":"etcd_healthy_members","value":0}
+{"at":1793367171.684853816,"event":"traefik","value":"000"}
+{"at":1793367172.811629787,"event":"etcd_healthy_members","value":2}
+{"at":1793367177.988422,"event":"k3s_exited","zone":"hel1"}
+{"at":1793367234.895203476,"event":"node_ready","value":"Unknown","since":"2026-10-30T13:33:54Z"}
+{"at":1793367234.895203476,"event":"endpoint","value":"not-ready"}
+{"at":1793367234.895203476,"event":"replicas_ready","value":2}
+{"at":1793367234.895203476,"event":"zones_ready","value":2}
+{"at":1793367535.475765788,"event":"old_pod","value":"terminating"}
+{"at":1793367535.475765788,"event":"replacement","value":"pending","created":"2026-10-30T13:38:55Z"}
+{"at":1793367539.483533361,"event":"traefik","value":"404"}
+{"at":1793367588.805453665,"event":"heal","zone":"hel1"}
+{"at":1793367597.930154033,"event":"etcd_healthy_members","value":3}
+{"at":1793367651.335538,"event":"k3s_started","zone":"hel1"}
+{"at":1793367651.712681939,"event":"node_ready","value":"True","since":"2026-10-30T13:40:51Z"}
+{"at":1793367651.712681939,"event":"replacement","value":"scheduled in hel1","created":"2026-10-30T13:38:55Z"}
+{"at":1793367653.715204425,"event":"endpoint","value":"removed"}
+{"at":1793367653.715204425,"event":"replacement","value":"ready in hel1","created":"2026-10-30T13:38:55Z"}
+{"at":1793367653.715204425,"event":"replicas_ready","value":3}
+{"at":1793367653.715204425,"event":"zones_ready","value":3}
+{"at":1793367655.718572832,"event":"old_pod","value":"gone"}

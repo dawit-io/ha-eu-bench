@@ -1,0 +1,2 @@
+1793365142.655229 a1-eu-south-mil-c systemd[1]: k3s.service: Main process exited, code=exited, status=1/FAILURE
+1793365621.898499 a1-eu-south-mil-c systemd[1]: Started k3s.service - Lightweight Kubernetes.

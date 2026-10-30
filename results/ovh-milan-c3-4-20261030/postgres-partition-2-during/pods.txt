@@ -1,0 +1,33 @@
+NAMESPACE           NAME                                                   READY   STATUS      RESTARTS        AGE    IP           NODE                NOMINATED NODE   READINESS GATES
+cnpg-system         cnpg-controller-manager-5f9b8cf5ff-4p2xf               1/1     Running     3 (6m53s ago)   62m    10.42.0.36   ha-eu-south-mil-a   <none>           <none>
+cnpg-system         cnpg-controller-manager-5f9b8cf5ff-pln4z               1/1     Running     0               45m    10.42.2.23   ha-eu-south-mil-c   <none>           <none>
+cnpg-system         cnpg-controller-manager-5f9b8cf5ff-pxz4x               1/1     Running     5 (14m ago)     55m    10.42.1.38   ha-eu-south-mil-b   <none>           <none>
+default             pg-0                                                   1/1     Running     0               71s    10.42.0.52   ha-eu-south-mil-a   <none>           <none>
+kube-system         coredns-7754d8d455-9chht                               1/1     Running     1 (6m57s ago)   115m   10.42.0.9    ha-eu-south-mil-a   <none>           <none>
+kube-system         coredns-7754d8d455-mt57w                               1/1     Running     6 (65m ago)     116m   10.42.2.4    ha-eu-south-mil-c   <none>           <none>
+kube-system         coredns-7754d8d455-tgql2                               1/1     Running     14 (12m ago)    115m   10.42.1.4    ha-eu-south-mil-b   <none>           <none>
+kube-system         helm-install-traefik-crd-dmt84                         0/1     Completed   0               117m   <none>       ha-eu-south-mil-a   <none>           <none>
+kube-system         helm-install-traefik-zdkwv                             0/1     Completed   2               117m   <none>       ha-eu-south-mil-a   <none>           <none>
+kube-system         local-path-provisioner-5c4dc5d66d-k9r2v                1/1     Running     0               117m   10.42.0.4    ha-eu-south-mil-a   <none>           <none>
+kube-system         metrics-server-786d997795-chw8m                        1/1     Running     2 (6m12s ago)   117m   10.42.0.5    ha-eu-south-mil-a   <none>           <none>
+kube-system         svclb-traefik-fe5162c5-2m74j                           2/2     Running     2 (108m ago)    116m   10.42.2.5    ha-eu-south-mil-c   <none>           <none>
+kube-system         svclb-traefik-fe5162c5-2wqdg                           2/2     Running     0               116m   10.42.1.2    ha-eu-south-mil-b   <none>           <none>
+kube-system         svclb-traefik-fe5162c5-7kgj4                           2/2     Running     0               116m   10.42.0.7    ha-eu-south-mil-a   <none>           <none>
+kube-system         traefik-9bcdbbd9-2bzll                                 1/1     Running     2 (6m24s ago)   116m   10.42.0.8    ha-eu-south-mil-a   <none>           <none>
+piraeus-datastore   ha-controller-gs92q                                    1/1     Running     1 (6m49s ago)   29m    10.42.0.42   ha-eu-south-mil-a   <none>           <none>
+piraeus-datastore   ha-controller-hk6x5                                    1/1     Running     0               29m    10.42.2.26   ha-eu-south-mil-c   <none>           <none>
+piraeus-datastore   ha-controller-wjbsz                                    1/1     Running     10 (11m ago)    29m    10.42.1.46   ha-eu-south-mil-b   <none>           <none>
+piraeus-datastore   linstor-affinity-controller-77497d9c78-bjdnw           1/1     Running     0               29m    10.42.2.27   ha-eu-south-mil-c   <none>           <none>
+piraeus-datastore   linstor-controller-756446597c-qx7l4                    1/1     Running     1 (6m58s ago)   29m    10.42.2.24   ha-eu-south-mil-c   <none>           <none>
+piraeus-datastore   linstor-csi-controller-7cf5775c9-z6x6h                 6/6     Running     8 (106s ago)    29m    10.42.2.25   ha-eu-south-mil-c   <none>           <none>
+piraeus-datastore   linstor-csi-nfs-server-5fnsf                           1/1     Running     0               29m    10.42.2.28   ha-eu-south-mil-c   <none>           <none>
+piraeus-datastore   linstor-csi-nfs-server-9zlhj                           1/1     Running     0               29m    10.42.1.47   ha-eu-south-mil-b   <none>           <none>
+piraeus-datastore   linstor-csi-nfs-server-mf92c                           1/1     Running     0               29m    10.42.0.43   ha-eu-south-mil-a   <none>           <none>
+piraeus-datastore   linstor-csi-node-c2b2v                                 3/3     Running     0               29m    10.0.1.12    ha-eu-south-mil-c   <none>           <none>
+piraeus-datastore   linstor-csi-node-ftfmz                                 3/3     Running     0               29m    10.0.1.11    ha-eu-south-mil-b   <none>           <none>
+piraeus-datastore   linstor-csi-node-s8s5p                                 3/3     Running     0               29m    10.0.1.10    ha-eu-south-mil-a   <none>           <none>
+piraeus-datastore   linstor-satellite.ha-eu-south-mil-a-fg8np              2/2     Running     0               29m    10.0.1.10    ha-eu-south-mil-a   <none>           <none>
+piraeus-datastore   linstor-satellite.ha-eu-south-mil-b-jjk7p              2/2     Running     0               28m    10.0.1.11    ha-eu-south-mil-b   <none>           <none>
+piraeus-datastore   linstor-satellite.ha-eu-south-mil-c-6s2nt              2/2     Running     0               28m    10.0.1.12    ha-eu-south-mil-c   <none>           <none>
+piraeus-datastore   piraeus-operator-controller-manager-754757d594-qgzzc   1/1     Running     7 (7m7s ago)    29m    10.42.1.45   ha-eu-south-mil-b   <none>           <none>
+piraeus-datastore   piraeus-operator-gencert-fd5b46b56-r8kf6               1/1     Running     7 (12m ago)     29m    10.42.1.44   ha-eu-south-mil-b   <none>           <none>

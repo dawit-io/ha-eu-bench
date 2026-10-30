@@ -1,0 +1,8 @@
+NAMESPACE     NAME                                     READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS               IMAGES                                    SELECTOR
+kube-system   deployment.apps/coredns                  3/3     3            3           62s   coredns                  rancher/mirrored-coredns-coredns:1.14.2   k8s-app=kube-dns
+kube-system   deployment.apps/local-path-provisioner   1/1     1            1           62s   local-path-provisioner   rancher/local-path-provisioner:v0.0.35    app=local-path-provisioner
+kube-system   deployment.apps/metrics-server           1/1     1            1           62s   metrics-server           rancher/mirrored-metrics-server:v0.8.1    k8s-app=metrics-server
+kube-system   deployment.apps/traefik                  1/1     1            1           32s   traefik                  rancher/mirrored-library-traefik:3.6.13   app.kubernetes.io/instance=traefik-kube-system,app.kubernetes.io/name=traefik
+
+NAMESPACE     NAME                                    DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE   CONTAINERS             IMAGES                                                  SELECTOR
+kube-system   daemonset.apps/svclb-traefik-99a6ab10   3         3         2       3            2           <none>          32s   lb-tcp-80,lb-tcp-443   rancher/klipper-lb:v0.4.15,rancher/klipper-lb:v0.4.15   app=svclb-traefik-99a6ab10

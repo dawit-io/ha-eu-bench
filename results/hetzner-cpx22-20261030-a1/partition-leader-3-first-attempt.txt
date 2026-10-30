@@ -1,0 +1,1 @@
+probe-partition-leader-3 first attempt: probe exited at start with 'creating the probe ConfigMap: HTTP 500' right after the leader move; the partition of hel1 at 2026-10-30T11:58:09Z in faults.jsonl ran without a probe. Redone after the app step.

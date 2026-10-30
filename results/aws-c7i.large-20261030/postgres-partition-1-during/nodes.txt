@@ -1,0 +1,4 @@
+NAME            STATUS     ROLES                AGE   VERSION
+ip-10-0-1-232   Ready      control-plane,etcd   91m   v1.35.4+k3s1
+ip-10-0-2-145   NotReady   control-plane,etcd   90m   v1.35.4+k3s1
+ip-10-0-3-165   Ready      control-plane,etcd   90m   v1.35.4+k3s1

@@ -1,0 +1,9 @@
+{"run":"sync-partition-operator-ha-1","operator_zone":"hel1","primary_zone_before":"hel1","primary_zone_after":"nbg1","controller_manager_node":"ha-fsn1"}
+{"run":"sync-partition-operator-ha-2","operator_zone":"nbg1","primary_zone_before":"nbg1","primary_zone_after":"hel1","controller_manager_node":"ha-fsn1"}
+{"run":"sync-partition-operator-ha-3","operator_zone":"hel1","primary_zone_before":"hel1","primary_zone_after":"nbg1","controller_manager_node":"ha-fsn1"}
+{"run":"sync-2-preferred-partition-operator-ha-1","operator_zone":"nbg1","primary_zone_before":"nbg1","primary_zone_after":"fsn1","controller_manager_node":"ha-fsn1"}
+{"run":"sync-2-preferred-partition-operator-ha-2","operator_zone":"fsn1","primary_zone_before":"fsn1","primary_zone_after":"nbg1","controller_manager_node":"ha-fsn1"}
+{"run":"sync-2-preferred-partition-operator-ha-3","operator_zone":"nbg1","primary_zone_before":"nbg1","primary_zone_after":"fsn1","controller_manager_node":"ha-nbg1"}
+{"run":"sync-2-partition-operator-ha-1","operator_zone":"nbg1","primary_zone_before":"nbg1","primary_zone_after":"fsn1","controller_manager_node":"ha-fsn1"}
+{"run":"sync-2-partition-operator-ha-2","operator_zone":"fsn1","primary_zone_before":"fsn1","primary_zone_after":"nbg1","controller_manager_node":"ha-fsn1"}
+{"run":"sync-2-partition-operator-ha-3","operator_zone":"nbg1","primary_zone_before":"nbg1","primary_zone_after":"fsn1","controller_manager_node":"ha-nbg1"}

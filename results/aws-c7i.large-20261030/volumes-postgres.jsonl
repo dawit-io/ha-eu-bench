@@ -1,0 +1,3 @@
+{"run":"pg-drbd-partition-1","zone_before":"eu-south-1b","zone_after":"eu-south-1a"}
+{"run":"pg-drbd-partition-2","zone_before":"eu-south-1a","zone_after":"eu-south-1b"}
+{"run":"pg-drbd-partition-3","zone_before":"eu-south-1b","zone_after":"eu-south-1a"}

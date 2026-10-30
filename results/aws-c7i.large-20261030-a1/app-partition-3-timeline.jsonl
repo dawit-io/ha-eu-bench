@@ -1,0 +1,30 @@
+{"at":1793363469.788652343,"event":"etcd_healthy_members","value":3}
+{"at":1793363469.880647758,"event":"node_ready","value":"True","since":"2026-10-30T12:06:19Z"}
+{"at":1793363469.880647758,"event":"endpoint","value":"ready"}
+{"at":1793363469.880647758,"event":"old_pod","value":"Running"}
+{"at":1793363469.880647758,"event":"replacement","value":"none"}
+{"at":1793363469.880647758,"event":"replicas_ready","value":3}
+{"at":1793363469.880647758,"event":"zones_ready","value":3}
+{"at":1793363469.880647758,"event":"metrics_server","value":true}
+{"at":1793363469.880647758,"event":"traefik","value":"404"}
+{"at":1793363489.976932280,"event":"partition","zone":"eu-south-1c"}
+{"at":1793363491.817956813,"event":"etcd_healthy_members","value":0}
+{"at":1793363497.825830292,"event":"etcd_healthy_members","value":2}
+{"at":1793363506.861322,"event":"k3s_exited","zone":"eu-south-1c"}
+{"at":1793363538.694077026,"event":"node_ready","value":"Unknown","since":"2026-10-30T12:32:18Z"}
+{"at":1793363538.694077026,"event":"endpoint","value":"not-ready"}
+{"at":1793363538.694077026,"event":"replicas_ready","value":2}
+{"at":1793363538.694077026,"event":"zones_ready","value":2}
+{"at":1793363839.119233340,"event":"old_pod","value":"terminating"}
+{"at":1793363839.119233340,"event":"replacement","value":"pending","created":"2026-10-30T12:37:18Z"}
+{"at":1793363910.673875628,"event":"heal","zone":"eu-south-1c"}
+{"at":1793363920.434005517,"event":"etcd_healthy_members","value":3}
+{"at":1793363926.001000,"event":"k3s_started","zone":"eu-south-1c"}
+{"at":1793363927.249443976,"event":"node_ready","value":"True","since":"2026-10-30T12:38:46Z"}
+{"at":1793363927.249443976,"event":"endpoint","value":"serving"}
+{"at":1793363927.249443976,"event":"replacement","value":"scheduled in eu-south-1c","created":"2026-10-30T12:37:18Z"}
+{"at":1793363929.252784395,"event":"endpoint","value":"removed"}
+{"at":1793363929.252784395,"event":"old_pod","value":"gone"}
+{"at":1793363929.252784395,"event":"replacement","value":"ready in eu-south-1c","created":"2026-10-30T12:37:18Z"}
+{"at":1793363929.252784395,"event":"replicas_ready","value":3}
+{"at":1793363929.252784395,"event":"zones_ready","value":3}

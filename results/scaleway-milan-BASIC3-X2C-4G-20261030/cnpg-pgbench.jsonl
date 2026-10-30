@@ -1,0 +1,15 @@
+{"layout":"single","client_zone":"it-mil-3","clients":1,"tps":847.363668,"latency_ms":1.180}
+{"layout":"single","client_zone":"it-mil-3","clients":8,"tps":1496.836219,"latency_ms":5.345}
+{"layout":"single","client_zone":"it-mil-3","clients":32,"tps":1775.990203,"latency_ms":18.018}
+{"layout":"async","client_zone":"it-mil-2","clients":1,"tps":636.671151,"latency_ms":1.571}
+{"layout":"async","client_zone":"it-mil-2","clients":8,"tps":1260.247896,"latency_ms":6.348}
+{"layout":"async","client_zone":"it-mil-2","clients":32,"tps":1611.107813,"latency_ms":19.862}
+{"layout":"sync","client_zone":"it-mil-3","clients":1,"tps":328.557352,"latency_ms":3.044}
+{"layout":"sync","client_zone":"it-mil-3","clients":8,"tps":772.190948,"latency_ms":10.360}
+{"layout":"sync","client_zone":"it-mil-3","clients":32,"tps":1094.305346,"latency_ms":29.242}
+{"layout":"sync-2","client_zone":"it-mil-2","clients":1,"tps":263.677093,"latency_ms":3.793}
+{"layout":"sync-2","client_zone":"it-mil-2","clients":8,"tps":933.131981,"latency_ms":8.573}
+{"layout":"sync-2","client_zone":"it-mil-2","clients":32,"tps":1224.641975,"latency_ms":26.130}
+{"layout":"sync-2-preferred","client_zone":"it-mil-2","clients":1,"tps":286.659261,"latency_ms":3.488}
+{"layout":"sync-2-preferred","client_zone":"it-mil-2","clients":8,"tps":961.516702,"latency_ms":8.320}
+{"layout":"sync-2-preferred","client_zone":"it-mil-2","clients":32,"tps":1222.331199,"latency_ms":26.179}

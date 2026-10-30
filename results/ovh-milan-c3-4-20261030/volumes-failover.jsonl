@@ -1,0 +1,2 @@
+{"class":"two-zones","zone_before":"eu-south-mil-b","zone_after":"eu-south-mil-a","acknowledged":2789,"pause_s":85.299,"acknowledged_and_lost":0,"written_twice":0}
+{"class":"local-path","zone_before":"eu-south-mil-b","zone_after":"eu-south-mil-b","acknowledged":4426,"pause_s":0.143,"acknowledged_and_lost":0,"written_twice":0}

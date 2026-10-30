@@ -1,0 +1,33 @@
+{"at":1793366565.902856780,"event":"etcd_healthy_members","value":3}
+{"at":1793366566.128218498,"event":"node_ready","value":"True","since":"2026-10-30T12:57:28Z"}
+{"at":1793366566.128218498,"event":"endpoint","value":"ready"}
+{"at":1793366566.128218498,"event":"old_pod","value":"Running"}
+{"at":1793366566.128218498,"event":"replacement","value":"none"}
+{"at":1793366566.128218498,"event":"replicas_ready","value":3}
+{"at":1793366566.128218498,"event":"zones_ready","value":3}
+{"at":1793366566.128218498,"event":"metrics_server","value":true}
+{"at":1793366566.128218498,"event":"traefik","value":"404"}
+{"at":1793366585.959093002,"event":"etcd_healthy_members","value":2}
+{"at":1793366586.053811773,"event":"partition","zone":"nbg1"}
+{"at":1793366587.962877495,"event":"etcd_healthy_members","value":0}
+{"at":1793366590.713155705,"event":"metrics_server","value":false}
+{"at":1793366591.969647264,"event":"etcd_healthy_members","value":2}
+{"at":1793366629.792081752,"event":"node_ready","value":"Unknown","since":"2026-10-30T13:23:48Z"}
+{"at":1793366629.792081752,"event":"endpoint","value":"not-ready"}
+{"at":1793366629.792081752,"event":"replicas_ready","value":2}
+{"at":1793366629.792081752,"event":"zones_ready","value":2}
+{"at":1793366647.993879,"event":"k3s_exited","zone":"nbg1"}
+{"at":1793366930.333965979,"event":"old_pod","value":"terminating"}
+{"at":1793366930.333965979,"event":"replacement","value":"pending","created":"2026-10-30T13:28:49Z"}
+{"at":1793366958.384758452,"event":"metrics_server","value":true}
+{"at":1793367006.777159047,"event":"etcd_healthy_members","value":3}
+{"at":1793367007.030341697,"event":"heal","zone":"nbg1"}
+{"at":1793367019.138936,"event":"k3s_started","zone":"nbg1"}
+{"at":1793367020.499571281,"event":"node_ready","value":"True","since":"2026-10-30T13:30:19Z"}
+{"at":1793367020.499571281,"event":"endpoint","value":"serving"}
+{"at":1793367020.499571281,"event":"replacement","value":"scheduled in nbg1","created":"2026-10-30T13:28:49Z"}
+{"at":1793367022.503820054,"event":"endpoint","value":"removed"}
+{"at":1793367022.503820054,"event":"old_pod","value":"gone"}
+{"at":1793367022.503820054,"event":"replacement","value":"ready in nbg1","created":"2026-10-30T13:28:49Z"}
+{"at":1793367022.503820054,"event":"replicas_ready","value":3}
+{"at":1793367022.503820054,"event":"zones_ready","value":3}

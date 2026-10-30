@@ -1,0 +1,21 @@
+#cloud-config
+# The private network card can appear after the boot network configuration has run, and then stays down.
+# This rule makes systemd-networkd configure it whenever it shows up.
+package_update: true
+packages:
+  - fio
+  - iperf3
+  - jq
+  - nftables
+write_files:
+  - path: /etc/netplan/60-private.yaml
+    permissions: "0600"
+    content: |
+      network:
+        version: 2
+        ethernets:
+          private:
+            match: {name: "enp*"}
+            dhcp4: true
+runcmd:
+  - netplan apply

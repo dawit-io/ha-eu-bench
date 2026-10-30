@@ -1,0 +1,17 @@
+{"action":"partition","zone":"eu-south-mil-b","node":"ha-eu-south-mil-b","at":1793354220.258025618}
+{"action":"partition","zone":"eu-south-mil-c","node":"ha-eu-south-mil-c","at":1793354321.977643076}
+{"action":"crash","zone":"eu-south-mil-c","node":"ha-eu-south-mil-c","at":1793354425.480637703}
+{"action":"partition","zone":"eu-south-mil-c","node":"ha-eu-south-mil-c","at":1793356286.906548488}
+{"action":"partition","zone":"eu-south-mil-b","node":"ha-eu-south-mil-b","at":1793356555.096284616}
+{"action":"partition","zone":"eu-south-mil-c","node":"ha-eu-south-mil-c","at":1793356907.747615517}
+{"action":"partition","zone":"eu-south-mil-b","node":"ha-eu-south-mil-b","at":1793357247.944245741}
+{"action":"partition","zone":"eu-south-mil-a","node":"ha-eu-south-mil-a","at":1793357623.819145735}
+{"action":"partition","zone":"eu-south-mil-b","node":"ha-eu-south-mil-b","at":1793357890.928114412}
+{"action":"partition","zone":"eu-south-mil-b","node":"ha-eu-south-mil-b","at":1793358269.159367402}
+{"action":"partition","zone":"eu-south-mil-a","node":"ha-eu-south-mil-a","at":1793358615.567138376}
+{"action":"partition","zone":"eu-south-mil-b","node":"ha-eu-south-mil-b","at":1793358889.141671678}
+{"action":"partition","zone":"eu-south-mil-b","node":"ha-eu-south-mil-b","at":1793359785.389814506}
+{"action":"partition","zone":"eu-south-mil-b","node":"ha-eu-south-mil-b","at":1793360035.812332116}
+{"action":"partition","zone":"eu-south-mil-a","node":"ha-eu-south-mil-a","at":1793360485.649751012}
+{"action":"partition","zone":"eu-south-mil-b","node":"ha-eu-south-mil-b","at":1793360804.455863739}
+{"action":"partition","zone":"eu-south-mil-a","node":"ha-eu-south-mil-a","at":1793361122.697939657}

@@ -1,0 +1,10 @@
+{
+  "zone": "eu-south-mil-c",
+  "node": "a1-eu-south-mil-c",
+  "watcher": "eu-south-mil-a",
+  "pod": "whoami-7f8ffd7c6b-cfbjd",
+  "etcd_leader_zone": "eu-south-mil-c",
+  "partition_at": 1793365131.308396435,
+  "heal_at": 1793365552.105325274,
+  "partition_seconds": 420
+}

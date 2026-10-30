@@ -1,0 +1,3 @@
+{"from":"fsn1","to":"nbg1","sent":300,"replies":300,"p50_ms":2.79,"p99_ms":3.09,"tcp_1_stream":{"average_gbps":0.2554353110460828,"sustained_gbps":0.26399836725682013},"tcp_4_streams":{"average_gbps":1.2534447635796413,"sustained_gbps":1.1336001364172803}}
+{"from":"fsn1","to":"hel1","sent":300,"replies":300,"p50_ms":35.7,"p99_ms":36.1,"tcp_1_stream":{"average_gbps":0.296202365899702,"sustained_gbps":0.34683915200567894},"tcp_4_streams":{"average_gbps":1.4668675276309324,"sustained_gbps":1.7031016693396543}}
+{"from":"nbg1","to":"hel1","sent":300,"replies":300,"p50_ms":23.7,"p99_ms":27.3,"tcp_1_stream":{"average_gbps":0.3644329628543072,"sustained_gbps":0.271505618961846},"tcp_4_streams":{"average_gbps":2.618755295405521,"sustained_gbps":2.5695024511070423}}

@@ -1,0 +1,4 @@
+NAME          STATUS     ROLES                AGE    VERSION
+ha-it-mil-1   Ready      control-plane,etcd   118m   v1.35.4+k3s1
+ha-it-mil-2   NotReady   control-plane,etcd   118m   v1.35.4+k3s1
+ha-it-mil-3   Ready      control-plane,etcd   117m   v1.35.4+k3s1

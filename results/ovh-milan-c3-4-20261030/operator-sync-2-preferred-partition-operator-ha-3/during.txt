@@ -1,0 +1,21 @@
+NAMESPACE     NAME                                       READY   STATUS      RESTARTS        AGE     IP           NODE                NOMINATED NODE   READINESS GATES
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-4p2xf   1/1     Running     1 (6m10s ago)   13m     10.42.0.36   ha-eu-south-mil-a   <none>           <none>
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-mgp7c   1/1     Running     0               7m39s   10.42.2.21   ha-eu-south-mil-c   <none>           <none>
+cnpg-system   cnpg-controller-manager-5f9b8cf5ff-pxz4x   1/1     Running     0               7m14s   10.42.1.38   ha-eu-south-mil-b   <none>           <none>
+ha            sync-2-preferred-1                         1/1     Running     1 (9m9s ago)    14m     10.42.1.37   ha-eu-south-mil-b   <none>           <none>
+ha            sync-2-preferred-2                         1/1     Running     1 (3m23s ago)   13m     10.42.0.35   ha-eu-south-mil-a   <none>           <none>
+kube-system   coredns-7754d8d455-9chht                   1/1     Running     0               67m     10.42.0.9    ha-eu-south-mil-a   <none>           <none>
+kube-system   coredns-7754d8d455-mt57w                   1/1     Running     6 (16m ago)     67m     10.42.2.4    ha-eu-south-mil-c   <none>           <none>
+kube-system   coredns-7754d8d455-tgql2                   1/1     Running     6 (9m18s ago)   67m     10.42.1.4    ha-eu-south-mil-b   <none>           <none>
+kube-system   helm-install-traefik-crd-dmt84             0/1     Completed   0               68m     <none>       ha-eu-south-mil-a   <none>           <none>
+kube-system   helm-install-traefik-zdkwv                 0/1     Completed   2               68m     <none>       ha-eu-south-mil-a   <none>           <none>
+kube-system   local-path-provisioner-5c4dc5d66d-k9r2v    1/1     Running     0               68m     10.42.0.4    ha-eu-south-mil-a   <none>           <none>
+kube-system   metrics-server-786d997795-chw8m            1/1     Running     0               68m     10.42.0.5    ha-eu-south-mil-a   <none>           <none>
+kube-system   svclb-traefik-fe5162c5-2m74j               2/2     Running     2 (59m ago)     67m     10.42.2.5    ha-eu-south-mil-c   <none>           <none>
+kube-system   svclb-traefik-fe5162c5-2wqdg               2/2     Running     0               68m     10.42.1.2    ha-eu-south-mil-b   <none>           <none>
+kube-system   svclb-traefik-fe5162c5-7kgj4               2/2     Running     0               68m     10.42.0.7    ha-eu-south-mil-a   <none>           <none>
+kube-system   traefik-9bcdbbd9-2bzll                     1/1     Running     0               68m     10.42.0.8    ha-eu-south-mil-a   <none>           <none>
+primary sync-2-preferred-2
+sync-2-preferred-1 on a lost node
+sync-2-preferred-2 dns ok
+f||

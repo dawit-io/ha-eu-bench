@@ -1,0 +1,10 @@
+{
+  "zone": "it-mil-2",
+  "node": "a1-it-mil-2",
+  "watcher": "it-mil-1",
+  "pod": "whoami-7f8ffd7c6b-8thwv",
+  "etcd_leader_zone": "it-mil-3",
+  "partition_at": 1793363746.221824154,
+  "heal_at": 1793364166.998742211,
+  "partition_seconds": 420
+}

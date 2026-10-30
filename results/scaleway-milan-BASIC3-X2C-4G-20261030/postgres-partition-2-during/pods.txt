@@ -1,0 +1,33 @@
+NAMESPACE           NAME                                                   READY   STATUS      RESTARTS         AGE    IP           NODE          NOMINATED NODE   READINESS GATES
+cnpg-system         cnpg-controller-manager-5f9b8cf5ff-d85m6               1/1     Running     3 (14m ago)      44m    10.42.1.44   ha-it-mil-2   <none>           <none>
+cnpg-system         cnpg-controller-manager-5f9b8cf5ff-lwvqm               1/1     Running     0                44m    10.42.2.31   ha-it-mil-3   <none>           <none>
+cnpg-system         cnpg-controller-manager-5f9b8cf5ff-mv8l4               1/1     Running     5 (6m57s ago)    68m    10.42.0.33   ha-it-mil-1   <none>           <none>
+default             pg-0                                                   1/1     Running     0                77s    10.42.0.53   ha-it-mil-1   <none>           <none>
+kube-system         coredns-7754d8d455-6bvdc                               1/1     Running     6 (5m22s ago)    117m   10.42.0.8    ha-it-mil-1   <none>           <none>
+kube-system         coredns-7754d8d455-8hkmb                               1/1     Running     6 (65m ago)      117m   10.42.2.4    ha-it-mil-3   <none>           <none>
+kube-system         coredns-7754d8d455-r6zmr                               1/1     Running     7 (13m ago)      117m   10.42.1.5    ha-it-mil-2   <none>           <none>
+kube-system         helm-install-traefik-crd-w7chj                         0/1     Completed   0                118m   <none>       ha-it-mil-1   <none>           <none>
+kube-system         helm-install-traefik-hd9c4                             0/1     Completed   2                118m   <none>       ha-it-mil-1   <none>           <none>
+kube-system         local-path-provisioner-5c4dc5d66d-scb7k                1/1     Running     0                118m   10.42.0.5    ha-it-mil-1   <none>           <none>
+kube-system         metrics-server-786d997795-knbrg                        1/1     Running     11 (4m44s ago)   118m   10.42.0.4    ha-it-mil-1   <none>           <none>
+kube-system         svclb-traefik-f83c8c64-6t47f                           2/2     Running     0                118m   10.42.0.7    ha-it-mil-1   <none>           <none>
+kube-system         svclb-traefik-f83c8c64-kzbkp                           2/2     Running     0                118m   10.42.1.2    ha-it-mil-2   <none>           <none>
+kube-system         svclb-traefik-f83c8c64-wgnd6                           2/2     Running     2 (109m ago)     117m   10.42.2.5    ha-it-mil-3   <none>           <none>
+kube-system         traefik-9bcdbbd9-8bfgz                                 1/1     Running     14 (12m ago)     118m   10.42.1.3    ha-it-mil-2   <none>           <none>
+piraeus-datastore   ha-controller-ffzsq                                    1/1     Running     0                29m    10.42.2.36   ha-it-mil-3   <none>           <none>
+piraeus-datastore   ha-controller-t4zq5                                    1/1     Running     5 (4m50s ago)    29m    10.42.0.43   ha-it-mil-1   <none>           <none>
+piraeus-datastore   ha-controller-tt7nh                                    1/1     Running     9 (13m ago)      29m    10.42.1.46   ha-it-mil-2   <none>           <none>
+piraeus-datastore   linstor-affinity-controller-5fcc9866c-5ff5r            1/1     Running     1 (18m ago)      29m    10.42.2.37   ha-it-mil-3   <none>           <none>
+piraeus-datastore   linstor-controller-68d98d4ccd-7kn86                    1/1     Running     3 (99s ago)      29m    10.42.2.34   ha-it-mil-3   <none>           <none>
+piraeus-datastore   linstor-csi-controller-d66c9bbd8-fc974                 6/6     Running     4 (107s ago)     29m    10.42.2.35   ha-it-mil-3   <none>           <none>
+piraeus-datastore   linstor-csi-nfs-server-g829v                           1/1     Running     0                29m    10.42.1.47   ha-it-mil-2   <none>           <none>
+piraeus-datastore   linstor-csi-nfs-server-phrpv                           1/1     Running     0                29m    10.42.2.38   ha-it-mil-3   <none>           <none>
+piraeus-datastore   linstor-csi-nfs-server-xj5zs                           1/1     Running     0                29m    10.42.0.44   ha-it-mil-1   <none>           <none>
+piraeus-datastore   linstor-csi-node-fhtg7                                 3/3     Running     0                29m    10.0.1.3     ha-it-mil-1   <none>           <none>
+piraeus-datastore   linstor-csi-node-q6585                                 3/3     Running     0                29m    10.0.1.4     ha-it-mil-3   <none>           <none>
+piraeus-datastore   linstor-csi-node-thfpw                                 3/3     Running     0                29m    10.0.1.2     ha-it-mil-2   <none>           <none>
+piraeus-datastore   linstor-satellite.ha-it-mil-1-cb9nl                    2/2     Running     0                29m    10.0.1.3     ha-it-mil-1   <none>           <none>
+piraeus-datastore   linstor-satellite.ha-it-mil-2-9gv49                    2/2     Running     0                29m    10.0.1.2     ha-it-mil-2   <none>           <none>
+piraeus-datastore   linstor-satellite.ha-it-mil-3-6xgds                    2/2     Running     0                29m    10.0.1.4     ha-it-mil-3   <none>           <none>
+piraeus-datastore   piraeus-operator-controller-manager-754757d594-6q5wz   1/1     Running     0                30m    10.42.2.33   ha-it-mil-3   <none>           <none>
+piraeus-datastore   piraeus-operator-gencert-fd5b46b56-bnsk2               1/1     Running     1 (19m ago)      30m    10.42.2.32   ha-it-mil-3   <none>           <none>

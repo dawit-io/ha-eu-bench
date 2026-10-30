@@ -1,0 +1,3 @@
+{"zone":"fsn1","cpu":"AMD EPYC-Genoa Processor","device":"/dev/sda1","fsync_p50_ms":1.236992,"fsync_p99_ms":3.653632,"write_iops":700.121665}
+{"zone":"nbg1","cpu":"AMD EPYC-Genoa Processor","device":"/dev/sda1","fsync_p50_ms":1.10592,"fsync_p99_ms":5.07904,"write_iops":744.104265}
+{"zone":"hel1","cpu":"AMD EPYC-Genoa Processor","device":"/dev/sda1","fsync_p50_ms":1.04448,"fsync_p99_ms":3.19488,"write_iops":810.769821}

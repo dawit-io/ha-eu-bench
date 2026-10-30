@@ -1,0 +1,2 @@
+1793363506.861322 ip-10-0-3-254 systemd[1]: k3s.service: Main process exited, code=exited, status=1/FAILURE
+1793363926.001000 ip-10-0-3-254 systemd[1]: Started k3s.service - Lightweight Kubernetes.
