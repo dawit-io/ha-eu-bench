@@ -1,18 +1,15 @@
 # High availability on European clouds
 
 Scripts that build the same three-zone K3s cluster on Hetzner, Scaleway and OVHcloud (and AWS, for comparison),
-measure it, and break one zone at a time. Every number in the articles comes from these scripts:
+measure it, and break one zone at a time. It also holds the database (CloudNativePG) and replicated volume
+(Piraeus/DRBD) experiments that run on the same cluster.
 
-1. K3s losing a zone
-2. CloudNativePG
-3. Replicated volumes with DRBD
-
-K3s keeps its defaults. Articles 2 and 3 add CloudNativePG and Piraeus/DRBD on top.
+K3s keeps its defaults except for one change: the cluster DNS runs in three copies, one per zone.
 
 ## What it builds
 
 Three x86 machines with 2 vCPU, one per zone, on a private network. SSH and the Kubernetes API accept only your address.
-The round behind article 1 ran in Milan:
+The published runs used Milan:
 
 | Provider | Zones | Machine | Disk under `/var/lib` |
 |---|---|---|---|
@@ -25,7 +22,7 @@ Hetzner has no zones inside a location, so its "zones" are three cities in Germa
 These are the defaults: Milan on Scaleway, OVHcloud and AWS, `cpx22` on Hetzner.
 To change region, zones or type, set them in `infra/<provider>/terraform.tfvars`:
 
-| Folder | Variables | Article 1 values that differ from the default |
+| Folder | Variables | Published runs, where they differ from the default |
 |---|---|---|
 | `infra/hetzner` | `locations`, `server_type` | `server_type = "ccx13"` for the second run |
 | `infra/scaleway` | `region`, `server_types` (zone to type), `disk_iops`, `data_volume_gb` | none |
@@ -40,13 +37,15 @@ Provider details that shaped the setup:
 - OVHcloud gives new projects a security group quota of 0, so the firewall is nftables on each host (`infra/ovh/cloud-init.yaml.tftpl`).
 - Scaleway does not sell the same types in every zone of every region, so `infra/scaleway` takes one machine type per zone.
 - Hetzner limits primary IPv4 addresses per account: check the project limits before `apply`.
-- AWS Milan is an opt-in region: enable it in the account first.
+- AWS Milan (`eu-south-1`) is an opt-in region, disabled by default. Enable it once per account before `apply`:
+  in the console under Account, AWS Regions, or with `aws account enable-region --region-name eu-south-1`.
+  `aws account get-region-opt-status --region-name eu-south-1` prints `ENABLED` when it is ready, which can take a few minutes.
 
 ## Requirements
 
 - OpenTofu (Terraform works too), `jq`, `kubectl`, `ssh`, `curl`, `openssl`
 - Go 1.25 or newer: `probe/run.sh` builds the probe for linux/amd64 on your machine
-- gnuplot for `charts/make.sh`, Node.js for `charts/article1/make.mjs`, plus Chrome or Chromium for its PNG files
+- gnuplot for `charts/make.sh`, Node.js for `charts/k3s/make.mjs`, plus Chrome or Chromium for its PNG files
 - `python3` (standard library only) for `bench/steal.py`
 - an SSH key and credentials for the provider
 
@@ -86,7 +85,7 @@ The first zone in `nodes.json` is the one the probe writes from and is never bro
 `infra/available.sh` checks `fsn1`, `nbg1`, `hel1` on Hetzner, the three Milan zones on Scaleway (`SCW_ZONES` to change them)
 and one OVH region (`OVH_REGION`, default `EU-SOUTH-MIL`).
 
-### Article 1: K3s
+### K3s losing a zone
 
 ```bash
 01-k3s/addons.sh                # what K3s installed, how many copies, in which zone
@@ -115,7 +114,7 @@ bench/sample.sh stop
 python3 bench/steal.py results/<run>   # writes steal.json there and prints a report
 ```
 
-### Article 2: CloudNativePG
+### Databases: CloudNativePG
 
 ```bash
 02-cnpg/run.sh                                   # every layout: commit latency, then the primary's node resets
@@ -125,7 +124,7 @@ FAULT=partition OPERATOR_HA=1 REPEAT=3 02-cnpg/run.sh sync   # operator in three
 
 Layouts: `single`, `async`, `sync`, `sync-2`, `sync-2-preferred`. `FAULT=none` measures the commit only.
 
-### Article 3: replicated volumes
+### Replicated volumes: Piraeus/DRBD
 
 ```bash
 03-volumes/run.sh install disk failover postgres
@@ -175,7 +174,7 @@ not the address your SSH comes from. Probe modes: `kube`, `http`, `pg`, `read`, 
 ## Results and charts
 
 Every script writes to `results/<provider>-<type>-<YYYYMMDD>/` (UTC date, `-fast` with `FAST=1`).
-`RUN_DIR=<dir>` picks another folder: the article 1 runs are `results/*-20261030-a1`.
+`RUN_DIR=<dir>` picks another folder: the published K3s runs are `results/*-20261030-a1`.
 
 | File | From |
 |---|---|
@@ -192,10 +191,10 @@ bench/summary.sh results/<run>               # one line per probe run: acknowled
 bench/etcd.sh results/<run>                  # etcd WAL fsync and commit percentiles per step
 bench/export.sh results/<run>... > all.json  # every folder in one JSON array
 charts/make.sh results/<run>...              # SVG charts in charts/out/ (gnuplot)
-node charts/article1/make.mjs                # article 1 charts in charts/article1/out/
+node charts/k3s/make.mjs                     # charts of the published K3s runs in charts/k3s/out/
 ```
 
-`charts/article1/make.mjs` reads the `*-20261030-a1` folders listed at its top. `RESULTS=<dir>` changes where they
+`charts/k3s/make.mjs` reads the `*-20261030-a1` folders listed at its top. `RESULTS=<dir>` changes where they
 are read from, `OUT=<dir>` where the charts go, `CHROME=<binary>` the browser. The AWS network numbers come from an
 earlier run (`results/aws-c7i.large-20261030/net.jsonl`); `AWS_NET=<file>` points elsewhere.
 
@@ -210,6 +209,10 @@ tofu -chdir=infra/scaleway state list        # prints nothing when everything is
 
 Use the same `.tfvars` as for `apply`. `operator_cidr` is required but its value does not matter here.
 Run it in every folder you applied, and check the provider's console for anything left.
+
+## Credits
+
+The scripts were written with the help of Claude Code.
 
 ## License
 

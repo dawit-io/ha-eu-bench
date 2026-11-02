@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Article 2: one Postgres per layout, its commit latency, then the primary's node resets while the probe
+# One Postgres per layout, its commit latency, then the primary's node resets while the probe
 # writes from another zone, and every acknowledged row is looked for afterwards.
 #   single             one instance
 #   async              three instances, one per zone, asynchronous copies

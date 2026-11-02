@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Article 1: a stateless app with three replicas, one per zone, behind a Service, while one zone is lost for
+# A stateless app with three replicas, one per zone, behind a Service, while one zone is lost for
 # 420 s, longer than the 300 s Kubernetes waits before it evicts the pods of an unreachable node.
 # Kubernetes keeps its defaults. The probe sends GET requests to the Service from another zone, whose server
 # records every 2 s the nodes, the Service endpoints, the pods, metrics-server and Traefik (app-partition-<i>/kube.jsonl)

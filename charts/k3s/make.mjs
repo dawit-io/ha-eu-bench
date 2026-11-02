@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-// Charts for article 1, from the a1 result folders: SVG, and PNG at 2x when Chrome or Chromium is found.
-// Usage: node charts/article1/make.mjs
-// OUT=<dir> changes where the charts go (default charts/article1/out), RESULTS=<dir> where the runs are read from,
+// Charts for the K3s zone-loss runs, from the a1 result folders: SVG, and PNG at 2x when Chrome or Chromium is found.
+// Usage: node charts/k3s/make.mjs
+// OUT=<dir> changes where the charts go (default charts/k3s/out), RESULTS=<dir> where the runs are read from,
 // AWS_NET=<net.jsonl> where the AWS network numbers are (they come from an earlier run), CHROME=<binary> the browser.
 import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';

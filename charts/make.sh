@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Charts for the articles, from one results folder per provider. Writes SVG files to charts/out/.
+# Charts from one results folder per provider. Writes SVG files to charts/out/.
 # Usage: charts/make.sh results/<hetzner run> results/<scaleway run> results/<ovh run>
 set -euo pipefail
 

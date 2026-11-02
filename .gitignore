@@ -27,6 +27,6 @@ go.work.sum
 vendor/
 results-archive/
 
-# generated charts; the article charts live outside the repo
+# generated charts
 charts/out/
-charts/article1/out/
+charts/k3s/out/

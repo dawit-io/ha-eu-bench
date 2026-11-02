@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Article 1 measurements. The probe writes to the API of the first zone's server, which is never broken.
+# K3s measurements. The probe writes to the API of the first zone's server, which is never broken.
 #   latency              write latency with the etcd leader in each zone (latency-leader-<zone>)
 #   partition-follower   a zone without the leader reaches nobody for 30 s
 #   partition-leader     the leader's zone reaches nobody for 30 s
